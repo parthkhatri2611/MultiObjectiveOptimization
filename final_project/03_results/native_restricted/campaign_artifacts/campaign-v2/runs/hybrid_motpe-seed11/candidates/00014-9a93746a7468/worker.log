@@ -1,0 +1,46 @@
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Parsing nodes:   0%|          | 0/4972 [00:00<?, ?it/s]Parsing nodes:   2%|▏         | 90/4972 [00:00<00:05, 886.22it/s]Parsing nodes:   4%|▎         | 182/4972 [00:00<00:05, 904.43it/s]Parsing nodes:   5%|▌         | 273/4972 [00:00<00:06, 771.98it/s]Parsing nodes:   7%|▋         | 363/4972 [00:00<00:05, 815.76it/s]Parsing nodes:   9%|▉         | 447/4972 [00:00<00:06, 721.92it/s]Parsing nodes:  11%|█         | 540/4972 [00:00<00:05, 781.68it/s]Parsing nodes:  13%|█▎        | 633/4972 [00:00<00:05, 822.69it/s]Parsing nodes:  14%|█▍        | 718/4972 [00:00<00:05, 810.73it/s]Parsing nodes:  16%|█▋        | 816/4972 [00:01<00:05, 780.95it/s]Parsing nodes:  18%|█▊        | 903/4972 [00:01<00:05, 805.00it/s]Parsing nodes:  20%|█▉        | 993/4972 [00:01<00:04, 828.40it/s]Parsing nodes:  22%|██▏       | 1084/4972 [00:01<00:04, 850.14it/s]Parsing nodes:  24%|██▎       | 1172/4972 [00:01<00:04, 858.67it/s]Parsing nodes:  25%|██▌       | 1261/4972 [00:01<00:04, 865.55it/s]Parsing nodes:  27%|██▋       | 1348/4972 [00:01<00:04, 795.52it/s]Parsing nodes:  29%|██▉       | 1434/4972 [00:01<00:04, 812.92it/s]Parsing nodes:  31%|███       | 1518/4972 [00:01<00:04, 819.21it/s]Parsing nodes:  32%|███▏      | 1601/4972 [00:02<00:04, 738.56it/s]Parsing nodes:  34%|███▍      | 1686/4972 [00:02<00:04, 767.00it/s]Parsing nodes:  36%|███▌      | 1772/4972 [00:02<00:04, 792.01it/s]Parsing nodes:  37%|███▋      | 1863/4972 [00:02<00:03, 823.51it/s]Parsing nodes:  39%|███▉      | 1947/4972 [00:02<00:04, 737.29it/s]Parsing nodes:  41%|████      | 2038/4972 [00:02<00:03, 780.16it/s]Parsing nodes:  43%|████▎     | 2122/4972 [00:02<00:03, 796.00it/s]Parsing nodes:  44%|████▍     | 2204/4972 [00:02<00:03, 725.60it/s]Parsing nodes:  46%|████▌     | 2279/4972 [00:02<00:04, 629.98it/s]Parsing nodes:  48%|████▊     | 2369/4972 [00:03<00:03, 695.99it/s]Parsing nodes:  49%|████▉     | 2445/4972 [00:03<00:03, 710.39it/s]Parsing nodes:  51%|█████     | 2529/4972 [00:03<00:03, 743.84it/s]Parsing nodes:  53%|█████▎    | 2617/4972 [00:03<00:03, 781.62it/s]Parsing nodes:  54%|█████▍    | 2698/4972 [00:03<00:03, 709.79it/s]Parsing nodes:  56%|█████▌    | 2781/4972 [00:03<00:02, 739.40it/s]Parsing nodes:  58%|█████▊    | 2870/4972 [00:03<00:02, 719.18it/s]Parsing nodes:  59%|█████▉    | 2958/4972 [00:03<00:02, 761.78it/s]Parsing nodes:  61%|██████    | 3043/4972 [00:03<00:02, 784.08it/s]Parsing nodes:  63%|██████▎   | 3128/4972 [00:04<00:02, 800.56it/s]Parsing nodes:  65%|██████▍   | 3210/4972 [00:04<00:02, 799.35it/s]Parsing nodes:  66%|██████▋   | 3301/4972 [00:04<00:02, 830.73it/s]Parsing nodes:  68%|██████▊   | 3388/4972 [00:04<00:01, 837.79it/s]Parsing nodes:  70%|██████▉   | 3477/4972 [00:04<00:01, 850.90it/s]Parsing nodes:  72%|███████▏  | 3563/4972 [00:04<00:02, 561.15it/s]Parsing nodes:  74%|███████▎  | 3657/4972 [00:04<00:02, 642.61it/s]Parsing nodes:  75%|███████▌  | 3741/4972 [00:04<00:01, 688.59it/s]Parsing nodes:  77%|███████▋  | 3830/4972 [00:05<00:01, 737.35it/s]Parsing nodes:  79%|███████▊  | 3914/4972 [00:05<00:01, 762.55it/s]Parsing nodes:  81%|████████  | 4005/4972 [00:05<00:01, 801.49it/s]Parsing nodes:  82%|████████▏ | 4094/4972 [00:05<00:01, 824.23it/s]Parsing nodes:  84%|████████▍ | 4180/4972 [00:05<00:01, 776.54it/s]Parsing nodes:  86%|████████▌ | 4277/4972 [00:05<00:00, 829.50it/s]Parsing nodes:  88%|████████▊ | 4363/4972 [00:05<00:00, 745.63it/s]Parsing nodes:  89%|████████▉ | 4441/4972 [00:05<00:00, 704.17it/s]Parsing nodes:  91%|█████████ | 4528/4972 [00:05<00:00, 746.37it/s]Parsing nodes:  93%|█████████▎| 4613/4972 [00:06<00:00, 773.98it/s]Parsing nodes:  94%|█████████▍| 4693/4972 [00:06<00:00, 780.67it/s]Parsing nodes:  96%|█████████▌| 4773/4972 [00:06<00:00, 782.84it/s]Parsing nodes:  98%|█████████▊| 4853/4972 [00:06<00:00, 716.92it/s]Parsing nodes:  99%|█████████▉| 4930/4972 [00:06<00:00, 668.49it/s]Parsing nodes: 100%|██████████| 4972/4972 [00:06<00:00, 761.55it/s]
+DEBUG:bm25s:Building index from IDs objects
+Generated queries:
+Queries:
+2013 Indiana Hoosiers football coach current Ohio State position
+Current Ohio State offensive coordinator 2013 Indiana Hoosiers football team
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What topics does William Gurstelle cover in DIY magazines?
+What specific magazine does William Gurstelle write for regarding DIY projects?
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+How long did the Underdog TV show run with Julian Clary as the host?
+Was the Underdog TV show presented by Julian Clary for the entire run of the show?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian directed more films than Mark Krikorian?
+What films has Alek Keshishian written compared to Mark Krikorian?
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+- Second person sent by Plymouth Brethren to investigate supernatural gifts in Scotland
+- Name of the second investigator sent by Plymouth Brethren to Scotland
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+Rachel Noerdlinger's former chief of staff's birth year
+Year of birth for the woman associated with Rachel Noerdlinger's former chief of staff
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Original executive producer of Sesame Street
+Joan Ganz Cooney and Lloyd Morrisett's role in Sesame Workshop
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+What is the stage name of the actor starring in "The Underdog" alongside Park So-dam and Park Chul-min?
+What is the real name of the singer who is starring in "The Underdog" alongside Park So-dam and Park Chul-min?
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+Fuck and The Celluloid Closet as films
+Fuck and The Celluloid Closet as documentaries
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+Do MODE magazine cover women's health issues?
+How do Women's Health and MODE magazine compare in terms of women's issues coverage?
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None
