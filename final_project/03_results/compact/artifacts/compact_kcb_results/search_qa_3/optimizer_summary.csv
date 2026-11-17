@@ -1,0 +1,5 @@
+equivalent_generator_tokens_mean,hv_gap_to_measured_grid_mean,hypervolume_mean,hypervolume_std,igd_to_measured_grid_front_mean,method,repeat_queries_mean,seeds,unique_configurations_mean
+35103.6,0.0,0.72588,0.0,0.0,syftr_style_motpe,2.4,10,22.6
+32992.2,0.0,0.72588,0.0,0.0,nsga2,7.4,10,17.6
+34684.6,0.0,0.72588,0.0,0.0,hybrid_motpe,5,10,20
+35941.4,0.0,0.72588,0.0,0.0,adaptive_nsga2,6.9,10,18.1
