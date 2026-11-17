@@ -1,0 +1,12 @@
+{
+  "BAAI/bge-small-en-v1.5": {
+    "status": "passed",
+    "dimensions": 384,
+    "embedding_device": "cuda:1"
+  },
+  "BAAI/bge-base-en-v1.5": {
+    "status": "passed",
+    "dimensions": 768,
+    "embedding_device": "cuda:1"
+  }
+}

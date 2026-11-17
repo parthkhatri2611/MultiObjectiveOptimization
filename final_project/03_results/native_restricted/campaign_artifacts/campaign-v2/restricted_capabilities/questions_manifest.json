@@ -1,0 +1,11 @@
+{
+  "dataset": "hotpotqa",
+  "partition": "test",
+  "available_questions": 500,
+  "selected_ids": [
+    "5ae60b9b554299546bf8302f",
+    "5a8a582a5542995153361372",
+    "5a8ba7d75542996e8ac88991"
+  ],
+  "questions_sha256": "9330c4e3365c7449402a9cc1bfaebd78acecf7a58e246e19d7dcf3c8bc1b11ec"
+}
