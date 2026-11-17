@@ -1,0 +1,8 @@
+{
+  "variant": "restricted-v2",
+  "changed_common_file": "ourwork/baseline/spec.py",
+  "original_file_sha256": "1bd61433e930499f590477c7d0c9cce95b1fb5f2d5d8921176e93cbfbf30a8e6",
+  "restricted_file_sha256": "6ed23d95a74d1b4e90198b9a23388177b7676562ba16a3d42d14620e9070f8c6",
+  "full_release_sha256": "9c2cb054066048147580c669f6f1b2ff6c89ef20485a196ca05f982ff55b1003",
+  "rule": "Fresh restricted capabilities required; do not reuse full-space results as subset validation."
+}
