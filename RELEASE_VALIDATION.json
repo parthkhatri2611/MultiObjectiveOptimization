@@ -1,0 +1,14 @@
+{
+  "source_files_byte_verified": 140,
+  "optimizer_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "offline_objective_audit": "passed; all four recorded HV and F1 values reproduced from raw answers and usage journals",
+  "eligible_candidates": 98,
+  "qa_rows": 980,
+  "gpu_rerun": "not performed for release",
+  "native_holdout": "no usable result",
+  "secret_pattern_scan": "no matches in distributed text files",
+  "runtime_archives": "excluded from Git history; included in full share ZIP"
+}

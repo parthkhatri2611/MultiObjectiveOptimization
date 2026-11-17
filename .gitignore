@@ -219,3 +219,17 @@ notebooks/.nfs*
 data.*
 /datasets
 *grounding_docs*
+
+# Local execution and private configuration
+.env
+.env.*
+!.env.sample
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.pickle
+*.gguf
+*.safetensors
+*.part*.bin
+.syftr-cache/
