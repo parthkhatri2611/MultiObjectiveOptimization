@@ -1,0 +1,201 @@
+{
+  "params": {
+    "k": 6,
+    "c": 1024,
+    "Bc": 1024
+  },
+  "values": [
+    0.49333333333333335,
+    904.6
+  ],
+  "exact_match": 0.2,
+  "known_generator_tokens": 4523,
+  "qa_count": 5,
+  "rows": [
+    {
+      "answer": "Kevin Wilson",
+      "available_chunks": 4973,
+      "call_id": "1cc479f0cc4446ea9e34dd267e24f5c0",
+      "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2299 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2486 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+      "context_sha256": "2e746ff67957ca21b39a14bfca6bb6ee69719e1989996b8f18814ec0e89172cf",
+      "context_tokens": 880,
+      "difficulty": "hard",
+      "error": null,
+      "exact_match": 0.0,
+      "f1": 0.8,
+      "logical_generation_seconds": 0.3962170080000078,
+      "measurement_wall_seconds": 0.42554908300002126,
+      "qa_id": "5ae60b9b554299546bf8302f",
+      "qtype": "bridge",
+      "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+      "reference": "Kevin Reece Wilson",
+      "requested_context_budget": 1024,
+      "response_cache_hit": false,
+      "response_cache_key": "628560cb0f7a48bfec1f413b4a025a3d0335faddc54d8c855b99fb22d728aa56",
+      "retrieved_chunks": [
+        2305,
+        2306,
+        2307,
+        1548,
+        2299,
+        2486
+      ],
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 947,
+        "prompt_tokens_details": {
+          "cached_tokens": 547
+        },
+        "total_tokens": 950
+      }
+    },
+    {
+      "answer": "Make magazine",
+      "available_chunks": 4973,
+      "call_id": "cfc24eb4839e4c2ca6819ad10323c362",
+      "context": "[chunk 1433 | doc 1433]\nWilliam Gurstelle\nWilliam Gurstelle (born March 29, 1956) is an American nonfiction author, magazine writer, and inventor. He is a feature columnist for \"Make\" magazine and a columnist and contributing editor at \"Popular Science\" magazine. Previously, he was the Pyrotechnics and Ballistics Editor at \"Popular Mechanics\" magazine.\n\n[chunk 1438 | doc 1438]\nMake (magazine)\nMake: (or \"MAKE:\") is an American bimonthly magazine published by Maker Media which focuses on do it yourself (DIY) and/or DIWO (Do It With Others) projects involving computers, electronics, robotics, metalworking, woodworking and other disciplines. The magazine is marketed to people who enjoy making things and features complex projects which can often be completed with cheap materials, including household items. \"Make\" magazine is considered \"a central organ of the maker movement.\"\n\n[chunk 1432 | doc 1432]\nBackyard Ballistics\nBackyard Ballistics is a how-to book by William Gurstelle that was published in 2001. It is full of experiments that can be done relatively inexpensively and can be easily executed. It also includes the history and mechanical principles of some of the inventions and projects. From catapults to rockets, this book describes accessible ways to create these at home or in the classroom. In addition to recreational use by individuals, teacher's guides have been developed and science fair projects designed around this book. It has been cited in several educational and scientific journals.\n\n[chunk 179 | doc 179]\nMagazine\nA magazine is a publication, usually a periodical publication, which is printed or electronically published (sometimes referred to as an online magazine). Magazines are generally published on a regular schedule and contain a variety of content. They are generally financed by advertising, by a purchase price, by prepaid subscriptions, or a combination of the three. At its root, the word \"magazine\" refers to a collection or storage location. In the case of written publication, it is a collection of written articles. This explains why magazine publications share the word root with gunpowder magazines, artillery magazines, firearms magazines, and, in French, retail stores such as department stores.\n\n[chunk 174 | doc 174]\nComputer Magazine\nComputer Magazine (and their website www.ComputerMagazine.com) is a popular magazine and online news site on computing and technology, offering current news and reviews of popular and new business and consumer technologies, software, hardware, mobile computing, tablets, PCs, Macs, Windows, Linux, telecom, cellular, wireless, data, cloud and science news on digital technologies and everything in the \"tech-sphere and digi-verse\", especially focused on information technology, devices, software and services and related subjects, such as networking, servers, data centers and corporate data infrastructure technologies, and the Internet. Their online site, since 1997, is located at ComputerMagazine.com. \"Computer Magazine\" produces industry instructional and a popular ongoing webcast/podcast talk show and performs evaluations and reviews of IT industry technology products, hardware, software and services with objective reporting widely respected as independent and objective, and trusted in the industry. \"Computer Magazine\" is a free publication (in addition to their webcasts and other resources) sponsored by the nonprofit UTCP (United Technology and Computing Professionals) organization, and as such charges no fees for the publication nor is influenced by advertising, so their reviews are relied on in the industry and considered unbiased and thorough. \"Computer Magazine\" is one of the early large technology publications and resources available on the web still existent and thriving today and that has remained independent. ComputerMagazine.com is a tech news and resources consolidator that publishes part of the site in a semi-time line/blogging format that is popular among their wide following of subscriber and non-subscriber readers, allowing readers to respond and comment on various articles. Site contributors include many of the well known technology authors, experts and publication sources, content and articles are provided by major technology syndicators and by external expert technology sources (such as \"Computer World\", \"Information Week\", \"Network World\", \"Wired,\" \"Time\", etc.) as well as \"Computer Magazine\" staff writers, and is currently managed and edited by the industry veteran Christopher Swearingin an MCSE and former CIO and regarded author as well as contributor/reporter for \"Computer Magazine\" and other publications.\n\n[chunk 3680 | doc 3679]\nSkepticality\nSkepticality is the official biweekly podcast of The Skeptics Society's \"Skeptic\" magazine. Beginning in May 2005, the podcast explores rational thought, skeptical ideas, and famous myths from around the world and throughout history. Each episode is an audio magazine",
+      "context_sha256": "8083219a0c6c3cef3832531f388b4ead3ae273794b111cdbe715be6559bdca61",
+      "context_tokens": 1024,
+      "difficulty": "hard",
+      "error": null,
+      "exact_match": 0.0,
+      "f1": 0.6666666666666666,
+      "logical_generation_seconds": 0.5183473250000361,
+      "measurement_wall_seconds": 0.5536045680000257,
+      "qa_id": "5a8a582a5542995153361372",
+      "qtype": "bridge",
+      "question": "What do it yourself magazine does William Gurstelle write for?",
+      "reference": "Make",
+      "requested_context_budget": 1024,
+      "response_cache_hit": false,
+      "response_cache_key": "5b10801d667854d0d6237874427bde2a9af2f7b668696977c00e6870152e406d",
+      "retrieved_chunks": [
+        1433,
+        1438,
+        1432,
+        179,
+        174,
+        3680
+      ],
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 1082,
+        "prompt_tokens_details": {
+          "cached_tokens": 547
+        },
+        "total_tokens": 1085
+      }
+    },
+    {
+      "answer": "six weeks",
+      "available_chunks": 4973,
+      "call_id": "c6520eb62a5542068de831997fa34d5f",
+      "context": "[chunk 1315 | doc 1315]\nThe Underdog Show\nThe Underdog Show was a six-week television series presented by Julian Clary and his dog, Valerie. The series was produced by the independent production company Splash Media.\n\n[chunk 1313 | doc 1313]\nJulian Clary\nJulian Peter McDonald Clary (born 25 May 1959) is an English comedian and novelist. Openly gay, Clary began appearing on television in the mid-1980s and became known for his deliberately stereotypical camp style. Since then he has also acted in films, television and stage productions, and was the winner of \"Celebrity Big Brother 10\" in 2012.\n\n[chunk 1318 | doc 1318]\nAll Rise for Julian Clary\nAll Rise for Julian Clary is a British light entertainment game show broadcast on BBC2 from 27 September 1996 to 22 December 1997. The show centres around Julian being a judge in a mock court room, with contestants arguing their case before Judge Julian Clary.\n\n[chunk 1319 | doc 1319]\nMurder Most Fab\nMurder Most Fab (2007) is the debut novel of comedian Julian Clary.\n\n[chunk 1321 | doc 1321]\nTerry and Julian\nTerry and Julian is a British sitcom that aired on Channel 4 in 1992. Starring Julian Clary, it was written by Clary, Paul Merton and John Henderson. The title is a spoof the title of the long-running BBC sitcom \"Terry and June\", whose star June Whitfield made a guest appearance in one episode of \"Terry and Julian\".\n\n[chunk 1316 | doc 1316]\nSticky Moments\nSticky Moments was a satirical British television game show that aired on Channel 4 in 1989 and 1990. It was hosted by the comedian Julian Clary.",
+      "context_sha256": "ad6c564b12b2e2dd571ba16725764e101f19fda8144672e98228f9f41c5e4dd2",
+      "context_tokens": 446,
+      "difficulty": "hard",
+      "error": null,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "logical_generation_seconds": 0.2290143379999563,
+      "measurement_wall_seconds": 0.010710943999981737,
+      "qa_id": "5a8ba7d75542996e8ac88991",
+      "qtype": "bridge",
+      "question": "How long was the Underdog show presented by an English comedian Julian Clary?",
+      "reference": "six-week television series",
+      "requested_context_budget": 1024,
+      "response_cache_hit": true,
+      "response_cache_key": "d06ff7006622767943068b1ebe35f3a9d7321c7fc685917590cb6687f0077801",
+      "retrieved_chunks": [
+        1315,
+        1313,
+        1318,
+        1319,
+        1321,
+        1316
+      ],
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 506,
+        "prompt_tokens_details": {
+          "cached_tokens": 323
+        },
+        "total_tokens": 509
+      }
+    },
+    {
+      "qa_id": "5a87432d5542994775f607b5",
+      "question": "Has Alek Keshishian been the writer for more films than Mark Krikorian?",
+      "reference": "yes",
+      "qtype": "comparison",
+      "difficulty": "hard",
+      "answer": "unknown",
+      "error": null,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 862,
+        "total_tokens": 864,
+        "prompt_tokens_details": {
+          "cached_tokens": 547
+        }
+      },
+      "call_id": "152513ca4e54449aafa198e1b1b487ab",
+      "response_cache_key": "82c60bc70786e8b36a93805248dda1ded66e188e1c9bf73ef91e8e38494a92b8",
+      "response_cache_hit": false,
+      "logical_generation_seconds": 0.31429959799999097,
+      "measurement_wall_seconds": 0.34913461100001086,
+      "context": "[chunk 3943 | doc 3942]\nAlek Keshishian\nAlek Keshishian (Armenian: Ալեք Գևորգի Քեշիշյան , born 30 July 1964 in Beirut, Lebanon) is an Armenian-American film and commercial director, writer, producer and music video director. He is best known for his 1991 film \"\" which was, at the time, the highest-grossing documentary of all time.\n\n[chunk 3944 | doc 3943]\nMark Krikorian\nMark Krikorian has been the executive director of the Center for Immigration Studies, a think-tank in Washington, D. C., since 1995. The Center describes itself as an \"independent, non-partisan research organization\" in Washington, D. C., that examines and critiques the impact of immigration on the United States. Animated by a \"pro-immigrant, low-immigration vision which seeks fewer immigrants, but a warmer welcome for those admitted\", the Center was established in 1985 to provide immigration research. Krikorian is a regular contributor to the conservative publication \"National Review\", and is a regular participant at \"National Review Online's\" \"The Corner.\"\n\n[chunk 203 | doc 203]\nMark L. Lester\nMark L. Lester (born November 26, 1946) is an American film director, screenwriter, and producer. He is best known as a prolific director of cult films including the disco musical \"Roller Boogie\", the vigilante thriller film \"Class of 1984\", the Stephen King-adaptation \"Firestarter\" (1984), the Arnold Schwarzenegger action film \"Commando\" (1985), and the action-comedy \"Armed and Dangerous\" (1986), starring John Candy, Eugene Levy, and Meg Ryan.\n\n[chunk 3942 | doc 3941]\nMark Krikorian (soccer)\nMark Krikorian (born March 28, 1960) is an American soccer coach, who has been in charge of the Florida State Seminoles women's soccer program since 2005.\n\n[chunk 1559 | doc 1559]\nMikael Salomon\nMikael Salomon (born 24 February 1955) is a Danish-born cinematographer, director and producer of film and television. After a long cinematography career in Danish cinema, he transitioned to the Hollywood film industry in the late 1980s and has remained highly prolific there, earning two Academy Award nominations. He is also an acclaimed and prolific television director whose credits include dozens of series, films and miniseries including \"Band of Brothers, Salem's Lot, Rome,\" and \"The Andromeda Strain\", for which has received numerous awards and nominations including a Primetime Emmy Award and Directors Guild of America Award.\n\n[chunk 2783 | doc 2783]\nOtaku\nOtaku (おたく/オタク ) is a Japanese term for people with obsessive interests, commonly the anime and manga fandom. Its contemporary usage originated with Akio Nakamori's 1983 essay in \"Manga Burikko\". \"Otaku\" may be used as a pejorative; its negativity stems from the stereotypical view of otaku and the media's reporting on Tsutomu Miyazaki, \"The Otaku Murderer\", in 1989. According to studies published in 2013, the term has become less negative, and an increasing number of people now self-identify as otaku.",
+      "context_sha256": "f781cfe8952fa732f04e3c87646e24c084f1e3df706999a0eb66c22b8d562083",
+      "retrieved_chunks": [
+        3943,
+        3944,
+        203,
+        3942,
+        1559,
+        2783
+      ],
+      "context_tokens": 799,
+      "requested_context_budget": 1024,
+      "available_chunks": 4973,
+      "exact_match": 0.0,
+      "f1": 0.0
+    },
+    {
+      "qa_id": "5a8299e255429954d2e2eb76",
+      "question": "Apart from the founder of the Exclusive Brethren, what is the name of the second person who was sent by the Plymouth Brethren to investigate the outbreak of supernatural gifts of the Holy Spirit in Scotland?",
+      "reference": "Benjamin Wills Newton",
+      "qtype": "bridge",
+      "difficulty": "hard",
+      "answer": "Benjamin Wills Newton",
+      "error": null,
+      "usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 1109,
+        "total_tokens": 1115,
+        "prompt_tokens_details": {
+          "cached_tokens": 824
+        }
+      },
+      "call_id": "b0e847cd04384b6eb03de20f6f21370d",
+      "response_cache_key": "6e6f8c31575c84d8710f28990dd70a491d8ca231cdcd60b5dd12d3f125cb83c1",
+      "response_cache_hit": false,
+      "logical_generation_seconds": 0.45358831599997984,
+      "measurement_wall_seconds": 0.48638724700003877,
+      "context": "[chunk 3368 | doc 3368]\nExclusive Brethren\nThe Exclusive Brethren are a subset of the Christian evangelical movement generally described as the Plymouth Brethren. They are distinguished from the Open Brethren from whom they separated in 1848.\n\n[chunk 3362 | doc 3362]\nPlymouth Brethren Christian Church\nThe Plymouth Brethren Christian Church (PBCC) is a Protestant church, often known as Exclusive Brethren or Raven-Taylor-Hales Brethren. These Brethren hold an uncompromising 'separatist' doctrine and their practice has steadily evolved differently from other Plymouth Brethren groups and also from mainstream Christianity. In a radical departure from traditional Plymouth Brethren rejection of a clerical hierarchy, the PBCC has evolved into a tightly-controlled hierarchical organization dominated by one person known as the Elect Vessel or the Man of God. The current Elect Vessel is Bruce Hales of Australia. Most media reporting of \"Exclusive Brethren\" relates only to the Plymouth Brethren Christian Church although other branches exist.\n\n[chunk 3367 | doc 3367]\nMargaret MacDonald (visionary)\nMargaret MacDonald was born in 1815 in Port Glasgow, Scotland and died around 1840. She lived with her two older brothers, James and George, both of whom ran a shipping business. Beginning in 1826 and through 1829, a few preachers in Scotland emphasized that the world's problems could only be addressed through an outbreak of supernatural gifts from the Holy Spirit. In response, Isabella and Mary Campbell of the parish of Rosneath manifested charismatic experiences such as speaking in tongues. Around 1830, miraculous healings were reported through James Campbell, first of his sister Margaret MacDonald and then of Mary Campbell (through James's letter to Mary). Shortly thereafter, James and George MacDonald manifested the speaking and interpretations of tongues, and soon others followed suit in prayer meetings. These charismatic experiences garnered major national attention. Many came to see and investigate these events. Some, such as Edward Irving and Henry Drummond, regarded these events as genuine displays from the Holy Spirit. Others, including John Nelson Darby and Benjamin Wills Newton, whom the Plymouth Brethren sent on their behalf to investigate, came to the conclusion that these displays were demonic.\n\n[chunk 3359 | doc 3359]\nBehind the Exclusive Brethren\nBehind the Exclusive Brethren: Politics Persuasion and Persecution is a non-fiction book by journalist and author Michael Bachelard about the group Exclusive Brethren, focusing on the sect in Australia. It was published in 2008 by Scribe Publications Pty Ltd. Bachelard first became interested in the organisation while a journalist for \"The Age\", after finding out that prior to the 2007 Australian federal election the Exclusive Brethren organisation in Australia had close access to John Howard. He spent two years researching the group, focusing on its history, influence in Australia, and ties to the Liberal Party of Australia and to Howard. The book gives a historical background of the group's origins 200 years ago in Ireland under John Nelson Darby. Since 2002, Bruce Hales served as the international leader and \"Elect Vessel\" of the organisation, which has 15,000 members in Australia and 43,000 total globally. The author describes the beliefs and practices and doctrine of the organisation, including some of its more controversial methodology including excommunication of former members from their family still within the group. Daniel Hales, brother of the organisation's worldwide leader Bruce Hales, described the book as part of a trend of what he said were lies told about his group by critics and disaffected former members.\n\n[chunk 3364 | doc 3364]\nJohn Nelson Darby\nJohn Nelson Darby (18 November 1800 – 29 April 1882) was an Anglo-Irish Bible teacher, one of the influential figures among the original Plymouth Brethren and the founder of the Exclusive Brethren. He is considered to be the father of modern Dispensationalism and Futurism. Pre-tribulation rapture theology was popularized extensively in the 1830s by John Nelson Darby and the Plymouth Brethren, and further popularized in the United States in the early 20th century by the wide circulation of the Scofield Reference Bible.\n\n[chunk 3361 | doc 3361]\nBenjamin Wills Newton\nBenjamin Wills Newton, (12 December 1807 – 26 June 1899) was an English evangelist and author of Christian books. He became the most notable leader of the church in Plymouth after which the Plymouth Brethren were named. Although he had been a close friend of John Nelson",
+      "context_sha256": "f4e1fccc2ba1d4b83e85df7056eaf6e6cab056340e8d74c88be8a9e64c8100ff",
+      "retrieved_chunks": [
+        3368,
+        3362,
+        3367,
+        3359,
+        3364,
+        3361
+      ],
+      "context_tokens": 1024,
+      "requested_context_budget": 1024,
+      "available_chunks": 4973,
+      "exact_match": 1.0,
+      "f1": 1.0
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "method": "syftr_style_motpe",
+    "seed": 11,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 11,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 11,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 11,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 23,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 23,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 23,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 23,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 37,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 37,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 37,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 37,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 41,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 41,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 41,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 41,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 53,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 53,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 53,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 53,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 67,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 67,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 67,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 67,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 79,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 79,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 79,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 79,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 83,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 83,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 83,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 83,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 97,
+    "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 97,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 97,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 97,
+    "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "syftr_style_motpe",
+    "seed": 101,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "nsga2",
+    "seed": 101,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "hybrid_motpe",
+    "seed": 101,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  },
+  {
+    "method": "adaptive_nsga2",
+    "seed": 101,
+    "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    }
+  }
+]

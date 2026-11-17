@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "raw_record_references_checked": 258,
+  "search_stages": [
+    {
+      "qa": 1,
+      "grid_hv": 0.7515200000000001,
+      "objective_pairs": 4
+    },
+    {
+      "qa": 3,
+      "grid_hv": 0.72588,
+      "objective_pairs": 8
+    },
+    {
+      "qa": 5,
+      "grid_hv": 0.5229263999999999,
+      "objective_pairs": 11
+    }
+  ],
+  "physical_endpoint_calls": 77,
+  "known_tokens": 47228,
+  "finish_reasons": {
+    "stop": 77
+  },
+  "method_summary": [
+    {
+      "method": "syftr_style_motpe",
+      "final_hv": 0.5229263999999999,
+      "unique_mean": 20.5,
+      "repeats_mean": 4.5,
+      "first_grid_hv_query_mean": 8.5,
+      "first_grid_hv_queries": [
+        16,
+        3,
+        12,
+        3,
+        6,
+        10,
+        8,
+        3,
+        14,
+        10
+      ],
+      "initialization_already_optimal_seeds": 7,
+      "heldout_f1_mean_across_selections": 0.13714285714285712,
+      "heldout_exact_match_mean_across_selections": 0.08
+    },
+    {
+      "method": "nsga2",
+      "final_hv": 0.5229263999999999,
+      "unique_mean": 17,
+      "repeats_mean": 8,
+      "first_grid_hv_query_mean": 9.9,
+      "first_grid_hv_queries": [
+        16,
+        3,
+        24,
+        3,
+        6,
+        10,
+        8,
+        3,
+        16,
+        10
+      ],
+      "initialization_already_optimal_seeds": 7,
+      "heldout_f1_mean_across_selections": 0.15714285714285714,
+      "heldout_exact_match_mean_across_selections": 0.1
+    },
+    {
+      "method": "hybrid_motpe",
+      "final_hv": 0.5229263999999999,
+      "unique_mean": 18,
+      "repeats_mean": 7,
+      "first_grid_hv_query_mean": 9.9,
+      "first_grid_hv_queries": [
+        19,
+        3,
+        20,
+        3,
+        6,
+        10,
+        8,
+        3,
+        17,
+        10
+      ],
+      "initialization_already_optimal_seeds": 7,
+      "heldout_f1_mean_across_selections": 0.13714285714285712,
+      "heldout_exact_match_mean_across_selections": 0.08
+    },
+    {
+      "method": "adaptive_nsga2",
+      "final_hv": 0.5229263999999999,
+      "unique_mean": 18.3,
+      "repeats_mean": 6.7,
+      "first_grid_hv_query_mean": 10.1,
+      "first_grid_hv_queries": [
+        16,
+        3,
+        22,
+        3,
+        6,
+        10,
+        8,
+        3,
+        20,
+        10
+      ],
+      "initialization_already_optimal_seeds": 7,
+      "heldout_f1_mean_across_selections": 0.13714285714285712,
+      "heldout_exact_match_mean_across_selections": 0.08
+    }
+  ],
+  "limitations": [
+    "Context token counts checked for recorded bounds and prompt consistency; tokenizer was not independently rerun in this local audit.",
+    "Optimizer-seed summary is conditional on a fixed small measured table; not independent QA repetitions.",
+    "Holdout choice freeze is verified against declared rule; archive timestamps alone do not independently prove execution chronology."
+  ]
+}

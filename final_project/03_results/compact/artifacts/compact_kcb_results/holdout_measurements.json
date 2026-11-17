@@ -1,0 +1,575 @@
+{
+  "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6": {
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    },
+    "values": [
+      0.05714285714285714,
+      535.6
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 2678,
+    "qa_count": 5,
+    "rows": [
+      {
+        "qa_id": "5a77340055429972597f14a0",
+        "question": "Which Russian poet co-authored a song later given new English lyrics to its tune?",
+        "reference": "Konstantin Nikolayevich Podrevsky",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 573,
+          "total_tokens": 575,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "1ffc50de78824e88948d43b06666d14d",
+        "response_cache_key": "5674437fb0faabd43b65173c48e21d9eeee4adb41e72edbf4c9418dcb2f6a117",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.6095338099999026,
+        "measurement_wall_seconds": 355.454291491,
+        "context": "[chunk 28619 | doc 28614]\nRussian literature\nRussian literature refers to the literature of Russia and its émigrés and to the Russian-language literature of several independent nations once a part of what was historically Rus', the Russian Empire or the Soviet Union. The roots of Russian literature can be traced to the Middle Ages, when epics and chronicles in Old Russian were composed. By the Age of Enlightenment, literature had grown in importance, and from the early 1830s, Russian literature underwent an astounding golden age in poetry, prose and drama. Romanticism permitted a flowering of poetic talent: Vasily Zhukovsky and later his protégé Alexander Pushkin came to the fore. Prose was flourishing as well. The first great Russian novelist was Nikolai Gogol. Then came Ivan Turgenev, who mastered both short stories and novels. Leo Tolstoy and Fyodor Dostoyevsky soon became internationally renowned. In the second half of the century Anton Chekhov excelled in short stories and became a leading dramatist. The beginning of the 20th century ranks as the Silver Age of Russian poetry. The poets most often associated with the \"Silver Age\" are Konstantin Balmont, Valery Bryusov, Alexander Blok, Anna Akhmatova, Nikolay Gumilyov, Osip Mandelstam, Sergei Yesenin, Vladimir Mayakovsky, Marina Tsvetaeva and Boris Pasternak. This era produced some first-rate novelists and short-story writers, such as Aleksandr Kuprin, Nobel Prize winner Ivan Bunin, Leonid Andreyev, Fyodor Sologub, Aleksey Remizov, Yevgeny Zamyatin, Dmitry Merezhkovsky and Andrei Bely.\n\n[chunk 36979 | doc 36972]\nRussian literature\nRussian literature refers to the literature of Russia and its émigrés and to the Russian-language literature of several independent nations once a part of what was historically Rus', the Russian Empire or the Soviet Union. The roots of Russian literature can be traced to the Middle Ages, when epics and chronicles in Old Russian were composed. By the Age of Enlightenment, literature had grown in importance, and from the early 1830s, Russian literature underwent an astounding golden age in poetry, prose and drama. Romanticism permitted a flowering of",
+        "context_sha256": "104c0cf2ab124632a05ea63ea45a1cd948fa72a8d87ddb326cb2a26be9f98454",
+        "retrieved_chunks": [
+          28619,
+          36979,
+          39038,
+          47954
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 78128,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ae4a3355542995ad6573de7",
+        "question": "Where is the club that Berk İsmail Ünsal plays for based?",
+        "reference": "European side of the city of Istanbul",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Istanbul",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 527,
+          "total_tokens": 530,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "ce339b5fbe1f401981d707a968689da0",
+        "response_cache_key": "f13af3339dc2bd23780ab13b25a00bd0bad0e8180508975f75ed9261b3beb827",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.47373256200000924,
+        "measurement_wall_seconds": 0.5237053690000266,
+        "context": "[chunk 55727 | doc 55708]\nBerk İsmail Ünsal\nBerk İsmail Ünsal (born 6 August 1994) is a Turkish footballer who plays as a striker for Süper Lig club Galatasaray. He made his Süper Lig debut on 29 March 2014 against Torku Konyaspor.\n\n[chunk 24987 | doc 24983]\nNewcastle United F.C.\nNewcastle United Football Club is an English professional association football club based in Newcastle upon Tyne, that currently plays in the Premier League, the top tier of English football. Newcastle United was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James' Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and now has a capacity of 52,354.\n\n[chunk 27689 | doc 27684]\nFulham F.C.\nFulham Football Club ( ) is a professional association football club based in Fulham, Greater London, England. Founded in 1879, they play in the Championship, the second tier of English football, having been relegated from the Premier League in 2013–14 after 13 consecutive seasons in the top flight. They are the oldest-established football team from London to have played in the Premier League.\n\n[chunk 65053 | doc 65032]\nTottenham Hotspur F.C.\nTottenham Hotspur Football Club, commonly referred to simply as Tottenham ( ) or Spurs, is an English football club located in Tottenham, Haringey, London, that competes in the Premier League. The club's home for the 2017–18 season will be Wembley Stadium, as their former home of White Hart Lane is being dismantled to make way for a completely new rebuilt stadium on the same site. Their newly developed training ground is in Bulls Cross on the northern borders of the London Borough of Enfield.",
+        "context_sha256": "522741c455104fb4169616da0a7d007bca6c2ec6e00bd838226fa9687b573151",
+        "retrieved_chunks": [
+          55727,
+          24987,
+          27689,
+          65053
+        ],
+        "context_tokens": 467,
+        "requested_context_budget": 512,
+        "available_chunks": 78128,
+        "exact_match": 0.0,
+        "f1": 0.2857142857142857
+      },
+      {
+        "qa_id": "5a88e7295542997e5c09a6c5",
+        "question": "What Southern League team, founded in 1881, featured player Tot Farnell?",
+        "reference": "Watford",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Bristol Rovers",
+        "error": null,
+        "usage": {
+          "completion_tokens": 5,
+          "prompt_tokens": 577,
+          "total_tokens": 582,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "0a0a1598b6b54b8db12711ff514b9cce",
+        "response_cache_key": "e6f8ce83632d8e10f1e80c2e6d2e060a742f7bacbd364e6835eb8614b3f5e5a0",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.5652363109999214,
+        "measurement_wall_seconds": 0.6151849130000073,
+        "context": "[chunk 7261 | doc 7260]\nThomas Farnall\nThomas Farnall (1874–1927), popularly known as Tot Farnall, was an English professional footballer who made 70 appearances in the Football League playing as a wing half for Small Heath and Bradford City. He played in Bradford City's first ever league game, in a 2–0 defeat at Grimsby Town, going on to play 25 games in the club's first season. He also played in the Southern League for Bristol Rovers and Watford.\n\n[chunk 10778 | doc 10777]\nAmerican League\nThe American League of Professional Baseball Clubs, or simply the American League (AL), is one of two leagues that make up Major League Baseball (MLB) in the United States and Canada. It developed from the Western League, a minor league based in the Great Lakes states, which eventually aspired to major league status. It is sometimes called the Junior Circuit because it claimed Major League status for the 1901 season, 25 years after the formation of the National League (the \"Senior Circuit\").\n\n[chunk 7255 | doc 7254]\nWatford F.C.\nWatford Football Club is a professional football club based in Watford, Hertfordshire, England, that plays in the Premier League, the highest level in the English football league system. Founded in 1881 as Watford Rovers, the club entered the FA Cup for the first time in 1886, and the Southern League a decade later. After finishing the 1914–15 season as Southern League champions under the management of Harry Kent, Watford joined the Football League in 1920. The club played at several grounds in its early history, before moving to a permanent location at Vicarage Road in 1922, where it remains to this day. Watford spent most of the following half century in the lower divisions of The Football League, changing colours and crest on multiple occasions.\n\n[chunk 74619 | doc 74594]\nSydney Swans\nThe Sydney Swans is a professional Australian rules football club which plays in the Australian Football League (AFL). Established in Melbourne as the South Melbourne Football Club in 1874, the Swans relocated to Sydney in 1",
+        "context_sha256": "615d4bc2882fcd625f7a737401d98ba0e441fd160bc1cb91f3c78a11788d979f",
+        "retrieved_chunks": [
+          7261,
+          10778,
+          7255,
+          74619
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 78128,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ac4ec9f55429919431739fc",
+        "question": "Ricco Rodriguez competes in a division where the lowest weight allowed is what?",
+        "reference": "206",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 562,
+          "total_tokens": 564,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "229c04ed064d4bc18f5cc9e767f66e42",
+        "response_cache_key": "3db2a87638519b7e4dc2e06c996ab9c444482e44cc5c606000b2daa93171a675",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.4881832549999672,
+        "measurement_wall_seconds": 0.5410504940000465,
+        "context": "[chunk 73181 | doc 73158]\nRicco Rodriguez\nRicco Rodriguez (born August 19, 1977) is an American mixed martial artist currently competing in the Heavyweight division. A professional competitor since 1999, he has competed for the UFC, PRIDE Fighting Championships,EliteXC, International Fight League, BAMMA, World Extreme Cagefighting, and Bellator. Ricco is a former UFC Heavyweight Champion, Mundials World Champion and also an ADCC World Champion. He is also the former King of the Cage Openweight Superfight Champion.\n\n[chunk 68712 | doc 68690]\nMexican National Welterweight Championship\nThe Mexican National Welterweight Championship (\"Campeonato Nacional Peso Welter\" in Spanish) is a Mexican professional wrestling championship created and sanctioned by Comisión de Box y Lucha Libre Mexico D.F. (the Mexico City Boxing and Wrestling Commission). While the commission sanctions the title, it does not promote the events at which the title is defended. Consejo Mundial de Lucha Libre (CMLL) promotes the events and has the everyday control of the championship. The official definition of the welterweight weight class in Mexico is between 77 kg and 87 kg , but is not always strictly enforced. Because Lucha Libre emphasizes the lower weight classes, this division is considered more important than the normally more prestigious heavyweight division of a promotion. As it is a professional wrestling championship, it is not won legitimately; it is instead won via a scripted ending to a match or awarded to a wrestler because of a storyline. All title matches take place under two out of three falls rules.\n\n[chunk 3226 | doc 3225]\nLightweight\nLightweight is a weight class in the sports of boxing, kickboxing, mixed martial arts, and rowing.\n\n[chunk 74403 | doc 74378]\nFabrício Camões\nFabrício dos Santos Camões (] ; born December 23, 1978) is a Brazilian mixed martial artist, who formerly competed in the Lightweight division of the Ultimate Fighting Championship. Camões's primary style in the cage is Brazilian Jiu Jitsu, Camões is a 3rd degree black belt in Brazilian Jiu Jitsu under Royler Gracie.",
+        "context_sha256": "46edfc5d266c7414c4ab0979ea420702c1dc9d3b2075c4f19f86443955120249",
+        "retrieved_chunks": [
+          73181,
+          68712,
+          3226,
+          74403
+        ],
+        "context_tokens": 502,
+        "requested_context_budget": 512,
+        "available_chunks": 78128,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ae8157c5542994a481bbeb2",
+        "question": "Chronicle of a Death Foretold stars an actress of what nationality?",
+        "reference": "Italian",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 425,
+          "total_tokens": 427,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "5ceefaa3f85148d387490f1b02b3d600",
+        "response_cache_key": "519f7dd9899ba9c0c21cbbf65582bb54717140a60d18e52784b4b11b0bc4bbfc",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.3963445930000944,
+        "measurement_wall_seconds": 0.44444776500006355,
+        "context": "[chunk 5047 | doc 5046]\nChronicle of a Death Foretold (film)\nChronicle of a Death Foretold (Italian: \"Cronaca di una morte annunciata\" , Spanish: \"Crónica de una muerte anunciada\" ) is a drama film directed by Francesco Rosi adapted by Tonino Guerra from the eponymous novella by Gabriel García Márquez. It stars Rupert Everett, Ornella Muti, Anthony Delon and Gian Maria Volontè. The film premiered at Cannes film festival in May 1987.\n\n[chunk 5043 | doc 5042]\nChronicle of a Death Foretold (musical)\nChronicle of a Death Foretold is a musical with a book and lyrics by Graciela Daniele and Jim Lewis (and additional material by Michael John LaChiusa) and music by Bob Telson. It is based on Gabriel García Márquez's 1981 novella of the same name.\n\n[chunk 5052 | doc 5051]\nChronicle of a Death Foretold\nChronicle of a Death Foretold (Spanish: \"Crónica de una muerte anunciada\" ) is a novella by Gabriel García Márquez, published in 1981. It tells, in the form of a pseudo-journalistic reconstruction, the story of the murder of Santiago Nasar by the two Vicario brothers.\n\n[chunk 5048 | doc 5047]\nChronicle of a Death Foretold (disambiguation)\nChronicle of a Death Foretold is a 1981 novella by Gabriel García Márquez.",
+        "context_sha256": "8f6c1cc13336bf3d81c2f7a1dfdd32b4027f0d8e3b0c7eb0236b18e3887de859",
+        "retrieved_chunks": [
+          5047,
+          5043,
+          5052,
+          5048
+        ],
+        "context_tokens": 367,
+        "requested_context_budget": 512,
+        "available_chunks": 78128,
+        "exact_match": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b": {
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    },
+    "values": [
+      0.2571428571428571,
+      535.6
+    ],
+    "exact_match": 0.2,
+    "known_generator_tokens": 2678,
+    "qa_count": 5,
+    "rows": [
+      {
+        "qa_id": "5a77340055429972597f14a0",
+        "question": "Which Russian poet co-authored a song later given new English lyrics to its tune?",
+        "reference": "Konstantin Nikolayevich Podrevsky",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 573,
+          "total_tokens": 575,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "1983aafe870b43c68539eb8912671941",
+        "response_cache_key": "841a70aa2bab9736f3ec242c3d5453f408fe3874548607cfbeb5fa552d6964f9",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.5884442479998597,
+        "measurement_wall_seconds": 361.8064813420001,
+        "context": "[chunk 51232 | doc 47937]\nLarisa Novoseltseva\nLarisa Novoseltseva (Russian: Лариса Новосельцева ) is a Russian singer-songwriter, composer, performer of Russian and Ukrainian folk songs and romances, and creator of project \"Return of the Silver Age\". She is author of music and performer of songs and ballads on poems by more than forty Russian poets, mostly of the Silver Age, such as Osip Mandelstam, Nikolay Gumilev, Boris Pasternak,Marina Tsvetaeva, Maksimilian Voloshin, Konstantin Balmont, Alexander Vertinsky and many others, including Bella Akhmadulina who, according to Novoseltseva, can be viewed as the last poet of Silver Age based on her poetic language and style. Novoseltseva created more than 300 songs and published more than 20 music albums. She usually performs solo using guitar or piano for the accompaniment. More recently, she frequently appears with violinist Michael Czerwinski\n\n[chunk 61001 | doc 57057]\nJoseph Brodsky\nIosif Aleksandrovich Brodsky ( ; Russian: Ио́сиф Алекса́ндрович Бро́дский , ] ; 24 May 1940 – 28 January 1996) was a Russian and American poet and essayist.\n\n[chunk 30523 | doc 28614]\nRussian literature\nRussian literature refers to the literature of Russia and its émigrés and to the Russian-language literature of several independent nations once a part of what was historically Rus', the Russian Empire or the Soviet Union. The roots of Russian literature can be traced to the Middle Ages, when epics and chronicles in Old Russian were composed. By the Age of Enlightenment, literature had grown in importance, and from the early 1830s, Russian literature underwent an astounding golden age in poetry, prose and drama. Romanticism permitted a flowering of poetic talent: Vasily Zhukovsky and later his protégé Alexander Pushkin came to the fore. Prose was flourishing as well. The first great Russian novelist was Nikolai Gogol. Then came Ivan Turgenev, who mastered both short stories and novels",
+        "context_sha256": "5bba0da9742bdd2398e6a8fd1fa2828a3b969e6a218d68629ad0a254af38367c",
+        "retrieved_chunks": [
+          51232,
+          61001,
+          30523,
+          39452
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 83545,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ae4a3355542995ad6573de7",
+        "question": "Where is the club that Berk İsmail Ünsal plays for based?",
+        "reference": "European side of the city of Istanbul",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Istanbul",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 527,
+          "total_tokens": 530,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "7e4a2c8d472545079f602b99202ded82",
+        "response_cache_key": "ee9a8e0dd21f72b4385db40cb686d432bb40aabceaa56962767be37d54d3148e",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.4757481920000828,
+        "measurement_wall_seconds": 0.5199085529998229,
+        "context": "[chunk 59544 | doc 55708]\nBerk İsmail Ünsal\nBerk İsmail Ünsal (born 6 August 1994) is a Turkish footballer who plays as a striker for Süper Lig club Galatasaray. He made his Süper Lig debut on 29 March 2014 against Torku Konyaspor.\n\n[chunk 26656 | doc 24983]\nNewcastle United F.C.\nNewcastle United Football Club is an English professional association football club based in Newcastle upon Tyne, that currently plays in the Premier League, the top tier of English football. Newcastle United was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James' Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and now has a capacity of 52,354.\n\n[chunk 29528 | doc 27684]\nFulham F.C.\nFulham Football Club ( ) is a professional association football club based in Fulham, Greater London, England. Founded in 1879, they play in the Championship, the second tier of English football, having been relegated from the Premier League in 2013–14 after 13 consecutive seasons in the top flight. They are the oldest-established football team from London to have played in the Premier League.\n\n[chunk 69527 | doc 65032]\nTottenham Hotspur F.C.\nTottenham Hotspur Football Club, commonly referred to simply as Tottenham ( ) or Spurs, is an English football club located in Tottenham, Haringey, London, that competes in the Premier League. The club's home for the 2017–18 season will be Wembley Stadium, as their former home of White Hart Lane is being dismantled to make way for a completely new rebuilt stadium on the same site. Their newly developed training ground is in Bulls Cross on the northern borders of the London Borough of Enfield.",
+        "context_sha256": "4543b8fcae3907fc7483c14c7ded7216ef0d9ff35e24c5103aa626fed1b0cb4e",
+        "retrieved_chunks": [
+          59544,
+          26656,
+          29528,
+          69527
+        ],
+        "context_tokens": 467,
+        "requested_context_budget": 512,
+        "available_chunks": 83545,
+        "exact_match": 0.0,
+        "f1": 0.2857142857142857
+      },
+      {
+        "qa_id": "5a88e7295542997e5c09a6c5",
+        "question": "What Southern League team, founded in 1881, featured player Tot Farnell?",
+        "reference": "Watford",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Bristol Rovers",
+        "error": null,
+        "usage": {
+          "completion_tokens": 5,
+          "prompt_tokens": 577,
+          "total_tokens": 582,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "a7ca10481dbf4316a106a6f0adcc3d39",
+        "response_cache_key": "06c9b49066059a90be50faf8e16cebafc1e268d4d1fcc9992586142b7b737339",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.5842731479999657,
+        "measurement_wall_seconds": 0.6270019109999794,
+        "context": "[chunk 7818 | doc 7260]\nThomas Farnall\nThomas Farnall (1874–1927), popularly known as Tot Farnall, was an English professional footballer who made 70 appearances in the Football League playing as a wing half for Small Heath and Bradford City. He played in Bradford City's first ever league game, in a 2–0 defeat at Grimsby Town, going on to play 25 games in the club's first season. He also played in the Southern League for Bristol Rovers and Watford.\n\n[chunk 11536 | doc 10777]\nAmerican League\nThe American League of Professional Baseball Clubs, or simply the American League (AL), is one of two leagues that make up Major League Baseball (MLB) in the United States and Canada. It developed from the Western League, a minor league based in the Great Lakes states, which eventually aspired to major league status. It is sometimes called the Junior Circuit because it claimed Major League status for the 1901 season, 25 years after the formation of the National League (the \"Senior Circuit\").\n\n[chunk 7811 | doc 7254]\nWatford F.C.\nWatford Football Club is a professional football club based in Watford, Hertfordshire, England, that plays in the Premier League, the highest level in the English football league system. Founded in 1881 as Watford Rovers, the club entered the FA Cup for the first time in 1886, and the Southern League a decade later. After finishing the 1914–15 season as Southern League champions under the management of Harry Kent, Watford joined the Football League in 1920. The club played at several grounds in its early history, before moving to a permanent location at Vicarage Road in 1922, where it remains to this day. Watford spent most of the following half century in the lower divisions of The Football League, changing colours and crest on multiple occasions.\n\n[chunk 79790 | doc 74594]\nSydney Swans\nThe Sydney Swans is a professional Australian rules football club which plays in the Australian Football League (AFL). Established in Melbourne as the South Melbourne Football Club in 1874, the Swans relocated to Sydney in 1",
+        "context_sha256": "aa65ca4be046bc0bc8cba0eed5bd0b40576409116acb28e98146ddae154471a3",
+        "retrieved_chunks": [
+          7818,
+          11536,
+          7811,
+          79790
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 83545,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ac4ec9f55429919431739fc",
+        "question": "Ricco Rodriguez competes in a division where the lowest weight allowed is what?",
+        "reference": "206",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 562,
+          "total_tokens": 564,
+          "prompt_tokens_details": {
+            "cached_tokens": 40
+          }
+        },
+        "call_id": "09d91b2b338d4b65999aeff20da57260",
+        "response_cache_key": "762625df889515e9437bee9bf7f7b9a6f2724366d245a68d848b99dbc32a3a0a",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.48904602000015984,
+        "measurement_wall_seconds": 0.5346055300001353,
+        "context": "[chunk 78251 | doc 73158]\nRicco Rodriguez\nRicco Rodriguez (born August 19, 1977) is an American mixed martial artist currently competing in the Heavyweight division. A professional competitor since 1999, he has competed for the UFC, PRIDE Fighting Championships,EliteXC, International Fight League, BAMMA, World Extreme Cagefighting, and Bellator. Ricco is a former UFC Heavyweight Champion, Mundials World Champion and also an ADCC World Champion. He is also the former King of the Cage Openweight Superfight Champion.\n\n[chunk 73422 | doc 68690]\nMexican National Welterweight Championship\nThe Mexican National Welterweight Championship (\"Campeonato Nacional Peso Welter\" in Spanish) is a Mexican professional wrestling championship created and sanctioned by Comisión de Box y Lucha Libre Mexico D.F. (the Mexico City Boxing and Wrestling Commission). While the commission sanctions the title, it does not promote the events at which the title is defended. Consejo Mundial de Lucha Libre (CMLL) promotes the events and has the everyday control of the championship. The official definition of the welterweight weight class in Mexico is between 77 kg and 87 kg , but is not always strictly enforced. Because Lucha Libre emphasizes the lower weight classes, this division is considered more important than the normally more prestigious heavyweight division of a promotion. As it is a professional wrestling championship, it is not won legitimately; it is instead won via a scripted ending to a match or awarded to a wrestler because of a storyline. All title matches take place under two out of three falls rules.\n\n[chunk 3457 | doc 3225]\nLightweight\nLightweight is a weight class in the sports of boxing, kickboxing, mixed martial arts, and rowing.\n\n[chunk 79554 | doc 74378]\nFabrício Camões\nFabrício dos Santos Camões (] ; born December 23, 1978) is a Brazilian mixed martial artist, who formerly competed in the Lightweight division of the Ultimate Fighting Championship. Camões's primary style in the cage is Brazilian Jiu Jitsu, Camões is a 3rd degree black belt in Brazilian Jiu Jitsu under Royler Gracie.",
+        "context_sha256": "bcde7e216567d9f3f2c12745c16b98364b4e9d4478de746b6ee94d30b9c24098",
+        "retrieved_chunks": [
+          78251,
+          73422,
+          3457,
+          79554
+        ],
+        "context_tokens": 502,
+        "requested_context_budget": 512,
+        "available_chunks": 83545,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ae8157c5542994a481bbeb2",
+        "question": "Chronicle of a Death Foretold stars an actress of what nationality?",
+        "reference": "Italian",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Italian",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 425,
+          "total_tokens": 427,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "b1800b5cd1c14e458824b8756fde7669",
+        "response_cache_key": "9365c93b2c80fcd0d09714611651e3ac46bf4b648692c3e73747572d18170f9a",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.40271807299996,
+        "measurement_wall_seconds": 0.44170819900000424,
+        "context": "[chunk 5442 | doc 5046]\nChronicle of a Death Foretold (film)\nChronicle of a Death Foretold (Italian: \"Cronaca di una morte annunciata\" , Spanish: \"Crónica de una muerte anunciada\" ) is a drama film directed by Francesco Rosi adapted by Tonino Guerra from the eponymous novella by Gabriel García Márquez. It stars Rupert Everett, Ornella Muti, Anthony Delon and Gian Maria Volontè. The film premiered at Cannes film festival in May 1987.\n\n[chunk 5438 | doc 5042]\nChronicle of a Death Foretold (musical)\nChronicle of a Death Foretold is a musical with a book and lyrics by Graciela Daniele and Jim Lewis (and additional material by Michael John LaChiusa) and music by Bob Telson. It is based on Gabriel García Márquez's 1981 novella of the same name.\n\n[chunk 5448 | doc 5051]\nChronicle of a Death Foretold\nChronicle of a Death Foretold (Spanish: \"Crónica de una muerte anunciada\" ) is a novella by Gabriel García Márquez, published in 1981. It tells, in the form of a pseudo-journalistic reconstruction, the story of the murder of Santiago Nasar by the two Vicario brothers.\n\n[chunk 5443 | doc 5047]\nChronicle of a Death Foretold (disambiguation)\nChronicle of a Death Foretold is a 1981 novella by Gabriel García Márquez.",
+        "context_sha256": "68ff569030a021958871aead5af5473d2c6c00d0e3e48f973d6ffd532a27cdfd",
+        "retrieved_chunks": [
+          5442,
+          5438,
+          5448,
+          5443
+        ],
+        "context_tokens": 367,
+        "requested_context_budget": 512,
+        "available_chunks": 83545,
+        "exact_match": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278": {
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    },
+    "values": [
+      0.2571428571428571,
+      535.6
+    ],
+    "exact_match": 0.2,
+    "known_generator_tokens": 2678,
+    "qa_count": 5,
+    "rows": [
+      {
+        "qa_id": "5a77340055429972597f14a0",
+        "question": "Which Russian poet co-authored a song later given new English lyrics to its tune?",
+        "reference": "Konstantin Nikolayevich Podrevsky",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 573,
+          "total_tokens": 575,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "afd9ec1a71ef4ad09d28306903ec316e",
+        "response_cache_key": "585cb776e0126c81040687948667b1b7fad63bd1e51948b354e19e3469e1c4e8",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.5763506470000266,
+        "measurement_wall_seconds": 365.265999363,
+        "context": "[chunk 28711 | doc 28614]\nRussian literature\nRussian literature refers to the literature of Russia and its émigrés and to the Russian-language literature of several independent nations once a part of what was historically Rus', the Russian Empire or the Soviet Union. The roots of Russian literature can be traced to the Middle Ages, when epics and chronicles in Old Russian were composed. By the Age of Enlightenment, literature had grown in importance, and from the early 1830s, Russian literature underwent an astounding golden age in poetry, prose and drama. Romanticism permitted a flowering of poetic talent: Vasily Zhukovsky and later his protégé Alexander Pushkin came to the fore. Prose was flourishing as well. The first great Russian novelist was Nikolai Gogol. Then came Ivan Turgenev, who mastered both short stories and novels. Leo Tolstoy and Fyodor Dostoyevsky soon became internationally renowned. In the second half of the century Anton Chekhov excelled in short stories and became a leading dramatist. The beginning of the 20th century ranks as the Silver Age of Russian poetry. The poets most often associated with the \"Silver Age\" are Konstantin Balmont, Valery Bryusov, Alexander Blok, Anna Akhmatova, Nikolay Gumilyov, Osip Mandelstam, Sergei Yesenin, Vladimir Mayakovsky, Marina Tsvetaeva and Boris Pasternak. This era produced some first-rate novelists and short-story writers, such as Aleksandr Kuprin, Nobel Prize winner Ivan Bunin, Leonid Andreyev, Fyodor Sologub, Aleksey Remizov, Yevgeny Zamyatin, Dmitry Merezhkovsky and Andrei Bely.\n\n[chunk 37093 | doc 36972]\nRussian literature\nRussian literature refers to the literature of Russia and its émigrés and to the Russian-language literature of several independent nations once a part of what was historically Rus', the Russian Empire or the Soviet Union. The roots of Russian literature can be traced to the Middle Ages, when epics and chronicles in Old Russian were composed. By the Age of Enlightenment, literature had grown in importance, and from the early 1830s, Russian literature underwent an astounding golden age in poetry, prose and drama. Romanticism permitted a flowering of",
+        "context_sha256": "1cffd8d10026d7a6011294e329d3113d608d54ca7ccba13ce95c11971f7185d3",
+        "retrieved_chunks": [
+          28711,
+          37093,
+          39159,
+          48114
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 78403,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ae4a3355542995ad6573de7",
+        "question": "Where is the club that Berk İsmail Ünsal plays for based?",
+        "reference": "European side of the city of Istanbul",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Istanbul",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 527,
+          "total_tokens": 530,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "eec968e60d3841aa9bb4666febdc5b24",
+        "response_cache_key": "17ef921a8cee04a3d76e52ed4c188c144fc14708efe63ecc8d162cf3ea691256",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.47944187899997814,
+        "measurement_wall_seconds": 0.5169899159998295,
+        "context": "[chunk 55918 | doc 55708]\nBerk İsmail Ünsal\nBerk İsmail Ünsal (born 6 August 1994) is a Turkish footballer who plays as a striker for Süper Lig club Galatasaray. He made his Süper Lig debut on 29 March 2014 against Torku Konyaspor.\n\n[chunk 25066 | doc 24983]\nNewcastle United F.C.\nNewcastle United Football Club is an English professional association football club based in Newcastle upon Tyne, that currently plays in the Premier League, the top tier of English football. Newcastle United was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James' Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and now has a capacity of 52,354.\n\n[chunk 27774 | doc 27684]\nFulham F.C.\nFulham Football Club ( ) is a professional association football club based in Fulham, Greater London, England. Founded in 1879, they play in the Championship, the second tier of English football, having been relegated from the Premier League in 2013–14 after 13 consecutive seasons in the top flight. They are the oldest-established football team from London to have played in the Premier League.\n\n[chunk 65279 | doc 65032]\nTottenham Hotspur F.C.\nTottenham Hotspur Football Club, commonly referred to simply as Tottenham ( ) or Spurs, is an English football club located in Tottenham, Haringey, London, that competes in the Premier League. The club's home for the 2017–18 season will be Wembley Stadium, as their former home of White Hart Lane is being dismantled to make way for a completely new rebuilt stadium on the same site. Their newly developed training ground is in Bulls Cross on the northern borders of the London Borough of Enfield.",
+        "context_sha256": "0fd6215708033945a41943753ccc6f56ec344c41df05b8cfae011858c6d03edc",
+        "retrieved_chunks": [
+          55918,
+          25066,
+          27774,
+          65279
+        ],
+        "context_tokens": 467,
+        "requested_context_budget": 512,
+        "available_chunks": 78403,
+        "exact_match": 0.0,
+        "f1": 0.2857142857142857
+      },
+      {
+        "qa_id": "5a88e7295542997e5c09a6c5",
+        "question": "What Southern League team, founded in 1881, featured player Tot Farnell?",
+        "reference": "Watford",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Bristol Rovers",
+        "error": null,
+        "usage": {
+          "completion_tokens": 5,
+          "prompt_tokens": 577,
+          "total_tokens": 582,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "c8bf5c5defdb4d389bce87e82f25b378",
+        "response_cache_key": "5e83809c5b206b94d8984a92459f2f129e727942387a62e4526860621b4ae3a4",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.5878353729999617,
+        "measurement_wall_seconds": 0.6287664839999252,
+        "context": "[chunk 7287 | doc 7260]\nThomas Farnall\nThomas Farnall (1874–1927), popularly known as Tot Farnall, was an English professional footballer who made 70 appearances in the Football League playing as a wing half for Small Heath and Bradford City. He played in Bradford City's first ever league game, in a 2–0 defeat at Grimsby Town, going on to play 25 games in the club's first season. He also played in the Southern League for Bristol Rovers and Watford.\n\n[chunk 10807 | doc 10777]\nAmerican League\nThe American League of Professional Baseball Clubs, or simply the American League (AL), is one of two leagues that make up Major League Baseball (MLB) in the United States and Canada. It developed from the Western League, a minor league based in the Great Lakes states, which eventually aspired to major league status. It is sometimes called the Junior Circuit because it claimed Major League status for the 1901 season, 25 years after the formation of the National League (the \"Senior Circuit\").\n\n[chunk 7281 | doc 7254]\nWatford F.C.\nWatford Football Club is a professional football club based in Watford, Hertfordshire, England, that plays in the Premier League, the highest level in the English football league system. Founded in 1881 as Watford Rovers, the club entered the FA Cup for the first time in 1886, and the Southern League a decade later. After finishing the 1914–15 season as Southern League champions under the management of Harry Kent, Watford joined the Football League in 1920. The club played at several grounds in its early history, before moving to a permanent location at Vicarage Road in 1922, where it remains to this day. Watford spent most of the following half century in the lower divisions of The Football League, changing colours and crest on multiple occasions.\n\n[chunk 74880 | doc 74594]\nSydney Swans\nThe Sydney Swans is a professional Australian rules football club which plays in the Australian Football League (AFL). Established in Melbourne as the South Melbourne Football Club in 1874, the Swans relocated to Sydney in 1",
+        "context_sha256": "f3342998274d4924545e63466e1d3f1864635ce1895df9551af0ccd9df05bb3f",
+        "retrieved_chunks": [
+          7287,
+          10807,
+          7281,
+          74880
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 78403,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ac4ec9f55429919431739fc",
+        "question": "Ricco Rodriguez competes in a division where the lowest weight allowed is what?",
+        "reference": "206",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "unknown",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 562,
+          "total_tokens": 564,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "bf75ceef163c46ad88c10cf19176b253",
+        "response_cache_key": "2a6e44c48356f26cc305aeadc9e98899f5b42359bfb22e45758b1afaa2808b49",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.4892624069998419,
+        "measurement_wall_seconds": 0.5274187139998503,
+        "context": "[chunk 73435 | doc 73158]\nRicco Rodriguez\nRicco Rodriguez (born August 19, 1977) is an American mixed martial artist currently competing in the Heavyweight division. A professional competitor since 1999, he has competed for the UFC, PRIDE Fighting Championships,EliteXC, International Fight League, BAMMA, World Extreme Cagefighting, and Bellator. Ricco is a former UFC Heavyweight Champion, Mundials World Champion and also an ADCC World Champion. He is also the former King of the Cage Openweight Superfight Champion.\n\n[chunk 68944 | doc 68690]\nMexican National Welterweight Championship\nThe Mexican National Welterweight Championship (\"Campeonato Nacional Peso Welter\" in Spanish) is a Mexican professional wrestling championship created and sanctioned by Comisión de Box y Lucha Libre Mexico D.F. (the Mexico City Boxing and Wrestling Commission). While the commission sanctions the title, it does not promote the events at which the title is defended. Consejo Mundial de Lucha Libre (CMLL) promotes the events and has the everyday control of the championship. The official definition of the welterweight weight class in Mexico is between 77 kg and 87 kg , but is not always strictly enforced. Because Lucha Libre emphasizes the lower weight classes, this division is considered more important than the normally more prestigious heavyweight division of a promotion. As it is a professional wrestling championship, it is not won legitimately; it is instead won via a scripted ending to a match or awarded to a wrestler because of a storyline. All title matches take place under two out of three falls rules.\n\n[chunk 3234 | doc 3225]\nLightweight\nLightweight is a weight class in the sports of boxing, kickboxing, mixed martial arts, and rowing.\n\n[chunk 74663 | doc 74378]\nFabrício Camões\nFabrício dos Santos Camões (] ; born December 23, 1978) is a Brazilian mixed martial artist, who formerly competed in the Lightweight division of the Ultimate Fighting Championship. Camões's primary style in the cage is Brazilian Jiu Jitsu, Camões is a 3rd degree black belt in Brazilian Jiu Jitsu under Royler Gracie.",
+        "context_sha256": "97637334f2244d6c5fd43c668254e29d26fef04ee30245e044a3f5ac4283c16e",
+        "retrieved_chunks": [
+          73435,
+          68944,
+          3234,
+          74663
+        ],
+        "context_tokens": 502,
+        "requested_context_budget": 512,
+        "available_chunks": 78403,
+        "exact_match": 0.0,
+        "f1": 0.0
+      },
+      {
+        "qa_id": "5ae8157c5542994a481bbeb2",
+        "question": "Chronicle of a Death Foretold stars an actress of what nationality?",
+        "reference": "Italian",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Italian",
+        "error": null,
+        "usage": {
+          "completion_tokens": 2,
+          "prompt_tokens": 425,
+          "total_tokens": 427,
+          "prompt_tokens_details": {
+            "cached_tokens": 38
+          }
+        },
+        "call_id": "0161f30af5c546f286345563a607b09a",
+        "response_cache_key": "8cf78588ec9e2b0ec206f99163c2d9c80c467a60d31fc00ea654d5dcb1106fd8",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.40183372299998155,
+        "measurement_wall_seconds": 0.4388566359998549,
+        "context": "[chunk 5061 | doc 5046]\nChronicle of a Death Foretold (film)\nChronicle of a Death Foretold (Italian: \"Cronaca di una morte annunciata\" , Spanish: \"Crónica de una muerte anunciada\" ) is a drama film directed by Francesco Rosi adapted by Tonino Guerra from the eponymous novella by Gabriel García Márquez. It stars Rupert Everett, Ornella Muti, Anthony Delon and Gian Maria Volontè. The film premiered at Cannes film festival in May 1987.\n\n[chunk 5057 | doc 5042]\nChronicle of a Death Foretold (musical)\nChronicle of a Death Foretold is a musical with a book and lyrics by Graciela Daniele and Jim Lewis (and additional material by Michael John LaChiusa) and music by Bob Telson. It is based on Gabriel García Márquez's 1981 novella of the same name.\n\n[chunk 5066 | doc 5051]\nChronicle of a Death Foretold\nChronicle of a Death Foretold (Spanish: \"Crónica de una muerte anunciada\" ) is a novella by Gabriel García Márquez, published in 1981. It tells, in the form of a pseudo-journalistic reconstruction, the story of the murder of Santiago Nasar by the two Vicario brothers.\n\n[chunk 5062 | doc 5047]\nChronicle of a Death Foretold (disambiguation)\nChronicle of a Death Foretold is a 1981 novella by Gabriel García Márquez.",
+        "context_sha256": "f2589cb5aec7424589917179b88af3c7894abc14c1217bc550430fe462d08a06",
+        "retrieved_chunks": [
+          5061,
+          5057,
+          5066,
+          5062
+        ],
+        "context_tokens": 367,
+        "requested_context_budget": 512,
+        "available_chunks": 78403,
+        "exact_match": 1.0,
+        "f1": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "selected_qa": {
+    "test": [
+      {
+        "id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5a8a582a5542995153361372",
+        "question": "What do it yourself magazine does William Gurstelle write for?",
+        "reference": "Make",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5a8ba7d75542996e8ac88991",
+        "question": "How long was the Underdog show presented by an English comedian Julian Clary?",
+        "reference": "six-week television series",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5a87432d5542994775f607b5",
+        "question": "Has Alek Keshishian been the writer for more films than Mark Krikorian?",
+        "reference": "yes",
+        "qtype": "comparison",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5a8299e255429954d2e2eb76",
+        "question": "Apart from the founder of the Exclusive Brethren, what is the name of the second person who was sent by the Plymouth Brethren to investigate the outbreak of supernatural gifts of the Holy Spirit in Scotland?",
+        "reference": "Benjamin Wills Newton",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      }
+    ],
+    "holdout": [
+      {
+        "id": "5a77340055429972597f14a0",
+        "question": "Which Russian poet co-authored a song later given new English lyrics to its tune?",
+        "reference": "Konstantin Nikolayevich Podrevsky",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5ae4a3355542995ad6573de7",
+        "question": "Where is the club that Berk İsmail Ünsal plays for based?",
+        "reference": "European side of the city of Istanbul",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5a88e7295542997e5c09a6c5",
+        "question": "What Southern League team, founded in 1881, featured player Tot Farnell?",
+        "reference": "Watford",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5ac4ec9f55429919431739fc",
+        "question": "Ricco Rodriguez competes in a division where the lowest weight allowed is what?",
+        "reference": "206",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5ae8157c5542994a481bbeb2",
+        "question": "Chronicle of a Death Foretold stars an actress of what nationality?",
+        "reference": "Italian",
+        "qtype": "bridge",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "corpora": {
+    "test": {
+      "documents": 4972,
+      "sha256": "49ec7bbd1e6b1ccc1747b3286cbd9f4ff5fe7769dd50bf48481e10e629313f03"
+    },
+    "holdout": {
+      "documents": 78102,
+      "sha256": "61152009d510f17156da991c8b4771ed428115925599fa8e1a5ad27b28ad6a2a"
+    }
+  }
+}

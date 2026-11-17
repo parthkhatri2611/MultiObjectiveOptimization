@@ -1,0 +1,7 @@
+{
+  "actual_endpoint_calls": 77,
+  "actual_known_tokens": 47228,
+  "failed_calls": 0,
+  "optimizer_replay_physical_calls": 0,
+  "scope": "Repeated logical queries reuse measured fitness; equivalent search tokens are not additional physical token expenditure."
+}

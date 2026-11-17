@@ -1,0 +1,1379 @@
+{
+  "cf611e36f240b57d4bf9d1136f9c4aff89c8c9c079aed4576477ece55db70497": {
+    "params": {
+      "k": 2,
+      "c": 256,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "call_id": "e7129048fc89490389bfcb8b25ad7c73",
+        "response_cache_key": "98754264ce89966bf35dc9bd4e3ef0e8ee45bef84915162f1a00d1046beae2f2",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.5191415580000012,
+        "measurement_wall_seconds": 20.819449382000016,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "27292535fd29c9eb217bf9bb7e34a7b09432bbd86d33d95c056fb10a46e25d0e",
+        "retrieved_chunks": [
+          2453,
+          2454
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 512,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "7a1f861c9259b1d6f86bf3c1f0143489f5bc5b8373f74fb83beab06a0ac5fafc": {
+    "params": {
+      "k": 2,
+      "c": 256,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "call_id": "e7129048fc89490389bfcb8b25ad7c73",
+        "response_cache_key": "98754264ce89966bf35dc9bd4e3ef0e8ee45bef84915162f1a00d1046beae2f2",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.5191415580000012,
+        "measurement_wall_seconds": 0.00651790400002028,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "27292535fd29c9eb217bf9bb7e34a7b09432bbd86d33d95c056fb10a46e25d0e",
+        "retrieved_chunks": [
+          2453,
+          2454
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 1024,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "253ea8153def53ae50a92b115ec645c15e8c46c712a846f4ee7e6d2ce661c5ae": {
+    "params": {
+      "k": 2,
+      "c": 256,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "call_id": "e7129048fc89490389bfcb8b25ad7c73",
+        "response_cache_key": "98754264ce89966bf35dc9bd4e3ef0e8ee45bef84915162f1a00d1046beae2f2",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.5191415580000012,
+        "measurement_wall_seconds": 0.006165835999979663,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "27292535fd29c9eb217bf9bb7e34a7b09432bbd86d33d95c056fb10a46e25d0e",
+        "retrieved_chunks": [
+          2453,
+          2454
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 2048,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "a327046c9c55194bcbde7dc8f5d62e0d7cffd9eaac8f8dfaf4d9f9030edcce45": {
+    "params": {
+      "k": 2,
+      "c": 512,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "a94d0e9040b74081978b313fadd9b0e3",
+        "response_cache_key": "20e85adc64f775821c7e1c552e27e3f35fa1505b897d8fd27c5dcfd36e889b70",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.4113331369999855,
+        "measurement_wall_seconds": 20.517344577000017,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "2e9e8dab96791014a985a664dcf421106486c7785d05144237d55e868dd2c930",
+        "retrieved_chunks": [
+          2314,
+          2315
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 512,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "28dc9cf16c3b54f415c26c0f63275aea991fa0b046ab04e55adb68bcf363b19c": {
+    "params": {
+      "k": 2,
+      "c": 512,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "a94d0e9040b74081978b313fadd9b0e3",
+        "response_cache_key": "20e85adc64f775821c7e1c552e27e3f35fa1505b897d8fd27c5dcfd36e889b70",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.4113331369999855,
+        "measurement_wall_seconds": 0.0064924169999471815,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "2e9e8dab96791014a985a664dcf421106486c7785d05144237d55e868dd2c930",
+        "retrieved_chunks": [
+          2314,
+          2315
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 1024,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "dd96cb47c3ea96912a1db3121965c548ee00baa3b50b2362574644a588d5ecca": {
+    "params": {
+      "k": 2,
+      "c": 512,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 39
+          }
+        },
+        "call_id": "a94d0e9040b74081978b313fadd9b0e3",
+        "response_cache_key": "20e85adc64f775821c7e1c552e27e3f35fa1505b897d8fd27c5dcfd36e889b70",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.4113331369999855,
+        "measurement_wall_seconds": 0.006155160999981035,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "2e9e8dab96791014a985a664dcf421106486c7785d05144237d55e868dd2c930",
+        "retrieved_chunks": [
+          2314,
+          2315
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 2048,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "397fe59b0d89c0ce22f22cda3f9106904a72c3be71af6ad5648758c14628c497": {
+    "params": {
+      "k": 2,
+      "c": 1024,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 40
+          }
+        },
+        "call_id": "dfa75c95f2ed440d8ccda5fbf3d905bc",
+        "response_cache_key": "500b97af778e10e3be38c81d4e7871e193b776d80d435597a9ba221329f3d6a6",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.4037493259999678,
+        "measurement_wall_seconds": 20.910737736000044,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "e5e5341b534da1ca1f0fff5d86c8c7a1282d1046ef63557e203e070dd87563eb",
+        "retrieved_chunks": [
+          2305,
+          2306
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 512,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "b981b00b86e7add99e79a7282372bef6e29187ccde6fb8e9f1a5643841c15da6": {
+    "params": {
+      "k": 2,
+      "c": 1024,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 40
+          }
+        },
+        "call_id": "dfa75c95f2ed440d8ccda5fbf3d905bc",
+        "response_cache_key": "500b97af778e10e3be38c81d4e7871e193b776d80d435597a9ba221329f3d6a6",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.4037493259999678,
+        "measurement_wall_seconds": 0.006716203999985737,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "e5e5341b534da1ca1f0fff5d86c8c7a1282d1046ef63557e203e070dd87563eb",
+        "retrieved_chunks": [
+          2305,
+          2306
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 1024,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "8b548b334b2b6cc9709065cfd3b3e0be7cf905ad67d2d3951700abc4b9b95a4d": {
+    "params": {
+      "k": 2,
+      "c": 1024,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      303.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 303,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 300,
+          "total_tokens": 303,
+          "prompt_tokens_details": {
+            "cached_tokens": 40
+          }
+        },
+        "call_id": "dfa75c95f2ed440d8ccda5fbf3d905bc",
+        "response_cache_key": "500b97af778e10e3be38c81d4e7871e193b776d80d435597a9ba221329f3d6a6",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.4037493259999678,
+        "measurement_wall_seconds": 0.006145297999978538,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.",
+        "context_sha256": "e5e5341b534da1ca1f0fff5d86c8c7a1282d1046ef63557e203e070dd87563eb",
+        "retrieved_chunks": [
+          2305,
+          2306
+        ],
+        "context_tokens": 233,
+        "requested_context_budget": 2048,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b": {
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "d05b5fdee9b9462d83c39a9c575cc953",
+        "response_cache_key": "b488978a2a20a84129bc80759680067ee0b2f0366dd61ac9ae317a75ad5ac239",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.31611960700001873,
+        "measurement_wall_seconds": 0.33560505899998816,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2455 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1648 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "809f3e8e521a8f9908c49dc349ed91a4682721e401294f065e7dbe8c81c9ac67",
+        "retrieved_chunks": [
+          2453,
+          2454,
+          2455,
+          1648
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 512,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "d08785f39742543fdc143305c85731205bcabcc125ff5df774b87326bf8e5d89": {
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "d05b5fdee9b9462d83c39a9c575cc953",
+        "response_cache_key": "b488978a2a20a84129bc80759680067ee0b2f0366dd61ac9ae317a75ad5ac239",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.31611960700001873,
+        "measurement_wall_seconds": 0.011297355000010612,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2455 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1648 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "809f3e8e521a8f9908c49dc349ed91a4682721e401294f065e7dbe8c81c9ac67",
+        "retrieved_chunks": [
+          2453,
+          2454,
+          2455,
+          1648
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 1024,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "ff29fd55677067bc9addfb6b76b88b8986b9b1ab8feb05912438f0279f24225e": {
+    "params": {
+      "k": 4,
+      "c": 256,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "d05b5fdee9b9462d83c39a9c575cc953",
+        "response_cache_key": "b488978a2a20a84129bc80759680067ee0b2f0366dd61ac9ae317a75ad5ac239",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.31611960700001873,
+        "measurement_wall_seconds": 0.010978839000017615,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2455 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1648 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "809f3e8e521a8f9908c49dc349ed91a4682721e401294f065e7dbe8c81c9ac67",
+        "retrieved_chunks": [
+          2453,
+          2454,
+          2455,
+          1648
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 2048,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278": {
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "863aa1d3b19a41808116b38849d6ae2b",
+        "response_cache_key": "8bda5fcf9c045a0da361b30f57088e495ce65be5c427ec06db5049bb050c9509",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.32562240499999007,
+        "measurement_wall_seconds": 0.34608647500004963,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "1d60255e730b39ea44a214f42dd3fedf10a733fd0736dd2473ae4c13422f5fe3",
+        "retrieved_chunks": [
+          2314,
+          2315,
+          2316,
+          1553
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 512,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "b0c05ade038986744be3345696b004ba51d4db79f812534f94f3372f3658465e": {
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "863aa1d3b19a41808116b38849d6ae2b",
+        "response_cache_key": "8bda5fcf9c045a0da361b30f57088e495ce65be5c427ec06db5049bb050c9509",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.32562240499999007,
+        "measurement_wall_seconds": 0.012007315999994717,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "1d60255e730b39ea44a214f42dd3fedf10a733fd0736dd2473ae4c13422f5fe3",
+        "retrieved_chunks": [
+          2314,
+          2315,
+          2316,
+          1553
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 1024,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "b7f148b5c21e83129be9aee04acecb32ac964cf9c19d44781917aaae5c274982": {
+    "params": {
+      "k": 4,
+      "c": 512,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "863aa1d3b19a41808116b38849d6ae2b",
+        "response_cache_key": "8bda5fcf9c045a0da361b30f57088e495ce65be5c427ec06db5049bb050c9509",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.32562240499999007,
+        "measurement_wall_seconds": 0.010664918999964357,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "1d60255e730b39ea44a214f42dd3fedf10a733fd0736dd2473ae4c13422f5fe3",
+        "retrieved_chunks": [
+          2314,
+          2315,
+          2316,
+          1553
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 2048,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6": {
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "1c522e4d28f64f47a41d139e2ee29b67",
+        "response_cache_key": "53e1f3e7ff88bc42a01c8c8c43dc010b7135ba65b287e37d6f31e93cf6519a47",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.31580423599996266,
+        "measurement_wall_seconds": 0.33603965200001085,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "02cf011bdb959f584eff9e05f12fd23db09e6e19d1a7b9771162d9961684f00a",
+        "retrieved_chunks": [
+          2305,
+          2306,
+          2307,
+          1548
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 512,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "a0445a7dd50cf3c72ac16f221e4be6951665dc77d2272821cda00ff671c12a1b": {
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "1c522e4d28f64f47a41d139e2ee29b67",
+        "response_cache_key": "53e1f3e7ff88bc42a01c8c8c43dc010b7135ba65b287e37d6f31e93cf6519a47",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.31580423599996266,
+        "measurement_wall_seconds": 0.01175937999994403,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "02cf011bdb959f584eff9e05f12fd23db09e6e19d1a7b9771162d9961684f00a",
+        "retrieved_chunks": [
+          2305,
+          2306,
+          2307,
+          1548
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 1024,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "ff7314b5f1933bf05fcdbc3eab43b217a005b9d56d89fed584e87367d767bf48": {
+    "params": {
+      "k": 4,
+      "c": 1024,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      544.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 544,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 541,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 268
+          }
+        },
+        "call_id": "1c522e4d28f64f47a41d139e2ee29b67",
+        "response_cache_key": "53e1f3e7ff88bc42a01c8c8c43dc010b7135ba65b287e37d6f31e93cf6519a47",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.31580423599996266,
+        "measurement_wall_seconds": 0.01155716300002041,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+        "context_sha256": "02cf011bdb959f584eff9e05f12fd23db09e6e19d1a7b9771162d9961684f00a",
+        "retrieved_chunks": [
+          2305,
+          2306,
+          2307,
+          1548
+        ],
+        "context_tokens": 474,
+        "requested_context_budget": 2048,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "f9a46a3069de9082072ddc1fed9b4fede7c86c825a455e2d1deb2ea76abbf0ce": {
+    "params": {
+      "k": 6,
+      "c": 256,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      583.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 583,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 580,
+          "total_tokens": 583,
+          "prompt_tokens_details": {
+            "cached_tokens": 509
+          }
+        },
+        "call_id": "5a6c568df86942e593f387d31168a316",
+        "response_cache_key": "868a4d8fae2736801871865be250d2d7c867044051402ceb22bf994c2a050e49",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.1584093840000378,
+        "measurement_wall_seconds": 0.18010630800000627,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2455 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1648 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2447 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team",
+        "context_sha256": "723c7dc9002bc99222ba59dee067591909aa1d7a339107d8bb3b8aaddbc152d0",
+        "retrieved_chunks": [
+          2453,
+          2454,
+          2455,
+          1648,
+          2447,
+          2648
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "ecb744b68da046ba73ea9a24e5abdee2a8c95ed00443799e39dc793ddd72bf31": {
+    "params": {
+      "k": 6,
+      "c": 256,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      950.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 950,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 947,
+          "total_tokens": 950,
+          "prompt_tokens_details": {
+            "cached_tokens": 547
+          }
+        },
+        "call_id": "3d5a72c81fb147b2b33e168c02bba09b",
+        "response_cache_key": "ba0127a72dad52f0dd12ee44dcb89c1bdf6003c4d333ee02208b6cef48f513d3",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.39658878399995956,
+        "measurement_wall_seconds": 0.4263167520000479,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2455 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1648 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2447 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2648 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+        "context_sha256": "06e93953d5689a8538f9bc21a34b3145829f9881373a23c5143abc9e34b2aeeb",
+        "retrieved_chunks": [
+          2453,
+          2454,
+          2455,
+          1648,
+          2447,
+          2648
+        ],
+        "context_tokens": 880,
+        "requested_context_budget": 1024,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "80c20b985c224e585fd91894db36d1f411e88bec1df624011fac27373674ae5a": {
+    "params": {
+      "k": 6,
+      "c": 256,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      950.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 950,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 947,
+          "total_tokens": 950,
+          "prompt_tokens_details": {
+            "cached_tokens": 547
+          }
+        },
+        "call_id": "3d5a72c81fb147b2b33e168c02bba09b",
+        "response_cache_key": "ba0127a72dad52f0dd12ee44dcb89c1bdf6003c4d333ee02208b6cef48f513d3",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.39658878399995956,
+        "measurement_wall_seconds": 0.01985835099998212,
+        "context": "[chunk 2453 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2454 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2455 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1648 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2447 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2648 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+        "context_sha256": "06e93953d5689a8538f9bc21a34b3145829f9881373a23c5143abc9e34b2aeeb",
+        "retrieved_chunks": [
+          2453,
+          2454,
+          2455,
+          1648,
+          2447,
+          2648
+        ],
+        "context_tokens": 880,
+        "requested_context_budget": 2048,
+        "available_chunks": 5315,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "526061f84af230d8abe4437a851c1732a497b9f375a8f3bd1b0d38764befbeb7": {
+    "params": {
+      "k": 6,
+      "c": 512,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      583.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 583,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 580,
+          "total_tokens": 583,
+          "prompt_tokens_details": {
+            "cached_tokens": 509
+          }
+        },
+        "call_id": "34fe8c379e814d69b9e1e4cc7b8f3efd",
+        "response_cache_key": "ae353e637a0733bb159e51c11ec01b2ea1853b8f20e4b9e8cadd48681c266d37",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.1731771780000031,
+        "measurement_wall_seconds": 0.19678386700002193,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2308 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team",
+        "context_sha256": "95e5ee5ff4441c2c5d68a374575bed61b950336e94c3c176f69087164f1d82f6",
+        "retrieved_chunks": [
+          2314,
+          2315,
+          2316,
+          1553,
+          2308,
+          2495
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "d73047d8b00d6b8efe82d5596cbf3d3247b0ae1838c59bd663d5f09c5b9298f0": {
+    "params": {
+      "k": 6,
+      "c": 512,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      950.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 950,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 947,
+          "total_tokens": 950,
+          "prompt_tokens_details": {
+            "cached_tokens": 547
+          }
+        },
+        "call_id": "6314ef13a914445dbb579d3b70265d6c",
+        "response_cache_key": "3b8e4c0dbbe00091ab820c083f7f559eb737d725a57e3ec9860ae03886f69422",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.39784868399999596,
+        "measurement_wall_seconds": 0.4279460369999697,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2308 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2495 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+        "context_sha256": "c4046ab00e147319f3c8c2c3fb22384bedc09156f591beea938a345e2ef58dab",
+        "retrieved_chunks": [
+          2314,
+          2315,
+          2316,
+          1553,
+          2308,
+          2495
+        ],
+        "context_tokens": 880,
+        "requested_context_budget": 1024,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "3a8ac827dd381cebaaa7df00657ab63e5ce397f481bb7177924c6920be747f3a": {
+    "params": {
+      "k": 6,
+      "c": 512,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      950.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 950,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 947,
+          "total_tokens": 950,
+          "prompt_tokens_details": {
+            "cached_tokens": 547
+          }
+        },
+        "call_id": "6314ef13a914445dbb579d3b70265d6c",
+        "response_cache_key": "3b8e4c0dbbe00091ab820c083f7f559eb737d725a57e3ec9860ae03886f69422",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.39784868399999596,
+        "measurement_wall_seconds": 0.02037872400001106,
+        "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2308 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2495 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+        "context_sha256": "c4046ab00e147319f3c8c2c3fb22384bedc09156f591beea938a345e2ef58dab",
+        "retrieved_chunks": [
+          2314,
+          2315,
+          2316,
+          1553,
+          2308,
+          2495
+        ],
+        "context_tokens": 880,
+        "requested_context_budget": 2048,
+        "available_chunks": 4992,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "007fa7dbd73a40992103c58e8f183f08e525f365cc3a3909ea23ad1255eb226d": {
+    "params": {
+      "k": 6,
+      "c": 1024,
+      "Bc": 512
+    },
+    "values": [
+      0.8,
+      583.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 583,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 580,
+          "total_tokens": 583,
+          "prompt_tokens_details": {
+            "cached_tokens": 509
+          }
+        },
+        "call_id": "4cd1bf1853b84ae9981d850da2df2766",
+        "response_cache_key": "70423731aebf11235ef41bc2bf96d0987987b14da919c8f8eda9acb88906148d",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.18033116700001983,
+        "measurement_wall_seconds": 0.20218160899997883,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2299 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team",
+        "context_sha256": "936693925cd6ad4ba93dd6e3fe4b205de5057cfa1e00a7b61440f849ddb1ff36",
+        "retrieved_chunks": [
+          2305,
+          2306,
+          2307,
+          1548,
+          2299,
+          2486
+        ],
+        "context_tokens": 512,
+        "requested_context_budget": 512,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "bc0e3f589392a857ad512d7120d0d2977463e5fa12fa4a554e31d6a7398b596e": {
+    "params": {
+      "k": 6,
+      "c": 1024,
+      "Bc": 1024
+    },
+    "values": [
+      0.8,
+      950.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 950,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 947,
+          "total_tokens": 950,
+          "prompt_tokens_details": {
+            "cached_tokens": 547
+          }
+        },
+        "call_id": "1cc479f0cc4446ea9e34dd267e24f5c0",
+        "response_cache_key": "628560cb0f7a48bfec1f413b4a025a3d0335faddc54d8c855b99fb22d728aa56",
+        "response_cache_hit": false,
+        "logical_generation_seconds": 0.3962170080000078,
+        "measurement_wall_seconds": 0.42554908300002126,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2299 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2486 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+        "context_sha256": "2e746ff67957ca21b39a14bfca6bb6ee69719e1989996b8f18814ec0e89172cf",
+        "retrieved_chunks": [
+          2305,
+          2306,
+          2307,
+          1548,
+          2299,
+          2486
+        ],
+        "context_tokens": 880,
+        "requested_context_budget": 1024,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  },
+  "d26460a8f398e141622bfceabda2c878a692ea2dd7998f6b74f123aa35327446": {
+    "params": {
+      "k": 6,
+      "c": 1024,
+      "Bc": 2048
+    },
+    "values": [
+      0.8,
+      950.0
+    ],
+    "exact_match": 0.0,
+    "known_generator_tokens": 950,
+    "qa_count": 1,
+    "rows": [
+      {
+        "qa_id": "5ae60b9b554299546bf8302f",
+        "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+        "reference": "Kevin Reece Wilson",
+        "qtype": "bridge",
+        "difficulty": "hard",
+        "answer": "Kevin Wilson",
+        "error": null,
+        "usage": {
+          "completion_tokens": 3,
+          "prompt_tokens": 947,
+          "total_tokens": 950,
+          "prompt_tokens_details": {
+            "cached_tokens": 547
+          }
+        },
+        "call_id": "1cc479f0cc4446ea9e34dd267e24f5c0",
+        "response_cache_key": "628560cb0f7a48bfec1f413b4a025a3d0335faddc54d8c855b99fb22d728aa56",
+        "response_cache_hit": true,
+        "logical_generation_seconds": 0.3962170080000078,
+        "measurement_wall_seconds": 0.0214851730000305,
+        "context": "[chunk 2305 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2306 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2307 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1548 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.\n\n[chunk 2299 | doc 2299]\n1967 Indiana Hoosiers football team\nThe 1967 Indiana Hoosiers football team represented Indiana University in the 1967 Big Ten Conference football season. They participated as members of the Big Ten Conference. The Hoosiers played their home games at Seventeenth Street Stadium in Bloomington, Indiana. The team was coached by John Pont, in his third year as head coach of the Hoosiers. To date, they were the last Indiana team to win the Big Ten Conference, and the last non Michigan or Ohio State team to win the league title (and consequently represent the conference in the Rose Bowl) until 1981, when Iowa won the conference crown.\n\n[chunk 2486 | doc 2486]\nMike Krzyzewski\nMichael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\".",
+        "context_sha256": "2e746ff67957ca21b39a14bfca6bb6ee69719e1989996b8f18814ec0e89172cf",
+        "retrieved_chunks": [
+          2305,
+          2306,
+          2307,
+          1548,
+          2299,
+          2486
+        ],
+        "context_tokens": 880,
+        "requested_context_budget": 2048,
+        "available_chunks": 4973,
+        "exact_match": 0.0,
+        "f1": 0.8
+      }
+    ]
+  }
+}

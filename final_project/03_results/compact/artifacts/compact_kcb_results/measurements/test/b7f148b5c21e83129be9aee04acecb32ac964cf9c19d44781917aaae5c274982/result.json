@@ -1,0 +1,191 @@
+{
+  "params": {
+    "k": 4,
+    "c": 512,
+    "Bc": 2048
+  },
+  "values": [
+    0.5599999999999999,
+    575.8
+  ],
+  "exact_match": 0.4,
+  "known_generator_tokens": 2879,
+  "qa_count": 5,
+  "rows": [
+    {
+      "answer": "Kevin Wilson",
+      "available_chunks": 4992,
+      "call_id": "863aa1d3b19a41808116b38849d6ae2b",
+      "context": "[chunk 2314 | doc 2305]\nKevin Wilson (American football)\nKevin Reece Wilson (born October 23, 1961) is an American football coach and former player who is the current offensive coordinator at Ohio State University. Wilson served as the head football coach at Indiana University Bloomington from 2011 to 2016 and was the offensive coordinator at the University of Oklahoma from 2002 to 2010.\n\n[chunk 2315 | doc 2306]\n2013 Indiana Hoosiers football team\nThe 2013 Indiana Hoosiers football team represented the Indiana University during the 2013 NCAA Division I FBS football season. The Hoosiers played in the Leaders Division of the Big Ten Conference and played their home games at Memorial Stadium in Bloomington, Indiana. The team was led by head coach Kevin Wilson, who was in his third season. They finished the season 5–7, 3–5 in Big Ten play to finish in fourth place in the Leaders Division.\n\n[chunk 2316 | doc 2307]\n2011 Indiana Hoosiers football team\nThe 2011 Indiana Hoosiers football team represented Indiana University Bloomington during the 2011 NCAA Division I FBS football season in the new Leaders Division of the Big Ten Conference. The 2011 season was the first for new head coach Kevin Wilson, formerly the offensive coordinator at Oklahoma. The Hoosiers played their home games at Memorial Stadium in Bloomington, Indiana. They finished the season 1–11, 0–8 in Big Ten play to place last in the Leaders Division.\n\n[chunk 1553 | doc 1548]\nBob Stoops\nRobert Anthony Stoops (born September 9, 1960) is a former American college football coach. He is the former head football coach at the University of Oklahoma, a position he held from 1999 until he announced his retirement June 7, 2017. During the 2000 season, Stoops led the Sooners to an Orange Bowl victory and a national championship.",
+      "context_sha256": "1d60255e730b39ea44a214f42dd3fedf10a733fd0736dd2473ae4c13422f5fe3",
+      "context_tokens": 474,
+      "difficulty": "hard",
+      "error": null,
+      "exact_match": 0.0,
+      "f1": 0.8,
+      "logical_generation_seconds": 0.32562240499999007,
+      "measurement_wall_seconds": 0.010664918999964357,
+      "qa_id": "5ae60b9b554299546bf8302f",
+      "qtype": "bridge",
+      "question": "The 2013 Indiana Hoosiers football team were lead by which current offensive coordinator at Ohio State?",
+      "reference": "Kevin Reece Wilson",
+      "requested_context_budget": 2048,
+      "response_cache_hit": true,
+      "response_cache_key": "8bda5fcf9c045a0da361b30f57088e495ce65be5c427ec06db5049bb050c9509",
+      "retrieved_chunks": [
+        2314,
+        2315,
+        2316,
+        1553
+      ],
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 541,
+        "prompt_tokens_details": {
+          "cached_tokens": 268
+        },
+        "total_tokens": 544
+      }
+    },
+    {
+      "answer": "Make",
+      "available_chunks": 4992,
+      "call_id": "b838ac30f76542b2956788bdb9f953a8",
+      "context": "[chunk 1437 | doc 1433]\nWilliam Gurstelle\nWilliam Gurstelle (born March 29, 1956) is an American nonfiction author, magazine writer, and inventor. He is a feature columnist for \"Make\" magazine and a columnist and contributing editor at \"Popular Science\" magazine. Previously, he was the Pyrotechnics and Ballistics Editor at \"Popular Mechanics\" magazine.\n\n[chunk 1442 | doc 1438]\nMake (magazine)\nMake: (or \"MAKE:\") is an American bimonthly magazine published by Maker Media which focuses on do it yourself (DIY) and/or DIWO (Do It With Others) projects involving computers, electronics, robotics, metalworking, woodworking and other disciplines. The magazine is marketed to people who enjoy making things and features complex projects which can often be completed with cheap materials, including household items. \"Make\" magazine is considered \"a central organ of the maker movement.\"\n\n[chunk 1436 | doc 1432]\nBackyard Ballistics\nBackyard Ballistics is a how-to book by William Gurstelle that was published in 2001. It is full of experiments that can be done relatively inexpensively and can be easily executed. It also includes the history and mechanical principles of some of the inventions and projects. From catapults to rockets, this book describes accessible ways to create these at home or in the classroom. In addition to recreational use by individuals, teacher's guides have been developed and science fair projects designed around this book. It has been cited in several educational and scientific journals.\n\n[chunk 179 | doc 179]\nMagazine\nA magazine is a publication, usually a periodical publication, which is printed or electronically published (sometimes referred to as an online magazine). Magazines are generally published on a regular schedule and contain a variety of content. They are generally financed by advertising, by a purchase price, by prepaid subscriptions, or a combination of the three. At its root, the word \"magazine\" refers to a collection or storage location. In the case of written publication, it is a collection of written articles. This explains why magazine publications share the word root with gunpowder magazines, artillery magazines, firearms magazines, and, in French, retail stores such as department stores.",
+      "context_sha256": "534bc8a3ff35d4d9f7b1b57eeae481828d56a5d7057d2d4df8d91fa56b08dc9b",
+      "context_tokens": 491,
+      "difficulty": "hard",
+      "error": null,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "logical_generation_seconds": 0.3125031039999726,
+      "measurement_wall_seconds": 0.01157732400002942,
+      "qa_id": "5a8a582a5542995153361372",
+      "qtype": "bridge",
+      "question": "What do it yourself magazine does William Gurstelle write for?",
+      "reference": "Make",
+      "requested_context_budget": 2048,
+      "response_cache_hit": true,
+      "response_cache_key": "debb495c2e76de1254610f040c2e67e1d6fb0dfbe7a7f8e1a6e74d109ec00db7",
+      "retrieved_chunks": [
+        1437,
+        1442,
+        1436,
+        179
+      ],
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 548,
+        "prompt_tokens_details": {
+          "cached_tokens": 245
+        },
+        "total_tokens": 550
+      }
+    },
+    {
+      "answer": "six weeks",
+      "available_chunks": 4992,
+      "call_id": "3ede672f5e0e4248b9db131172d5f55d",
+      "context": "[chunk 1319 | doc 1315]\nThe Underdog Show\nThe Underdog Show was a six-week television series presented by Julian Clary and his dog, Valerie. The series was produced by the independent production company Splash Media.\n\n[chunk 1317 | doc 1313]\nJulian Clary\nJulian Peter McDonald Clary (born 25 May 1959) is an English comedian and novelist. Openly gay, Clary began appearing on television in the mid-1980s and became known for his deliberately stereotypical camp style. Since then he has also acted in films, television and stage productions, and was the winner of \"Celebrity Big Brother 10\" in 2012.\n\n[chunk 1322 | doc 1318]\nAll Rise for Julian Clary\nAll Rise for Julian Clary is a British light entertainment game show broadcast on BBC2 from 27 September 1996 to 22 December 1997. The show centres around Julian being a judge in a mock court room, with contestants arguing their case before Judge Julian Clary.\n\n[chunk 1323 | doc 1319]\nMurder Most Fab\nMurder Most Fab (2007) is the debut novel of comedian Julian Clary.",
+      "context_sha256": "f8f007e47f128678bb8e96ba17146130cc00ab4984adcee58d6ab8ca704a1f90",
+      "context_tokens": 288,
+      "difficulty": "hard",
+      "error": null,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "logical_generation_seconds": 0.2136854009999638,
+      "measurement_wall_seconds": 0.006896697999991375,
+      "qa_id": "5a8ba7d75542996e8ac88991",
+      "qtype": "bridge",
+      "question": "How long was the Underdog show presented by an English comedian Julian Clary?",
+      "reference": "six-week television series",
+      "requested_context_budget": 2048,
+      "response_cache_hit": true,
+      "response_cache_key": "a958a655ff29abb2c151169de591c401ff06e6552282cee46dcd18d58d4f7eea",
+      "retrieved_chunks": [
+        1319,
+        1317,
+        1322,
+        1323
+      ],
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 348,
+        "prompt_tokens_details": {
+          "cached_tokens": 198
+        },
+        "total_tokens": 351
+      }
+    },
+    {
+      "qa_id": "5a87432d5542994775f607b5",
+      "question": "Has Alek Keshishian been the writer for more films than Mark Krikorian?",
+      "reference": "yes",
+      "qtype": "comparison",
+      "difficulty": "hard",
+      "answer": "unknown",
+      "error": null,
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 553,
+        "total_tokens": 555,
+        "prompt_tokens_details": {
+          "cached_tokens": 312
+        }
+      },
+      "call_id": "f44629f0c1ce47e7aed7cc906550460c",
+      "response_cache_key": "8b2cd65c87ffa2f03a0021ac52f5ef01a4ad578bce673f665df8f48cc995744a",
+      "response_cache_hit": true,
+      "logical_generation_seconds": 0.2713537480000241,
+      "measurement_wall_seconds": 0.010820905000002767,
+      "context": "[chunk 3957 | doc 3942]\nAlek Keshishian\nAlek Keshishian (Armenian: Ալեք Գևորգի Քեշիշյան , born 30 July 1964 in Beirut, Lebanon) is an Armenian-American film and commercial director, writer, producer and music video director. He is best known for his 1991 film \"\" which was, at the time, the highest-grossing documentary of all time.\n\n[chunk 3958 | doc 3943]\nMark Krikorian\nMark Krikorian has been the executive director of the Center for Immigration Studies, a think-tank in Washington, D. C., since 1995. The Center describes itself as an \"independent, non-partisan research organization\" in Washington, D. C., that examines and critiques the impact of immigration on the United States. Animated by a \"pro-immigrant, low-immigration vision which seeks fewer immigrants, but a warmer welcome for those admitted\", the Center was established in 1985 to provide immigration research. Krikorian is a regular contributor to the conservative publication \"National Review\", and is a regular participant at \"National Review Online's\" \"The Corner.\"\n\n[chunk 203 | doc 203]\nMark L. Lester\nMark L. Lester (born November 26, 1946) is an American film director, screenwriter, and producer. He is best known as a prolific director of cult films including the disco musical \"Roller Boogie\", the vigilante thriller film \"Class of 1984\", the Stephen King-adaptation \"Firestarter\" (1984), the Arnold Schwarzenegger action film \"Commando\" (1985), and the action-comedy \"Armed and Dangerous\" (1986), starring John Candy, Eugene Levy, and Meg Ryan.\n\n[chunk 3956 | doc 3941]\nMark Krikorian (soccer)\nMark Krikorian (born March 28, 1960) is an American soccer coach, who has been in charge of the Florida State Seminoles women's soccer program since 2005.",
+      "context_sha256": "6f2d91ed0fb70b96f04fbef7d8ce5a2f021b5c7b7b72b272028aa685ebbd1e53",
+      "retrieved_chunks": [
+        3957,
+        3958,
+        203,
+        3956
+      ],
+      "context_tokens": 490,
+      "requested_context_budget": 2048,
+      "available_chunks": 4992,
+      "exact_match": 0.0,
+      "f1": 0.0
+    },
+    {
+      "qa_id": "5a8299e255429954d2e2eb76",
+      "question": "Apart from the founder of the Exclusive Brethren, what is the name of the second person who was sent by the Plymouth Brethren to investigate the outbreak of supernatural gifts of the Holy Spirit in Scotland?",
+      "reference": "Benjamin Wills Newton",
+      "qtype": "bridge",
+      "difficulty": "hard",
+      "answer": "Benjamin Wills Newton",
+      "error": null,
+      "usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 873,
+        "total_tokens": 879,
+        "prompt_tokens_details": {
+          "cached_tokens": 547
+        }
+      },
+      "call_id": "cbb393a684cf4f9183ab113d9619fc75",
+      "response_cache_key": "3d3369de2542358db359d53c50f419b288ebdde51571e027bb94767a6af61c6f",
+      "response_cache_hit": true,
+      "logical_generation_seconds": 0.4398298159999854,
+      "measurement_wall_seconds": 0.01800665400003254,
+      "context": "[chunk 3379 | doc 3368]\nExclusive Brethren\nThe Exclusive Brethren are a subset of the Christian evangelical movement generally described as the Plymouth Brethren. They are distinguished from the Open Brethren from whom they separated in 1848.\n\n[chunk 3373 | doc 3362]\nPlymouth Brethren Christian Church\nThe Plymouth Brethren Christian Church (PBCC) is a Protestant church, often known as Exclusive Brethren or Raven-Taylor-Hales Brethren. These Brethren hold an uncompromising 'separatist' doctrine and their practice has steadily evolved differently from other Plymouth Brethren groups and also from mainstream Christianity. In a radical departure from traditional Plymouth Brethren rejection of a clerical hierarchy, the PBCC has evolved into a tightly-controlled hierarchical organization dominated by one person known as the Elect Vessel or the Man of God. The current Elect Vessel is Bruce Hales of Australia. Most media reporting of \"Exclusive Brethren\" relates only to the Plymouth Brethren Christian Church although other branches exist.\n\n[chunk 3378 | doc 3367]\nMargaret MacDonald (visionary)\nMargaret MacDonald was born in 1815 in Port Glasgow, Scotland and died around 1840. She lived with her two older brothers, James and George, both of whom ran a shipping business. Beginning in 1826 and through 1829, a few preachers in Scotland emphasized that the world's problems could only be addressed through an outbreak of supernatural gifts from the Holy Spirit. In response, Isabella and Mary Campbell of the parish of Rosneath manifested charismatic experiences such as speaking in tongues. Around 1830, miraculous healings were reported through James Campbell, first of his sister Margaret MacDonald and then of Mary Campbell (through James's letter to Mary). Shortly thereafter, James and George MacDonald manifested the speaking and interpretations of tongues, and soon others followed suit in prayer meetings. These charismatic experiences garnered major national attention. Many came to see and investigate these events. Some, such as Edward Irving and Henry Drummond, regarded these events as genuine displays from the Holy Spirit. Others, including John Nelson Darby and Benjamin Wills Newton, whom the Plymouth Brethren sent on their behalf to investigate, came to the conclusion that these displays were demonic.\n\n[chunk 3370 | doc 3359]\nBehind the Exclusive Brethren\nBehind the Exclusive Brethren: Politics Persuasion and Persecution is a non-fiction book by journalist and author Michael Bachelard about the group Exclusive Brethren, focusing on the sect in Australia. It was published in 2008 by Scribe Publications Pty Ltd. Bachelard first became interested in the organisation while a journalist for \"The Age\", after finding out that prior to the 2007 Australian federal election the Exclusive Brethren organisation in Australia had close access to John Howard. He spent two years researching the group, focusing on its history, influence in Australia, and ties to the Liberal Party of Australia and to Howard. The book gives a historical background of the group's origins 200 years ago in Ireland under John Nelson Darby. Since 2002, Bruce Hales served as the international leader and \"Elect Vessel\" of the organisation, which has 15,000 members in Australia and 43,000 total globally. The author describes the beliefs and practices and doctrine of the organisation, including some of its more controversial methodology including excommunication of former members from their family still within the group. Daniel Hales, brother of the organisation's worldwide leader Bruce Hales, described the book as part of a trend of what he said were lies told about his group by critics and disaffected former members.",
+      "context_sha256": "b349f4b97c014e765dc578051d7e7c990089d9909568ae96066cbdc32cd44c1f",
+      "retrieved_chunks": [
+        3379,
+        3373,
+        3378,
+        3370
+      ],
+      "context_tokens": 789,
+      "requested_context_budget": 2048,
+      "available_chunks": 4992,
+      "exact_match": 1.0,
+      "f1": 1.0
+    }
+  ]
+}
