@@ -1,0 +1,7 @@
+{
+  "file": "compact_kcb_review.zip",
+  "bytes": 3525628,
+  "sha256": "85e0ef0edda8bd3b285a20af4c45e4e5161cf61942bcd5fb1bc2eecc8883c611",
+  "saved_unix": 1794829613.6460912,
+  "scope": "Actual compact measurements and explicitly labeled optimizer replays; no model weights/index cache."
+}

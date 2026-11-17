@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "search_qa_count": 5,
+  "grid_cells": 27,
+  "replay_seeds": 10,
+  "holdout_selected_unique_configurations": 3,
+  "physical_endpoint_calls": 77
+}

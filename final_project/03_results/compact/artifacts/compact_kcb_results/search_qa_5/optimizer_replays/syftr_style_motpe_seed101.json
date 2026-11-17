@@ -1,0 +1,503 @@
+{
+  "method": "syftr_style_motpe",
+  "seed": 101,
+  "trace": [
+    {
+      "attempt": 1,
+      "configuration_id": "f9a46a3069de9082072ddc1fed9b4fede7c86c825a455e2d1deb2ea76abbf0ce",
+      "params": {
+        "k": 6,
+        "c": 256,
+        "Bc": 512
+      },
+      "values": [
+        0.49333333333333335,
+        569.2
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 1,
+      "hypervolume": 0.43717226666666664,
+      "equivalent_generator_tokens": 2846,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 2,
+      "configuration_id": "397fe59b0d89c0ce22f22cda3f9106904a72c3be71af6ad5648758c14628c497",
+      "params": {
+        "k": 2,
+        "c": 1024,
+        "Bc": 512
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 2,
+      "hypervolume": 0.4628770666666666,
+      "equivalent_generator_tokens": 4295,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 3,
+      "configuration_id": "ff7314b5f1933bf05fcdbc3eab43b217a005b9d56d89fed584e87367d767bf48",
+      "params": {
+        "k": 4,
+        "c": 1024,
+        "Bc": 2048
+      },
+      "values": [
+        0.5599999999999999,
+        575.8
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 3,
+      "hypervolume": 0.5218663999999998,
+      "equivalent_generator_tokens": 7174,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 4,
+      "configuration_id": "ff29fd55677067bc9addfb6b76b88b8986b9b1ab8feb05912438f0279f24225e",
+      "params": {
+        "k": 4,
+        "c": 256,
+        "Bc": 2048
+      },
+      "values": [
+        0.5599999999999999,
+        545.0
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 4,
+      "hypervolume": 0.5224383999999999,
+      "equivalent_generator_tokens": 9899,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 5,
+      "configuration_id": "b7f148b5c21e83129be9aee04acecb32ac964cf9c19d44781917aaae5c274982",
+      "params": {
+        "k": 4,
+        "c": 512,
+        "Bc": 2048
+      },
+      "values": [
+        0.5599999999999999,
+        575.8
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 5,
+      "hypervolume": 0.5224383999999999,
+      "equivalent_generator_tokens": 12778,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 6,
+      "configuration_id": "7a1f861c9259b1d6f86bf3c1f0143489f5bc5b8373f74fb83beab06a0ac5fafc",
+      "params": {
+        "k": 2,
+        "c": 256,
+        "Bc": 1024
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 6,
+      "hypervolume": 0.5224383999999999,
+      "equivalent_generator_tokens": 14227,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 7,
+      "configuration_id": "a0445a7dd50cf3c72ac16f221e4be6951665dc77d2272821cda00ff671c12a1b",
+      "params": {
+        "k": 4,
+        "c": 1024,
+        "Bc": 1024
+      },
+      "values": [
+        0.5599999999999999,
+        575.8
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 7,
+      "hypervolume": 0.5224383999999999,
+      "equivalent_generator_tokens": 17106,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 8,
+      "configuration_id": "bc0e3f589392a857ad512d7120d0d2977463e5fa12fa4a554e31d6a7398b596e",
+      "params": {
+        "k": 6,
+        "c": 1024,
+        "Bc": 1024
+      },
+      "values": [
+        0.49333333333333335,
+        904.6
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 8,
+      "hypervolume": 0.5224383999999999,
+      "equivalent_generator_tokens": 21629,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 9,
+      "configuration_id": "b981b00b86e7add99e79a7282372bef6e29187ccde6fb8e9f1a5643841c15da6",
+      "params": {
+        "k": 2,
+        "c": 1024,
+        "Bc": 1024
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 9,
+      "hypervolume": 0.5224383999999999,
+      "equivalent_generator_tokens": 23078,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 10,
+      "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+      "params": {
+        "k": 4,
+        "c": 256,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        520.6
+      ],
+      "proposal_origin": "shared_initialization",
+      "repeat_query": false,
+      "unique_configurations": 10,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 25681,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 11,
+      "configuration_id": "397fe59b0d89c0ce22f22cda3f9106904a72c3be71af6ad5648758c14628c497",
+      "params": {
+        "k": 2,
+        "c": 1024,
+        "Bc": 512
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": true,
+      "unique_configurations": 10,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 27130,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 12,
+      "configuration_id": "cf611e36f240b57d4bf9d1136f9c4aff89c8c9c079aed4576477ece55db70497",
+      "params": {
+        "k": 2,
+        "c": 256,
+        "Bc": 512
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 11,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 28579,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 13,
+      "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+      "params": {
+        "k": 4,
+        "c": 256,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        520.6
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": true,
+      "unique_configurations": 11,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 31182,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 14,
+      "configuration_id": "007fa7dbd73a40992103c58e8f183f08e525f365cc3a3909ea23ad1255eb226d",
+      "params": {
+        "k": 6,
+        "c": 1024,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        569.0
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 12,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 34027,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 15,
+      "configuration_id": "a327046c9c55194bcbde7dc8f5d62e0d7cffd9eaac8f8dfaf4d9f9030edcce45",
+      "params": {
+        "k": 2,
+        "c": 512,
+        "Bc": 512
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 13,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 35476,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 16,
+      "configuration_id": "11b1f29d2aafdd0770d1c9239a0f9f298d5e10e282251f7451b8601398a0d3d6",
+      "params": {
+        "k": 4,
+        "c": 1024,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        520.6
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 14,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 38079,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 17,
+      "configuration_id": "8b548b334b2b6cc9709065cfd3b3e0be7cf905ad67d2d3951700abc4b9b95a4d",
+      "params": {
+        "k": 2,
+        "c": 1024,
+        "Bc": 2048
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 15,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 39528,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 18,
+      "configuration_id": "b0c05ade038986744be3345696b004ba51d4db79f812534f94f3372f3658465e",
+      "params": {
+        "k": 4,
+        "c": 512,
+        "Bc": 1024
+      },
+      "values": [
+        0.5599999999999999,
+        575.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 16,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 42407,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 19,
+      "configuration_id": "526061f84af230d8abe4437a851c1732a497b9f375a8f3bd1b0d38764befbeb7",
+      "params": {
+        "k": 6,
+        "c": 512,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        569.0
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 17,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 45252,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 20,
+      "configuration_id": "397fe59b0d89c0ce22f22cda3f9106904a72c3be71af6ad5648758c14628c497",
+      "params": {
+        "k": 2,
+        "c": 1024,
+        "Bc": 512
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": true,
+      "unique_configurations": 17,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 46701,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 21,
+      "configuration_id": "3a8ac827dd381cebaaa7df00657ab63e5ce397f481bb7177924c6920be747f3a",
+      "params": {
+        "k": 6,
+        "c": 512,
+        "Bc": 2048
+      },
+      "values": [
+        0.49333333333333335,
+        934.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 18,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 51375,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 22,
+      "configuration_id": "d08785f39742543fdc143305c85731205bcabcc125ff5df774b87326bf8e5d89",
+      "params": {
+        "k": 4,
+        "c": 256,
+        "Bc": 1024
+      },
+      "values": [
+        0.5599999999999999,
+        545.0
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 19,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 54100,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 23,
+      "configuration_id": "05fb49ca6aa214d671397e29c60fadd4363e0362067bd717ceb19762c1aa840b",
+      "params": {
+        "k": 4,
+        "c": 256,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        520.6
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": true,
+      "unique_configurations": 19,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 56703,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 24,
+      "configuration_id": "b684101689b5fc1dc419b23fbb73178c14cf98d9ff4de44ecb667efe9721f278",
+      "params": {
+        "k": 4,
+        "c": 512,
+        "Bc": 512
+      },
+      "values": [
+        0.5599999999999999,
+        520.6
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": false,
+      "unique_configurations": 20,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 59306,
+      "physical_generator_calls_during_replay": 0
+    },
+    {
+      "attempt": 25,
+      "configuration_id": "7a1f861c9259b1d6f86bf3c1f0143489f5bc5b8373f74fb83beab06a0ac5fafc",
+      "params": {
+        "k": 2,
+        "c": 256,
+        "Bc": 1024
+      },
+      "values": [
+        0.45999999999999996,
+        289.8
+      ],
+      "proposal_origin": "motpe",
+      "repeat_query": true,
+      "unique_configurations": 20,
+      "hypervolume": 0.5229263999999999,
+      "equivalent_generator_tokens": 60755,
+      "physical_generator_calls_during_replay": 0
+    }
+  ],
+  "front": [
+    [
+      0.45999999999999996,
+      289.8
+    ],
+    [
+      0.5599999999999999,
+      520.6
+    ]
+  ],
+  "hypervolume": 0.5229263999999999,
+  "hv_gap_to_measured_grid": 0.0,
+  "igd_to_measured_grid_front": 0.0,
+  "front_objective_recovery_fraction": 1.0,
+  "unique_configurations": 20,
+  "repeat_queries": 5,
+  "ineligible_queries": 0,
+  "equivalent_generator_tokens": 60755,
+  "cpu_optimizer_seconds": 0.038515422999978455,
+  "shared_initialization_sha256": "b8711a15a375e808900dc2173fa61761ed70417a80d1d4f3c5d808adb396ea1b",
+  "generation_log": [],
+  "optimizer_state": null
+}
