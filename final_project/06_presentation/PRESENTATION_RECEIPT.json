@@ -1,0 +1,28 @@
+{
+  "date_ist": "2026-11-17",
+  "slides": 38,
+  "main_slides": 28,
+  "appendix_slides": 7,
+  "reference_slides": 3,
+  "native_charts": 8,
+  "native_tables": 13,
+  "speaker_notes_slides": 38,
+  "files": {
+    "Local_Syftr_Research_Presentation.pdf": {
+      "bytes": 529166,
+      "sha256": "8a6a35af55afa57226ac26789d8e80184b5736bb604ac582308d133bf41d8231"
+    },
+    "Local_Syftr_Research_Presentation.pptx": {
+      "bytes": 186279,
+      "sha256": "fc75553ef5ab9244a1923ed00e508c970f591375907aa4b4e231152aa05bab43"
+    },
+    "README.md": {
+      "bytes": 1116,
+      "sha256": "9af791c3de0b22eeb4cb2e89950087a4094a6d022ee41900979fa42704fc1bdb"
+    },
+    "Speaker_Guide.md": {
+      "bytes": 22972,
+      "sha256": "814c271d989228062bb9b335c8bb07bcd4162e628265dbd9d646df4f0b5885c4"
+    }
+  }
+}
