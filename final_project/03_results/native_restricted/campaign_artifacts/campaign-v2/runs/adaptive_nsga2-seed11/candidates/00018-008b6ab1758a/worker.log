@@ -1,0 +1,80 @@
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Parsing nodes:   0%|          | 0/4972 [00:00<?, ?it/s]Parsing nodes:   2%|▏         | 92/4972 [00:00<00:05, 916.73it/s]Parsing nodes:   4%|▎         | 184/4972 [00:00<00:05, 911.49it/s]Parsing nodes:   6%|▌         | 276/4972 [00:00<00:06, 768.80it/s]Parsing nodes:   7%|▋         | 361/4972 [00:00<00:05, 794.25it/s]Parsing nodes:   9%|▉         | 443/4972 [00:00<00:06, 695.11it/s]Parsing nodes:  11%|█         | 538/4972 [00:00<00:05, 768.97it/s]Parsing nodes:  13%|█▎        | 632/4972 [00:00<00:05, 817.59it/s]Parsing nodes:  14%|█▍        | 717/4972 [00:00<00:05, 815.05it/s]Parsing nodes:  16%|█▋        | 816/4972 [00:01<00:05, 795.44it/s]Parsing nodes:  18%|█▊        | 902/4972 [00:01<00:05, 812.04it/s]Parsing nodes:  20%|█▉        | 991/4972 [00:01<00:04, 833.69it/s]Parsing nodes:  22%|██▏       | 1078/4972 [00:01<00:04, 843.07it/s]Parsing nodes:  24%|██▎       | 1169/4972 [00:01<00:04, 860.83it/s]Parsing nodes:  25%|██▌       | 1256/4972 [00:01<00:04, 860.75it/s]Parsing nodes:  27%|██▋       | 1343/4972 [00:01<00:04, 759.49it/s]Parsing nodes:  29%|██▊       | 1425/4972 [00:01<00:04, 774.19it/s]Parsing nodes:  30%|███       | 1508/4972 [00:01<00:04, 788.31it/s]Parsing nodes:  32%|███▏      | 1589/4972 [00:02<00:04, 716.52it/s]Parsing nodes:  34%|███▎      | 1673/4972 [00:02<00:04, 747.68it/s]Parsing nodes:  35%|███▌      | 1758/4972 [00:02<00:04, 774.20it/s]Parsing nodes:  37%|███▋      | 1847/4972 [00:02<00:03, 806.49it/s]Parsing nodes:  39%|███▉      | 1929/4972 [00:02<00:04, 732.84it/s]Parsing nodes:  41%|████      | 2019/4972 [00:02<00:03, 775.89it/s]Parsing nodes:  42%|████▏     | 2101/4972 [00:02<00:03, 787.36it/s]Parsing nodes:  44%|████▍     | 2182/4972 [00:02<00:03, 712.82it/s]Parsing nodes:  45%|████▌     | 2256/4972 [00:02<00:04, 631.35it/s]Parsing nodes:  47%|████▋     | 2351/4972 [00:03<00:03, 709.70it/s]Parsing nodes:  49%|████▉     | 2428/4972 [00:03<00:03, 724.99it/s]Parsing nodes:  51%|█████     | 2512/4972 [00:03<00:03, 756.36it/s]Parsing nodes:  52%|█████▏    | 2604/4972 [00:03<00:02, 799.92it/s]Parsing nodes:  54%|█████▍    | 2687/4972 [00:03<00:02, 806.96it/s]Parsing nodes:  56%|█████▌    | 2769/4972 [00:03<00:03, 724.02it/s]Parsing nodes:  58%|█████▊    | 2865/4972 [00:03<00:02, 786.57it/s]Parsing nodes:  59%|█████▉    | 2946/4972 [00:03<00:02, 737.61it/s]Parsing nodes:  61%|██████    | 3035/4972 [00:03<00:02, 778.14it/s]Parsing nodes:  63%|██████▎   | 3125/4972 [00:04<00:02, 810.14it/s]Parsing nodes:  65%|██████▍   | 3210/4972 [00:04<00:02, 816.91it/s]Parsing nodes:  66%|██████▋   | 3300/4972 [00:04<00:01, 838.77it/s]Parsing nodes:  68%|██████▊   | 3387/4972 [00:04<00:01, 847.55it/s]Parsing nodes:  70%|██████▉   | 3475/4972 [00:04<00:01, 855.86it/s]Parsing nodes:  72%|███████▏  | 3562/4972 [00:04<00:02, 545.76it/s]Parsing nodes:  73%|███████▎  | 3644/4972 [00:04<00:02, 603.05it/s]Parsing nodes:  75%|███████▍  | 3727/4972 [00:04<00:01, 654.96it/s]Parsing nodes:  77%|███████▋  | 3820/4972 [00:05<00:01, 722.38it/s]Parsing nodes:  79%|███████▊  | 3907/4972 [00:05<00:01, 760.34it/s]Parsing nodes:  80%|████████  | 3990/4972 [00:05<00:01, 744.39it/s]Parsing nodes:  82%|████████▏ | 4070/4972 [00:05<00:01, 741.60it/s]Parsing nodes:  83%|████████▎ | 4148/4972 [00:05<00:01, 705.75it/s]Parsing nodes:  85%|████████▌ | 4241/4972 [00:05<00:00, 765.50it/s]Parsing nodes:  87%|████████▋ | 4320/4972 [00:05<00:00, 704.71it/s]Parsing nodes:  89%|████████▊ | 4402/4972 [00:05<00:00, 662.14it/s]Parsing nodes:  90%|█████████ | 4489/4972 [00:05<00:00, 714.45it/s]Parsing nodes:  92%|█████████▏| 4575/4972 [00:06<00:00, 752.46it/s]Parsing nodes:  94%|█████████▎| 4656/4972 [00:06<00:00, 766.26it/s]Parsing nodes:  95%|█████████▌| 4737/4972 [00:06<00:00, 776.30it/s]Parsing nodes:  97%|█████████▋| 4816/4972 [00:06<00:00, 704.06it/s]Parsing nodes:  99%|█████████▊| 4900/4972 [00:06<00:00, 739.35it/s]Parsing nodes: 100%|██████████| 4972/4972 [00:06<00:00, 751.07it/s]
+DEBUG:bm25s:Building index from IDs objects
+Generated queries:
+Queries:
+- Head coach of Indiana Hoosiers football in 2013
+- 2013 Indiana Hoosiers football team head coach name
+Generated queries:
+Which current offensive coordinator at Ohio State has experience as the head coach of the 2013 Indiana Hoosiers football team?
+Who is the current offensive coordinator at Ohio State that previously coached Indiana in 2013?
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What types of articles does William Gurstelle contribute to It Yourself magazine?
+Examples of content written by William Gurstelle for It Yourself magazine.
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+What is the Underdog TV show about?
+Where can I find the title of the Underdog series?
+Generated queries:
+Who presented the Underdog show on television?
+Which celebrities hosted the Underdog show?
+Generated queries:
+Is Julian Clary an English comedian?
+What is Julian Clary's background as a comedian?
+Generated queries:
+When did the Underdog TV show first air?
+Where can I find the airing schedule for Underdog?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian written any films?
+Has Alek Keshishian had a career as a film writer?
+Generated queries:
+Alek Keshishian film writing credits
+Alek Keshishian written films list
+Generated queries:
+Has Mark Krikorian written screenplays?
+Has Mark Krikorian worked as a film writer?
+Generated queries:
+How many films has Mark Krikorian authored?
+Mark Krikorian film writing career overview
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+- When and how did the second Plymouth Brethren investigator arrive in Scotland during the supernatural gifts outbreak?
+- Who were the first and second individuals sent by the Plymouth Brethren to investigate the supernatural gifts in Scotland?
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+Rachel Noerdlinger's previous chief of staff name
+Rachel Noerdlinger's former chief of staff biography
+Generated queries:
+What is the woman referred to in the question?
+In which year was the woman mentioned in the question born?
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+Sesame Workshop children's television series name
+Name of the show produced by Sesame Workshop for kids
+Generated queries:
+Queries:
+- Who was the original executive producer of Sesame Street?
+- What was the role of the original executive producer in children's television series?
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+Who is the singer in the movie 'The Underdog'?
+Cast of 'The Underdog' including the singer and Park So-dam, Park Chul-min.
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+What type of media is "Fuck"?
+What type of media is "The Celluloid Closet"?
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+What are the main focuses of MODE organization?
+How does MODE address social issues?
+Generated queries:
+Queries:
+- Common health issues addressed by Women's Health organizations
+- Key focuses of Women's Health research and advocacy
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None

@@ -1,0 +1,38 @@
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Parsing nodes:   0%|          | 0/4972 [00:00<?, ?it/s]Parsing nodes:   2%|▏         | 94/4972 [00:00<00:05, 927.45it/s]Parsing nodes:   4%|▍         | 188/4972 [00:00<00:05, 931.91it/s]Parsing nodes:   6%|▌         | 282/4972 [00:00<00:05, 791.49it/s]Parsing nodes:   7%|▋         | 371/4972 [00:00<00:05, 821.72it/s]Parsing nodes:   9%|▉         | 455/4972 [00:00<00:06, 715.00it/s]Parsing nodes:  11%|█         | 551/4972 [00:00<00:05, 784.95it/s]Parsing nodes:  13%|█▎        | 640/4972 [00:00<00:05, 813.85it/s]Parsing nodes:  15%|█▍        | 725/4972 [00:00<00:05, 823.33it/s]Parsing nodes:  16%|█▋        | 809/4972 [00:01<00:05, 803.82it/s]Parsing nodes:  18%|█▊        | 891/4972 [00:01<00:05, 736.36it/s]Parsing nodes:  20%|█▉        | 985/4972 [00:01<00:05, 790.51it/s]Parsing nodes:  22%|██▏       | 1077/4972 [00:01<00:04, 825.52it/s]Parsing nodes:  23%|██▎       | 1168/4972 [00:01<00:04, 847.15it/s]Parsing nodes:  25%|██▌       | 1258/4972 [00:01<00:04, 858.00it/s]Parsing nodes:  27%|██▋       | 1345/4972 [00:01<00:04, 790.86it/s]Parsing nodes:  29%|██▊       | 1428/4972 [00:01<00:04, 799.85it/s]Parsing nodes:  30%|███       | 1510/4972 [00:01<00:04, 802.79it/s]Parsing nodes:  32%|███▏      | 1592/4972 [00:02<00:04, 727.75it/s]Parsing nodes:  34%|███▎      | 1675/4972 [00:02<00:04, 754.73it/s]Parsing nodes:  35%|███▌      | 1761/4972 [00:02<00:04, 780.51it/s]Parsing nodes:  37%|███▋      | 1854/4972 [00:02<00:03, 822.05it/s]Parsing nodes:  39%|███▉      | 1938/4972 [00:02<00:04, 742.81it/s]Parsing nodes:  41%|████      | 2030/4972 [00:02<00:03, 789.25it/s]Parsing nodes:  43%|████▎     | 2114/4972 [00:02<00:03, 802.02it/s]Parsing nodes:  44%|████▍     | 2196/4972 [00:02<00:03, 733.97it/s]Parsing nodes:  46%|████▌     | 2272/4972 [00:02<00:04, 648.31it/s]Parsing nodes:  48%|████▊     | 2363/4972 [00:03<00:03, 713.68it/s]Parsing nodes:  49%|████▉     | 2444/4972 [00:03<00:03, 738.87it/s]Parsing nodes:  51%|█████     | 2529/4972 [00:03<00:03, 769.30it/s]Parsing nodes:  53%|█████▎    | 2620/4972 [00:03<00:02, 808.34it/s]Parsing nodes:  54%|█████▍    | 2703/4972 [00:03<00:03, 730.94it/s]Parsing nodes:  56%|█████▌    | 2792/4972 [00:03<00:02, 772.90it/s]Parsing nodes:  58%|█████▊    | 2872/4972 [00:03<00:02, 735.84it/s]Parsing nodes:  60%|█████▉    | 2962/4972 [00:03<00:02, 780.46it/s]Parsing nodes:  61%|██████▏   | 3049/4972 [00:03<00:02, 803.26it/s]Parsing nodes:  63%|██████▎   | 3137/4972 [00:04<00:02, 824.11it/s]Parsing nodes:  65%|██████▍   | 3226/4972 [00:04<00:02, 842.30it/s]Parsing nodes:  67%|██████▋   | 3319/4972 [00:04<00:01, 864.31it/s]Parsing nodes:  69%|██████▊   | 3407/4972 [00:04<00:01, 859.53it/s]Parsing nodes:  70%|███████   | 3494/4972 [00:04<00:01, 845.59it/s]Parsing nodes:  72%|███████▏  | 3579/4972 [00:04<00:02, 546.58it/s]Parsing nodes:  74%|███████▍  | 3668/4972 [00:04<00:02, 618.47it/s]Parsing nodes:  75%|███████▌  | 3746/4972 [00:04<00:01, 655.10it/s]Parsing nodes:  77%|███████▋  | 3835/4972 [00:05<00:01, 712.88it/s]Parsing nodes:  79%|███████▉  | 3923/4972 [00:05<00:01, 756.40it/s]Parsing nodes:  81%|████████  | 4014/4972 [00:05<00:01, 793.29it/s]Parsing nodes:  83%|████████▎ | 4102/4972 [00:05<00:01, 815.89it/s]Parsing nodes:  84%|████████▍ | 4188/4972 [00:05<00:01, 766.30it/s]Parsing nodes:  86%|████████▌ | 4279/4972 [00:05<00:00, 805.21it/s]Parsing nodes:  88%|████████▊ | 4362/4972 [00:05<00:00, 722.14it/s]Parsing nodes:  89%|████████▉ | 4438/4972 [00:05<00:00, 678.23it/s]Parsing nodes:  91%|█████████ | 4522/4972 [00:05<00:00, 718.78it/s]Parsing nodes:  93%|█████████▎| 4609/4972 [00:06<00:00, 757.96it/s]Parsing nodes:  94%|█████████▍| 4687/4972 [00:06<00:00, 753.53it/s]Parsing nodes:  96%|█████████▌| 4764/4972 [00:06<00:00, 750.90it/s]Parsing nodes:  97%|█████████▋| 4841/4972 [00:06<00:00, 683.73it/s]Parsing nodes:  99%|█████████▉| 4930/4972 [00:06<00:00, 654.19it/s]Parsing nodes: 100%|██████████| 4972/4972 [00:06<00:00, 757.78it/s]
+DEBUG:bm25s:Building index from IDs objects
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Generated queries:
+The 2013 Indiana Hoosiers football coach current Ohio State position
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What topics does William Gurstelle cover in his articles for It Yourself magazine?
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+How long was the Underdog TV show hosted by Julian Clary?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian directed or written for more films than Mark Krikorian?
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+What was the role of the second person sent by the Plymouth Brethren to investigate the supernatural gifts in Scotland during the early 1900s?
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+What year was Heather Wilson born, considering her former chief of staff was Rachel Noerdlinger?
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Original executive producer of Sesame Street
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+What is the stage name of the actor playing the lead role in "The Underdog" alongside Park So-dam and Park Chul-min?
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+- What is "Fuck" and "The Celluloid Closet" by?
+- "Fuck" and "The Celluloid Closet" are both examples of what type of work?
+- Are "Fuck" and "The Celluloid Closet" both films?
+- What genre do "Fuck" and "The Celluloid Closet" fall under?
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+Do MODE magazine cover topics related to women's health and issues?
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None

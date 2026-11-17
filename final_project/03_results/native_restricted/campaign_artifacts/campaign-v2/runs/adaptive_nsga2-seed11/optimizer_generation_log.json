@@ -1,0 +1,35 @@
+[
+  {
+    "generation": 1,
+    "offspring_attempts": 5,
+    "successful_offspring": 5,
+    "hypervolume": 0.4418045549206349,
+    "hypervolume_gain": 0.07557738862916463,
+    "conditional_diversity": 0.49197471599736414,
+    "stagnation_generations": 0,
+    "mutation_multiplier_used": 1.0,
+    "mutation_multiplier_next": 1.0
+  },
+  {
+    "generation": 2,
+    "offspring_attempts": 5,
+    "successful_offspring": 5,
+    "hypervolume": 0.4423547453781512,
+    "hypervolume_gain": 0.0005501904575163086,
+    "conditional_diversity": 0.4254836622575067,
+    "stagnation_generations": 0,
+    "mutation_multiplier_used": 1.0,
+    "mutation_multiplier_next": 1.0
+  },
+  {
+    "generation": 3,
+    "offspring_attempts": 5,
+    "successful_offspring": 5,
+    "hypervolume": 0.4425132498039215,
+    "hypervolume_gain": 0.00015850442577025614,
+    "conditional_diversity": 0.45347961255749547,
+    "stagnation_generations": 0,
+    "mutation_multiplier_used": 1.0,
+    "mutation_multiplier_next": 1.0
+  }
+]
