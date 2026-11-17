@@ -1,208 +1,74 @@
-# <img src="https://raw.githubusercontent.com/datarobot/syftr/refs/heads/main/docs/syftr-logo.jpeg" alt="syftr Logo" width="200"/> Efficient Search for Pareto-optimal Flows
+# Multi-objective Optimization of Local RAG Pipelines
 
-__syftr__ is an agent optimizer that helps you find the best agentic workflows for a given budget. You bring your own dataset, compose the search space from models and components, and __syftr__ finds the best combination of parameters for your budget. It uses advances in multi-objective Bayesian Optimization and a novel domain-specific "Pareto Pruner" to efficiently sample a search space of agentic and non-agentic flows to estimate a Pareto-frontier (optimal trade-off curve) between accuracy and objectives that compete like cost, latency, throughput.
+Research Methodology project: comparing a local adaptation of Syftr’s multi-objective TPE baseline with **NSGA-II**, **Hybrid NSGA-II + MOTPE**, and **Adaptive NSGA-II**.
 
-![syftr](https://raw.githubusercontent.com/datarobot/syftr/refs/heads/main/docs/flowgen_headliner.png)
+**Start here:** the final implementation actually executed on Kaggle is in [`final_project/02_implementation/native_exact`](final_project/02_implementation/native_exact). The original Syftr files at the repository root are retained as historical framework context; use the final snapshot for this study. Its files are preserved, including the original dependency lock and bundle manifest. Research modules are under `ourwork/`; the inherited Syftr framework is under `syftr/`.
 
-Please read more details in our [blogpost](https://www.datarobot.com/blog/pareto-optimized-ai-workflows-syftr)
-and full [technical paper](https://arxiv.org/abs/2505.20266).
+## Completed experiment
 
-We are excited for what you will discover using __syftr__!
+We ran a declared **restricted subset** of Syftr’s conditional pipeline space, using Qwen2.5-7B-Instruct in GGUF Q4_K_M form, two Kaggle Tesla T4 GPUs, and HotPotQA. GPU 0 served generation; GPU 1 served BGE embeddings. All four methods used the same 10 fixed optimization questions, seed 11, 25 charged candidate attempts, and the same first 10 proposed configurations, independently evaluated for each method. The objectives were answer token F1 (maximize) and mean generator input + output tokens per question (minimize). Diagnostic judge tokens were recorded separately. Hypervolume used a fixed token reference of 50,000.
 
-## Libraries and frameworks used
+| Method | Attempts | Evaluated | Charged duplicates | Hypervolume | Best F1 |
+|---|---:|---:|---:|---:|---:|
+| Local Syftr MOTPE | 25 | 24 | 1 | 0.392754 | 0.398431 |
+| NSGA-II | 25 | 25 | 0 | 0.371658 | 0.375238 |
+| Hybrid NSGA-II + MOTPE | 25 | 24 | 1 | **0.444376** | **0.448571** |
+| Adaptive NSGA-II | 25 | 25 | 0 | 0.442513 | **0.448571** |
 
-__syftr__ builds on a number of powerful open source projects:
+Hybrid and adaptive hypervolume exceeded the local baseline by 13.14% and 12.67%, respectively, in this run. Plain NSGA-II was lower. These are **exploratory observations from one seed and ten optimization questions**, not evidence of general superiority. The native holdout confirmation did not produce usable results. The adaptive mutation multiplier stayed at 1 throughout the measured generations, so this run does not establish a benefit from adaptation. Hybrid’s highest-F1 candidate appeared before its first Bayesian injection. Repeated configurations also showed output variation. See the detailed report for these qualifications.
 
-* [Ray](https://www.ray.io/#why-ray) for distributing and scaling search over large clusters of CPUs and GPUs
+## Project contents
 
-* [Optuna](https://optuna.org/) for its flexible define-by-run interface (similar to PyTorch’s eager execution) and support for state-of-the-art multi-objective optimization algorithms
+| Location under `final_project/` | Contents |
+|---|---|
+| `01_documentation/` | Detailed PDF, Word/Markdown explanations, figures and exported tables |
+| `02_implementation/native_exact/` | Exact executed native restricted source, `pyproject.toml`, `uv.lock`, source manifest |
+| `02_implementation/compact/` | Separate compact k/c/Bc experiment implementation |
+| `03_results/native_restricted/` | Raw answers, request/call journals, candidate records, SQLite studies, Pareto fronts, audits and comparisons |
+| `03_results/compact/` | Separate compact experiment results; do not pool with the native experiment |
+| `04_reproducibility/` | CPU audit, plotting/report scripts, deployment instructions and recovery helpers |
+| `06_presentation/` | Judge-facing PowerPoint, PDF and speaker guide |
+| `PROJECT_CONTEXT.md` | Project history, decisions, recovery history and evidence limitations |
 
-* [LlamaIndex](https://www.llamaindex.ai/) for building sophisticated agentic and non-agentic RAG workflows
+The native space includes RAG/sub-question RAG, BGE small/base embeddings, retrieval variants, retrieval count, chunking, prompts and conditional enhancement settings. The protocol and actual distribution files in each saved run are authoritative. This was not an exhaustive evaluation of the original Syftr space.
 
-* [HuggingFace Datasets](https://huggingface.co/docs/datasets/en/index) for fast, collaborative, and uniform dataset interface
+## Inspect and verify results without a GPU
 
-* [Trace](https://github.com/microsoft/Trace) for optimizing textual components within workflows, such as prompts
-
-## Installation
-
-Please clone the __syftr__ repo and run:
+Python 3.12 is recommended. From the repository root:
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-uv venv --python 3.12.7
+python3.12 -m venv .venv
 source .venv/bin/activate
-uv sync --extra dev
-uv pip install -e .
-```
-or to use syftr as a library, install directly from PyPi:
-```bash
-pip install syftr
-```
-NOTE: __syftr__ works as a library, but still needs easy access to `config.yaml` and study files you intend to run. Config file should be present as `~/.syftr/config.yaml`, or in your current working directory.
-You can download sample config file to your `~/.syftr` directory with this command
-```bash
-curl -L https://raw.githubusercontent.com/datarobot/syftr/main/config.yaml.sample \
-     -o ~/.syftr/config.yaml
-```
-You also need studies to run __syftr__. You can write your own or download our example study with this command to current working directory
-```bash
-curl -L https://raw.githubusercontent.com/datarobot/syftr/main/studies/example-dr-docs.yaml > example-dr-docs.yaml
+python -m pip install -r requirements-audit.txt
+python final_project/04_reproducibility/offline_audit.py
+cd final_project/02_implementation/native_exact
+python -m unittest ourwork.optimizers.test_optimizers ourwork.optimizers.test_bridge -q
 ```
 
-### Required Credentials
+The audit recomputes primary metrics from archived answers and token journals, compares all four methods with the recorded audit, and works on a temporary copy. It does not contact an LLM, use GPU inference, modify the archived campaign, or deserialize sampler pickles. Expect 98 evaluated candidates and 980 question rows. Failed-count fields in the recorded summary include the two charged duplicate attempts; they are not two inference crashes.
 
-__syftr__'s examples require the following credentials:
+## How the approaches work
 
-* Azure OpenAI API key
-* Azure OpenAI endpoint URL (`api_url`)
-* PostgreSQL server dsn (if no dsn is provided, will use local SQLite)
+- **Local Syftr MOTPE:** pinned Optuna 4.2.1 TPE, multi-objective quality/resource search, startup pool of ten configurations.
+- **NSGA-II:** nondominated sorting, crowding distance, tournament selection, block crossover and active-gene mutation, elitist survival; population five.
+- **Hybrid NSGA-II + MOTPE:** NSGA-II with two Bayesian proposals in each five-offspring generation. Those proposals consume the same evaluation budget.
+- **Adaptive NSGA-II:** NSGA-II with mutation scaling triggered by insufficient hypervolume gain or diversity. Trigger logic is implemented, but the scaling did not activate in this run.
 
-To enter these credentials, copy [config.yaml.sample](https://github.com/datarobot/syftr/blob/main/config.yaml.sample) to `config.yaml` and edit the required portions.
+See `ourwork/optimizers/{nsga2,bridge,space}.py`, `ourwork/campaign_v2/`, and `ourwork/baseline/` in the final native snapshot. The pipeline builders reuse Syftr’s implementation; the local adapter, optimizer engine, evaluation journals and comparison workflow form our study implementation. Hybrid’s saved method identifier is `hybrid_motpe`.
 
-## Additional Configuration Options
+## Run the native experiment again on Kaggle
 
-__syftr__ uses many components including Ray for job scheduling and PostgreSQL for storing results. In this section we describe how to configure them to run __syftr__ successfully.
+The full shareable project ZIP includes `runtime_assets/syftr_restricted_v2.zip`, the original 175 MB restoration package. It is intentionally excluded from Git history. Model weights are not bundled and are downloaded by the verified setup. Saved sampler pickle checkpoints are excluded from this distribution; use a fresh campaign rather than treating these inspection artifacts as a resumable running session.
 
-* The main config file of __syftr__ is `config.yaml`. You can specify paths, logging, database and Ray parameters and many others. For detailed instructions and examples, please refer to [config.yaml.sample](https://github.com/datarobot/syftr/blob/main/config.yaml.sample).
-You can rename this file to `config.yaml` and fill in all necessary details according to your infrastructure.
-* You can also configure __syftr__ with environment variables: `export SYFTR_PATHS__ROOT_DIR=/foo/bar`
-* When the configuration is correct, you should be able to run [`examples/1-welcome.ipynb`](https://github.com/datarobot/syftr/blob/main/examples/1-welcome.ipynb) without any problems.
-* __syftr__ uses SQLite by default for Optuna storage. The `database.dsn` configuration field can be used to configure any Optuna-supported relational database storage. We recommend Postgres for distributed workloads.
+1. Upload that runtime ZIP as a **private Kaggle dataset** and attach it to a fresh notebook. Enable Internet and **GPU T4 x2**.
+2. Import `final_project/04_reproducibility/native_deployment/SYFTR_RESTRICTED_V2_BATCH_SAFE.ipynb`. Read `SAFE_START.md` in the same folder. Run only one setup/controller at a time.
+3. This historical deployment needed the included `RECOVER_OPTIMIZER_IMPORT_ORDER.py` launcher to preload Syftr’s hierarchical TPE before the temporary sampler factory substitution. Follow `REPRODUCTION_NOTES.md` before starting optimizer arms; do not rerun an already active controller.
+4. Inspect status and logs, then export results and download them before ending the session. Setup and inference require real GPU time; completion time is not guaranteed.
 
-## Quickstart
+The original source snapshot is deliberately not silently patched to hide the recovery history. This repository’s completed evidence can be audited independently of a new Kaggle run. For exact package dependencies use the snapshot’s `uv.lock` and its supported Python range (>=3.11.1, <3.13); the CPU-only requirements above are for auditing, not inference.
 
-First, run `syftr check` to validate your credentials and configuration.
-Note that most LLM connections are likely to fail if you have not provided configuration for them.
-Next, try the example Jupyter notebooks located in the [`examples`](https://github.com/datarobot/syftr/blob/main/examples) directory.
-Or directly run a __syftr__ study using the CLI `syftr run studies/example-dr-docs.yaml --follow` or with the API:
+## Attribution and research scope
 
-```python
-from syftr import api
+Based on **Syftr**, whose upstream source and MIT license are retained in the snapshot and [`LICENSE`](LICENSE). See the original framework documentation in [`docs/UPSTREAM_SYFTR_README.md`](docs/UPSTREAM_SYFTR_README.md) and references in the report/presentation. Qwen, BGE, HotPotQA, Optuna and other dependencies retain their respective licenses and attribution requirements. Downloaded model weights and runtime environments are not source authored by this project.
 
-s = api.Study.from_file("studies/example-dr-docs.yaml")
-s.run()
-```
-
-Obtaining the results after the study is complete:
-
-```python
-s.wait_for_completion()
-print(s.pareto_flows)
-[{'metrics': {'accuracy': 0.7, 'llm_cost_mean': 0.000258675},
-  'params': {'response_synthesizer_llm': 'gpt-4o-mini',
-   'rag_mode': 'no_rag',
-   'template_name': 'default',
-   'enforce_full_evaluation': True}},
-   ...
-]
-```
-
-## LLM Configuration
-
-__syftr__ can be configured to use a wide variety of LLMs from a variety of LLM providers.
-These are configured using the ``generative_models`` section of ``config.yaml``.
-
-Each LLM provider has some different configuration options as well as some common ones.
-Let's look at an example using ``gpt-4.5-preview`` hosted in Azure OpenAI:
-
-```yaml
-generative_models:
-  # azure_openai Provider Example
-  azure_gpt_45_preview:
-    provider: azure_openai
-
-    temperature: 0.0
-    max_retries: 0
-
-    # Provider-specific configurations
-    deployment_name: "gpt-4.5-preview"
-    api_version: "2024-12-01-preview"
-    additional_kwargs:
-      user: syftr
-
-    # Cost example - options are the same for all models (required)
-    cost:
-      type: tokens                      # tokens, characters, or hourly
-      input: 75
-      output: 150.00
-      # rate: 12.00
-
-    # LLamaIndex LLMetadata Example - keys and defaults are the same for all models
-    metadata:
-      model_name: gpt-4.5-preview
-      context_window: 100000
-      num_output: 2048
-      is_chat_model: true
-      is_function_calling_model: true
-      system_role: SYSTEM
-```
-
-### Provider-specific options
-
-All LLM configurations defined under `generative_models:` share a common set of options inherited from the base `LLMConfig`:
-
-* **`cost`**: (Object, Required) Defines the cost structure for the LLM.
-    * `type`: (String, Required) Type of cost calculation: `tokens`, `characters`, or `hourly`.
-    * `input`: (Float, Required) Cost for input (e.g., per million tokens/characters).
-    * `output`: (Float, Required if `type` is `tokens` or `characters`) Cost for output.
-    * `rate`: (Float, Required if `type` is `hourly`) Average cost per hour.
-* **`metadata`**: (Object, Required) Contains essential metadata about the LLM.
-    * `model_name`: (String, Required) The specific model identifier (e.g., "gpt-4o-mini", "gemini-1.5-pro-001").
-    * `context_window`: (Integer, Optional) The maximum context window size. Defaults to `3900`.
-    * `num_output`: (Integer, Optional) Default number of output tokens the model is expected to generate. Defaults to `256`.
-    * `is_chat_model`: (Boolean, Optional) Indicates if the model is a chat-based model. Defaults to `false`.
-    * `is_function_calling_model`: (Boolean, Optional) Indicates if the model supports function calling. Defaults to `false`.
-    * `system_role`: (String, Optional) The expected role name for system prompts (e.g., `SYSTEM`, `USER`). Defaults to `SYSTEM`.
-* **`temperature`**: (Float, Optional) The sampling temperature for generation. Defaults to `0.0`.
-
-See [LLM provider-specific configuration](https://github.com/datarobot/syftr/blob/main/docs/llm-providers.md) to configure each supported provider.
-
-
-### Embedding models
-You may also enable additional embedding model endpoints:
-
-```yaml
-local_models:
-...
-  embedding:
-    - model_name: "BAAI/bge-small-en-v1.5"
-      api_base: "http://vllmhost:8001/v1"
-      api_key: "non-default-value"
-      additional_kwargs:
-        extra_body:
-          truncate_prompt_tokens: 512
-    - model_name: "thenlper/gte-large"
-      api_base: "http://vllmhost:8001/v1"
-      additional_kwargs:
-        extra_body:
-          truncate_prompt_tokens: 512
-```
-
-Models added in the ``config.yaml`` will be automatically added to the default search space, or you can enable them manually for specific flow components.
-
-## Adding Custom Datasets
-
-See detailed instructions [here](https://github.com/datarobot/syftr/blob/main/docs/datasets.md).
-
-## Adding Custom Flows
-
-To add your own flow class, follow the guide [here](https://github.com/datarobot/syftr/blob/main/docs/adding-new-flows.md).
-
-## Citation
-
-If you use this code in your research please cite the following [publication](https://arxiv.org/abs/2505.20266).
-
-```bibtex
-@article{syftr2025,
-  title={syftr: Pareto-Optimal Generative AI},
-  author={Conway, Alexander and Dey, Debadeepta and Hackmann, Stefan and Hausknecht, Matthew and Schmidt, Michael and Steadman, Mark and Volynets, Nick},
-  booktitle={Proceedings of the International Conference on Automated Machine Learning (AutoML)},
-  year={2025},
-}
-```
-
-## Contributing
-
-Please read our [contributing guide](https://github.com/datarobot/syftr/blob/main/CONTRIBUTING) for details on how to contribute to the project. We welcome contributions in the form of bug reports, feature requests, and pull requests.
-
-Please note we have a [code of conduct](https://github.com/datarobot/syftr/blob/main/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+This repository reports the final completed restricted experiment. The compact k/c/Bc experiment is a separate study with its own protocol and evidence. Neither constitutes a full reproduction of every result in the Syftr paper.
