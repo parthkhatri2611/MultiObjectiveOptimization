@@ -1,0 +1,37 @@
+Parsing nodes:   0%|          | 0/4972 [00:00<?, ?it/s]Parsing nodes:   2%|▏         | 89/4972 [00:00<00:05, 880.78it/s]Parsing nodes:   4%|▎         | 178/4972 [00:00<00:05, 870.44it/s]Parsing nodes:   5%|▌         | 267/4972 [00:00<00:05, 878.48it/s]Parsing nodes:   7%|▋         | 355/4972 [00:00<00:05, 870.90it/s]Parsing nodes:   9%|▉         | 445/4972 [00:00<00:05, 877.89it/s]Parsing nodes:  11%|█         | 538/4972 [00:00<00:04, 895.28it/s]Parsing nodes:  13%|█▎        | 628/4972 [00:00<00:04, 890.31it/s]Parsing nodes:  14%|█▍        | 718/4972 [00:00<00:04, 861.03it/s]Parsing nodes:  17%|█▋        | 821/4972 [00:00<00:04, 910.15it/s]Parsing nodes:  18%|█▊        | 913/4972 [00:01<00:04, 894.06it/s]Parsing nodes:  20%|██        | 1005/4972 [00:01<00:04, 900.10it/s]Parsing nodes:  22%|██▏       | 1096/4972 [00:01<00:04, 896.67it/s]Parsing nodes:  24%|██▍       | 1188/4972 [00:01<00:04, 903.29it/s]Parsing nodes:  26%|██▌       | 1279/4972 [00:01<00:04, 893.26it/s]Parsing nodes:  28%|██▊       | 1369/4972 [00:01<00:04, 884.74it/s]Parsing nodes:  29%|██▉       | 1460/4972 [00:01<00:03, 888.37it/s]Parsing nodes:  31%|███       | 1549/4972 [00:01<00:03, 873.33it/s]Parsing nodes:  33%|███▎      | 1637/4972 [00:01<00:03, 870.22it/s]Parsing nodes:  35%|███▍      | 1725/4972 [00:01<00:03, 852.83it/s]Parsing nodes:  36%|███▋      | 1811/4972 [00:02<00:03, 849.10it/s]Parsing nodes:  38%|███▊      | 1896/4972 [00:02<00:03, 826.45it/s]Parsing nodes:  40%|███▉      | 1983/4972 [00:02<00:03, 838.35it/s]Parsing nodes:  42%|████▏     | 2067/4972 [00:02<00:03, 833.16it/s]Parsing nodes:  43%|████▎     | 2151/4972 [00:02<00:03, 823.28it/s]Parsing nodes:  45%|████▍     | 2234/4972 [00:02<00:03, 686.35it/s]Parsing nodes:  47%|████▋     | 2328/4972 [00:02<00:03, 750.72it/s]Parsing nodes:  48%|████▊     | 2408/4972 [00:02<00:03, 763.57it/s]Parsing nodes:  50%|█████     | 2489/4972 [00:02<00:03, 775.13it/s]Parsing nodes:  52%|█████▏    | 2575/4972 [00:03<00:03, 796.54it/s]Parsing nodes:  53%|█████▎    | 2658/4972 [00:03<00:02, 805.83it/s]Parsing nodes:  55%|█████▌    | 2740/4972 [00:03<00:02, 804.78it/s]Parsing nodes:  57%|█████▋    | 2822/4972 [00:03<00:02, 805.01it/s]Parsing nodes:  58%|█████▊    | 2907/4972 [00:03<00:02, 816.31it/s]Parsing nodes:  60%|██████    | 2996/4972 [00:03<00:02, 837.92it/s]Parsing nodes:  62%|██████▏   | 3081/4972 [00:03<00:02, 836.98it/s]Parsing nodes:  64%|██████▎   | 3165/4972 [00:03<00:02, 822.28it/s]Parsing nodes:  65%|██████▌   | 3254/4972 [00:03<00:02, 841.94it/s]Parsing nodes:  67%|██████▋   | 3341/4972 [00:03<00:01, 848.93it/s]Parsing nodes:  69%|██████▉   | 3427/4972 [00:04<00:01, 851.49it/s]Parsing nodes:  71%|███████   | 3513/4972 [00:04<00:02, 626.70it/s]Parsing nodes:  72%|███████▏  | 3599/4972 [00:04<00:02, 682.02it/s]Parsing nodes:  74%|███████▍  | 3685/4972 [00:04<00:01, 724.97it/s]Parsing nodes:  76%|███████▌  | 3765/4972 [00:04<00:01, 742.59it/s]Parsing nodes:  77%|███████▋  | 3853/4972 [00:04<00:01, 779.56it/s]Parsing nodes:  79%|███████▉  | 3944/4972 [00:04<00:01, 814.79it/s]Parsing nodes:  81%|████████  | 4032/4972 [00:04<00:01, 831.51it/s]Parsing nodes:  83%|████████▎ | 4125/4972 [00:04<00:00, 858.93it/s]Parsing nodes:  85%|████████▍ | 4214/4972 [00:05<00:00, 865.65it/s]Parsing nodes:  87%|████████▋ | 4302/4972 [00:05<00:00, 851.26it/s]Parsing nodes:  88%|████████▊ | 4388/4972 [00:05<00:00, 847.00it/s]Parsing nodes:  90%|████████▉ | 4474/4972 [00:05<00:00, 841.73it/s]Parsing nodes:  92%|█████████▏| 4559/4972 [00:05<00:00, 841.12it/s]Parsing nodes:  93%|█████████▎| 4644/4972 [00:05<00:00, 796.65it/s]Parsing nodes:  95%|█████████▌| 4725/4972 [00:05<00:00, 773.81it/s]Parsing nodes:  97%|█████████▋| 4807/4972 [00:05<00:00, 785.21it/s]Parsing nodes:  98%|█████████▊| 4890/4972 [00:05<00:00, 797.11it/s]Parsing nodes: 100%|██████████| 4972/4972 [00:06<00:00, 823.99it/s]
+DEBUG:bm25s:Building index from IDs objects
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Generated queries:
+The 2013 Indiana Hoosiers football coach current Ohio State position
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What topics does William Gurstelle cover in his articles for It Yourself magazine?
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+How long was the Underdog TV show hosted by Julian Clary?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian directed or written for more films than Mark Krikorian?
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+What was the role of the second person sent by the Plymouth Brethren to investigate the supernatural gifts in Scotland during the early 1900s?
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+What year was Heather Wilson born, considering her former chief of staff was Rachel Noerdlinger?
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Original executive producer of Sesame Street
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+What is the stage name of the actor playing the lead role in "The Underdog" alongside Park So-dam and Park Chul-min?
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+- What is "Fuck" and "The Celluloid Closet" by?
+- "Fuck" and "The Celluloid Closet" are both examples of what type of work?
+- Are "Fuck" and "The Celluloid Closet" both films?
+- What genre do "Fuck" and "The Celluloid Closet" fall under?
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+Do MODE magazine cover topics related to women's health and issues?
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None
