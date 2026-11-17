@@ -1,0 +1,18 @@
+{
+  "dataset": "hotpotqa",
+  "partition": "test",
+  "available_questions": 500,
+  "selected_ids": [
+    "5ae60b9b554299546bf8302f",
+    "5a8a582a5542995153361372",
+    "5a8ba7d75542996e8ac88991",
+    "5a87432d5542994775f607b5",
+    "5a8299e255429954d2e2eb76",
+    "5adf8aea5542993344016ce9",
+    "5a76a59a5542993569682c72",
+    "5ae6e6d15542992ae0d163a5",
+    "5a7f3d325542992e7d278cb5",
+    "5ae2cd3b5542996483e64a6d"
+  ],
+  "questions_sha256": "5bd99ac9320ab839a4852cad64e889313be07c5da8dd8b25b71521fb04f35ea8"
+}

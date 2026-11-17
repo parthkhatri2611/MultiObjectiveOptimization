@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "stage": "baseline",
+  "dataset": "hotpotqa",
+  "partition": "test",
+  "qa_count": 10,
+  "data_seed": 20261114,
+  "budget": 25,
+  "startup_trials": 10,
+  "model_alias": "rm-qwen25-7b-q4",
+  "tokenizer_repo": "Qwen/Qwen2.5-7B-Instruct",
+  "server_url": "http://127.0.0.1:8765",
+  "context_window": 16384,
+  "max_output_tokens": 1024,
+  "request_timeout": 300,
+  "question_timeout": 600,
+  "candidate_timeout": 3600,
+  "objective_quality": "f1",
+  "objective_resource": "total_tokens_mean",
+  "resource_reference": 50000,
+  "minimum_success_rate": 0.95,
+  "rag_modes": [
+    "rag",
+    "sub_question_rag"
+  ],
+  "embedding_models": [
+    "BAAI/bge-small-en-v1.5",
+    "BAAI/bge-base-en-v1.5"
+  ],
+  "pruning": "disabled-for-all-arms",
+  "parallel_candidates": 1,
+  "parallel_questions": 1,
+  "judging": "single local correctness judge; same weights as generator; >=4/5 passes",
+  "scope": "Explicit restricted Syftr subset; separate experiment from full-space campaign",
+  "embedding_device": "cuda:1",
+  "cache_policy": "shared-pinned-retrieval-indexes-v2",
+  "campaign_version": "restricted-v2-25x10",
+  "campaign_seed_policy": "one exploratory seed; no across-seed significance claim",
+  "intermediate_checkpoints": [
+    10,
+    15,
+    20,
+    25
+  ],
+  "space_variant": "restricted-v2",
+  "optimizer_method": "hybrid_motpe",
+  "optimizer_implementation_sha256": "c604d521be8550c0526a787a2e8a99940281a2b2ba5cbd075799abd8689a584f",
+  "shared_initial_pool_sha256": "ae10b2246320b1c1c7b935d682b3af354c7f8d1dacac1d33933b0c84e14e82a4",
+  "population_size": 5
+}

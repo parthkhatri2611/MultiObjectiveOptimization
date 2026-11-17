@@ -1,0 +1,19 @@
+{
+  "status": "measured",
+  "attempts": 25,
+  "completed": 25,
+  "failed": 0,
+  "budget": 25,
+  "budget_exhausted": true,
+  "pareto_count": 6,
+  "hypervolume": 0.37165840935574224,
+  "unique_pareto_objective_pairs": 5,
+  "objective_quality": "f1",
+  "objective_resource": "total_tokens_mean",
+  "resource_reference": 50000,
+  "known_generator_tokens": 292225,
+  "known_judge_tokens": 46997,
+  "model_calls": 944,
+  "unknown_usage_calls": 0,
+  "capability_results": {}
+}

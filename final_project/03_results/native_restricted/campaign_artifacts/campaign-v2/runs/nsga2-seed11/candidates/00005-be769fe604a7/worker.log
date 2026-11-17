@@ -1,0 +1,63 @@
+EMBEDDING_READY model=BAAI/bge-small-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Generated queries:
+Head coach of the 2013 Indiana Hoosiers football team
+Generated queries:
+Which current Ohio State offensive coordinator previously coached Indiana in 2013?
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What types of articles does William Gurstelle contribute to It Yourself magazine?
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+What is the title of the Underdog TV show?
+Generated queries:
+Who presented the Underdog show?
+Generated queries:
+Is Julian Clary an English comedian?
+Generated queries:
+When did the Underdog TV show first air?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian written any films?
+Generated queries:
+Alek Keshishian film writing credits
+Generated queries:
+Has Mark Krikorian written screenplays or articles about film?
+Generated queries:
+How many films has Mark Krikorian written?
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+Who were the first and second investigators sent by the Plymouth Brethren to Scotland during the supernatural gifts of the Holy Spirit outbreak?
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+Rachel Noerdlinger's former chief of staff bio
+Generated queries:
+What is the birth year of the woman mentioned in the question?
+Note: The input query seems to be a repeat. Here is a related query based on the input:
+What is the birth year of the woman mentioned in the question?
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Sesame Workshop children's television series name
+Generated queries:
+Who was the original executive producer of Sesame Street?
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+Who is the singer in the movie 'The Underdog' with Park So-dam and Park Chul-min?
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+What type of media is "Fuck" documentary?
+What type of media is "The Celluloid Closet" documentary?
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+What social issues does MODE focus on?
+Generated queries:
+Issues focused by Women's Health magazine include:
+- Breast cancer screening and prevention
+- Mental health and well-being
+- Reproductive rights and fertility
+- Menstrual health and hygiene
+- Bone health and osteoporosis
+- Cardiovascular health and risks
+- Sexual health and STDs
+- Maternal health and pregnancy complications
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None
