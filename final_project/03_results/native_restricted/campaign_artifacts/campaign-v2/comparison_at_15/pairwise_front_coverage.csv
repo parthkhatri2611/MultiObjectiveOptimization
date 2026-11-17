@@ -1,0 +1,13 @@
+coverage_a_over_b,method_a,method_b
+0.25,syftr_motpe,nsga2
+0.25,syftr_motpe,hybrid_motpe
+0.2,syftr_motpe,adaptive_nsga2
+0.75,nsga2,syftr_motpe
+0.25,nsga2,hybrid_motpe
+0.8,nsga2,adaptive_nsga2
+0.75,hybrid_motpe,syftr_motpe
+0.75,hybrid_motpe,nsga2
+0.8,hybrid_motpe,adaptive_nsga2
+0.75,adaptive_nsga2,syftr_motpe
+0.5,adaptive_nsga2,nsga2
+0.25,adaptive_nsga2,hybrid_motpe

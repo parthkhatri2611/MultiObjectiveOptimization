@@ -1,0 +1,120 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 133, in <module>
+    main()
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 129, in main
+    raise SystemExit(0 if run_arm(args) else 10)
+                          ^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 101, in run_arm
+    common.run(common_args)
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 128, in run
+    study_config, _builder, _hf = prepare(protocol, workspace, sources)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/baseline/adapter.py", line 117, in prepare
+    from syftr.tuner import qa_tuner, core
+  File "/kaggle/working/syftr_project/syftr/tuner/qa_tuner.py", line 22, in <module>
+    from syftr.baselines import set_baselines
+  File "/kaggle/working/syftr_project/syftr/baselines.py", line 14, in <module>
+    from syftr.transfer_learning import get_examples
+  File "/kaggle/working/syftr_project/syftr/transfer_learning.py", line 11, in <module>
+    from syftr.optuna_helper import get_completed_trials
+  File "/kaggle/working/syftr_project/syftr/optuna_helper.py", line 18, in <module>
+    from syftr.hierarchical_tpe import HierarchicalTPESampler
+  File "/kaggle/working/syftr_project/syftr/hierarchical_tpe.py", line 267, in <module>
+    class HierarchicalTPESampler(TPESampler):
+TypeError: function() argument 'code' must be code, not str
+Traceback (most recent call last):
+  File "<string>", line 14, in <module>
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 129, in main
+    raise SystemExit(0 if run_arm(args) else 10)
+                          ^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 101, in run_arm
+    common.run(common_args)
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 170, in run
+    sampler = restore_sampler(destination)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 34, in restore_sampler
+    info = json.loads((path / 'sampler_checkpoint.json').read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/working/baseline_results/campaign-v2/runs/nsga2-seed11/sampler_checkpoint.json'
+Traceback (most recent call last):
+  File "<string>", line 14, in <module>
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 129, in main
+    raise SystemExit(0 if run_arm(args) else 10)
+                          ^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/campaign_v2/run.py", line 101, in run_arm
+    common.run(common_args)
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 170, in run
+    sampler = restore_sampler(destination)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 34, in restore_sampler
+    info = json.loads((path / 'sampler_checkpoint.json').read_text())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/working/baseline_results/campaign-v2/runs/nsga2-seed11/sampler_checkpoint.json'
+[I 2026-11-16 10:18:58,984] A new study created in RDB with name: baseline
+CANDIDATE_STARTED trial=0 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=0 status=evaluated wall_seconds=48.0
+CANDIDATE_STARTED trial=1 mode=sub_question_rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=1 status=evaluated wall_seconds=92.9
+CANDIDATE_STARTED trial=2 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=2 status=evaluated wall_seconds=205.1
+CANDIDATE_STARTED trial=3 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=3 status=evaluated wall_seconds=136.8
+CANDIDATE_STARTED trial=4 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=4 status=evaluated wall_seconds=147.7
+CANDIDATE_STARTED trial=5 mode=sub_question_rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=5 status=evaluated wall_seconds=237.6
+CANDIDATE_STARTED trial=6 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=6 status=evaluated wall_seconds=131.8
+CANDIDATE_STARTED trial=7 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=7 status=evaluated wall_seconds=155.7
+CANDIDATE_STARTED trial=8 mode=sub_question_rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=8 status=evaluated wall_seconds=250.7
+CANDIDATE_STARTED trial=9 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=9 status=evaluated wall_seconds=117.4
+[I 2026-11-16 11:48:38,079] Using an existing study with name 'baseline' instead of creating a new one.
+CANDIDATE_STARTED trial=10 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=10 status=evaluated wall_seconds=110.8
+CANDIDATE_STARTED trial=11 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=11 status=evaluated wall_seconds=286.1
+CANDIDATE_STARTED trial=12 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=12 status=evaluated wall_seconds=164.5
+CANDIDATE_STARTED trial=13 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=13 status=evaluated wall_seconds=58.4
+CANDIDATE_STARTED trial=14 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=14 status=evaluated wall_seconds=91.0
+[I 2026-11-16 12:36:02,296] Using an existing study with name 'baseline' instead of creating a new one.
+CANDIDATE_STARTED trial=15 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=15 status=evaluated wall_seconds=191.1
+CANDIDATE_STARTED trial=16 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=16 status=evaluated wall_seconds=207.4
+CANDIDATE_STARTED trial=17 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=17 status=evaluated wall_seconds=80.6
+CANDIDATE_STARTED trial=18 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=18 status=evaluated wall_seconds=173.3
+CANDIDATE_STARTED trial=19 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=19 status=evaluated wall_seconds=49.2
+[I 2026-11-16 13:22:08,091] Using an existing study with name 'baseline' instead of creating a new one.
+CANDIDATE_STARTED trial=20 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=20 status=evaluated wall_seconds=171.0
+CANDIDATE_STARTED trial=21 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=21 status=evaluated wall_seconds=96.7
+CANDIDATE_STARTED trial=22 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=22 status=evaluated wall_seconds=80.3
+CANDIDATE_STARTED trial=23 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=23 status=evaluated wall_seconds=173.5
+CANDIDATE_STARTED trial=24 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=24 status=evaluated wall_seconds=98.9

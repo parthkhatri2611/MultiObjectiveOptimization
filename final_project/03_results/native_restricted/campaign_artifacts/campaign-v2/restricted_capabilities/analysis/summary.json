@@ -1,0 +1,31 @@
+{
+  "status": "measured",
+  "attempts": 11,
+  "completed": 11,
+  "failed": 0,
+  "budget": 11,
+  "budget_exhausted": true,
+  "pareto_count": 5,
+  "hypervolume": 0.3598909206349207,
+  "unique_pareto_objective_pairs": 2,
+  "objective_quality": "f1",
+  "objective_resource": "total_tokens_mean",
+  "resource_reference": 50000,
+  "known_generator_tokens": 15404,
+  "known_judge_tokens": 5584,
+  "model_calls": 85,
+  "unknown_usage_calls": 0,
+  "capability_results": {
+    "rag": "COMPLETE",
+    "sub_question_rag": "COMPLETE",
+    "sparse": "COMPLETE",
+    "hybrid": "COMPLETE",
+    "few_shot": "COMPLETE",
+    "HyDE": "COMPLETE",
+    "reranker": "COMPLETE",
+    "neighbors": "COMPLETE",
+    "decomposition": "COMPLETE",
+    "token_splitter": "COMPLETE",
+    "recursive_splitter": "COMPLETE"
+  }
+}

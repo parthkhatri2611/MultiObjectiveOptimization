@@ -1,0 +1,7 @@
+{
+  "original_installer_sha256": "e4c8677af60aaf271c5f2a37bd9c7a87a4533bc4728a394384e34fcb1751421c",
+  "derived_execution_sha256": "63388066e30a9b62f7284275d63a80f88ed2e12d9ddbcc48466b08948d327320",
+  "change": "Restricted source archived separately in executed_source_restricted_v2.",
+  "original_full_snapshot_preserved": true,
+  "research_source_modified": false
+}

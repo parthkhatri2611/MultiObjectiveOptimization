@@ -1,0 +1,92 @@
+[I 2026-11-16 10:44:52,243] A new study created in RDB with name: baseline
+CANDIDATE_STARTED trial=0 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=0 status=evaluated wall_seconds=48.4
+CANDIDATE_STARTED trial=1 mode=sub_question_rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=1 status=evaluated wall_seconds=94.0
+CANDIDATE_STARTED trial=2 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=2 status=evaluated wall_seconds=203.6
+CANDIDATE_STARTED trial=3 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=3 status=evaluated wall_seconds=137.8
+CANDIDATE_STARTED trial=4 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=4 status=evaluated wall_seconds=142.0
+CANDIDATE_STARTED trial=5 mode=sub_question_rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=5 status=evaluated wall_seconds=238.5
+CANDIDATE_STARTED trial=6 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=6 status=evaluated wall_seconds=129.3
+CANDIDATE_STARTED trial=7 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=7 status=evaluated wall_seconds=158.7
+CANDIDATE_STARTED trial=8 mode=sub_question_rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=8 status=evaluated wall_seconds=246.5
+CANDIDATE_STARTED trial=9 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=9 status=evaluated wall_seconds=116.5
+[I 2026-11-16 12:00:55,299] Using an existing study with name 'baseline' instead of creating a new one.
+CANDIDATE_STARTED trial=10 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=10 status=evaluated wall_seconds=110.4
+CANDIDATE_STARTED trial=11 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=11 status=evaluated wall_seconds=189.7
+CANDIDATE_STARTED trial=12 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=12 status=evaluated wall_seconds=165.0
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-16 12:08:44,816] A new study created in memory with name: no-name-adbac461-18aa-494b-b456-390c1ee45377
+[W 2026-11-16 12:08:44,841] The parameter 'rag_query_decomposition_num_queries' in trial#13 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:08:44,846] The parameter 'rag_fusion_mode' in trial#13 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:08:44,848] The parameter 'additional_context_num_nodes' in trial#13 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:08:44,853] The parameter 'few_shot_top_k' in trial#13 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:08:44,858] The parameter 'few_shot_embedding_model' in trial#13 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=13 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=13 status=evaluated wall_seconds=162.5
+[I 2026-11-16 12:11:29,301] A new study created in memory with name: no-name-00e794ff-2ef3-4222-b429-7de45b73adf6
+[W 2026-11-16 12:11:29,326] The parameter 'rag_query_decomposition_num_queries' in trial#14 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:11:29,331] The parameter 'rag_fusion_mode' in trial#14 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:11:29,333] The parameter 'additional_context_num_nodes' in trial#14 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:11:29,338] The parameter 'few_shot_top_k' in trial#14 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:11:29,342] The parameter 'few_shot_embedding_model' in trial#14 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=14 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=14 status=evaluated wall_seconds=99.1
+[I 2026-11-16 12:48:11,402] Using an existing study with name 'baseline' instead of creating a new one.
+CANDIDATE_STARTED trial=15 mode=rag embedding=BAAI/bge-base-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=15 status=evaluated wall_seconds=197.8
+CANDIDATE_STARTED trial=16 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=16 status=evaluated wall_seconds=83.8
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-16 12:52:58,495] A new study created in memory with name: no-name-50252549-fff0-4ee7-bbeb-9c5e7318c6ce
+[W 2026-11-16 12:52:58,523] The parameter 'additional_context_num_nodes' in trial#17 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:52:58,527] The parameter 'few_shot_top_k' in trial#17 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:52:58,532] The parameter 'few_shot_embedding_model' in trial#17 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=18 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=18 status=evaluated wall_seconds=61.7
+[I 2026-11-16 12:54:01,831] A new study created in memory with name: no-name-5f939fb6-5ab9-4ee4-9ded-7b2e14a32c9c
+[W 2026-11-16 12:54:01,860] The parameter 'additional_context_num_nodes' in trial#18 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:54:01,865] The parameter 'few_shot_top_k' in trial#18 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 12:54:01,870] The parameter 'few_shot_embedding_model' in trial#18 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=19 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=19 status=evaluated wall_seconds=106.5
+[I 2026-11-16 13:32:59,058] Using an existing study with name 'baseline' instead of creating a new one.
+CANDIDATE_STARTED trial=20 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=20 status=evaluated wall_seconds=176.7
+CANDIDATE_STARTED trial=21 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=21 status=evaluated wall_seconds=47.7
+CANDIDATE_STARTED trial=22 mode=sub_question_rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=22 status=evaluated wall_seconds=305.3
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-16 13:41:54,857] A new study created in memory with name: no-name-f009b143-23a3-4dd5-873e-6ef947e7c543
+[W 2026-11-16 13:41:54,889] The parameter 'additional_context_num_nodes' in trial#22 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 13:41:54,893] The parameter 'few_shot_top_k' in trial#22 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 13:41:54,899] The parameter 'few_shot_embedding_model' in trial#22 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=23 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=23 status=evaluated wall_seconds=122.9
+[I 2026-11-16 13:43:59,622] A new study created in memory with name: no-name-3195770b-68c7-437a-88f8-5113787da08a
+[W 2026-11-16 13:43:59,654] The parameter 'additional_context_num_nodes' in trial#23 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 13:43:59,659] The parameter 'few_shot_top_k' in trial#23 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+[W 2026-11-16 13:43:59,664] The parameter 'few_shot_embedding_model' in trial#23 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=24 mode=sub_question_rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=24 status=evaluated wall_seconds=128.6

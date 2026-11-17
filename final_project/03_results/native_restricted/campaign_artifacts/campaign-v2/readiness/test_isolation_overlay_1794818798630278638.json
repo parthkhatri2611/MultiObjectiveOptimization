@@ -1,0 +1,9 @@
+{
+  "target": "BackgroundControlTests.test_notebook_reads_controller_status_path",
+  "change": "Only this fixture sees a nonexistent setup-status path; every test/assertion still runs.",
+  "setup_lock": "Exclusively held by the setup launcher for the entire installer execution.",
+  "research_source_modified": false,
+  "installer_source_modified": false,
+  "verified_installer_sha256": "e4c8677af60aaf271c5f2a37bd9c7a87a4533bc4728a394384e34fcb1751421c",
+  "test_overlay_sha256": "8d053d677e8673b372ea48c8a209a47ac0b07bc7f5ed89622ea4f637255178ec"
+}

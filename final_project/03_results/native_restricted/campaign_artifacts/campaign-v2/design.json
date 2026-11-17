@@ -1,0 +1,32 @@
+{
+  "version": "restricted-v2-25x10",
+  "methods": [
+    "syftr_motpe",
+    "nsga2",
+    "hybrid_motpe",
+    "adaptive_nsga2"
+  ],
+  "seeds": [
+    11
+  ],
+  "attempts_per_arm": 25,
+  "search_qa_count": 10,
+  "startup": 10,
+  "population": 5,
+  "evolutionary_generations": 3,
+  "intermediate_checkpoints": [
+    10,
+    15,
+    20,
+    25
+  ],
+  "schedule": "Sequential round-robin: every arm reaches the same planned checkpoint before the next round.",
+  "amendment": "Independent restricted-space backup study; do not pool with full-space results.",
+  "cache_policy": "Shared pinned input/index artifacts; each method re-evaluates its own configurations; no answer or fitness reuse.",
+  "timing_limit": "Warm shared cache and fixed arm order; descriptive timings only.",
+  "confirmation": {
+    "qa_count": 10,
+    "selection": "max_single_point_hv_then_f1_then_lower_tokens_then_earliest_trial"
+  },
+  "scope": "Exploratory single-seed local-model adaptation; no guaranteed superiority or across-seed significance."
+}

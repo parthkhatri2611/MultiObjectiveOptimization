@@ -1,0 +1,26 @@
+{
+  "status": "evaluated",
+  "metrics": {
+    "questions_attempted": 3,
+    "questions_expected": 3,
+    "full_evaluation": true,
+    "generation_success_rate": 1.0,
+    "judge_success_rate": 1.0,
+    "accuracy": 1.0,
+    "f1": 0.36190476190476195,
+    "exact_match": 0.0,
+    "total_tokens_mean": 335.3333333333333,
+    "usage_verified": true,
+    "generator_calls": 3,
+    "judge_calls": 3,
+    "judge_tokens": 446,
+    "p80_time": 1.6611742866000896,
+    "mean_time": 1.5253468659999878,
+    "truncated_questions": 0,
+    "generation_errors": 0,
+    "judge_errors": 0,
+    "construction_seconds": 15.626033819999975,
+    "candidate_seconds": 22.426688526999897,
+    "construction_model_calls": 0
+  }
+}
