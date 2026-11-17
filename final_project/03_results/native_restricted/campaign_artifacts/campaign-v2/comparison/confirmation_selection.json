@@ -1,0 +1,26 @@
+[
+  {
+    "method": "syftr_motpe",
+    "trial": 15,
+    "source_run": "/kaggle/working/baseline_results/campaign-v2/runs/syftr_motpe-seed11",
+    "rule": "max_single_point_hv_then_f1_then_lower_tokens_then_earliest_trial"
+  },
+  {
+    "method": "nsga2",
+    "trial": 2,
+    "source_run": "/kaggle/working/baseline_results/campaign-v2/runs/nsga2-seed11",
+    "rule": "max_single_point_hv_then_f1_then_lower_tokens_then_earliest_trial"
+  },
+  {
+    "method": "hybrid_motpe",
+    "trial": 11,
+    "source_run": "/kaggle/working/baseline_results/campaign-v2/runs/hybrid_motpe-seed11",
+    "rule": "max_single_point_hv_then_f1_then_lower_tokens_then_earliest_trial"
+  },
+  {
+    "method": "adaptive_nsga2",
+    "trial": 19,
+    "source_run": "/kaggle/working/baseline_results/campaign-v2/runs/adaptive_nsga2-seed11",
+    "rule": "max_single_point_hv_then_f1_then_lower_tokens_then_earliest_trial"
+  }
+]
