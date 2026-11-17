@@ -1,0 +1,45 @@
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=BAAI/bge-small-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Generated queries:
+Queries:
+2013 Indiana Hoosiers football coach current Ohio State position
+Current Ohio State offensive coordinator 2013 Indiana Hoosiers football team
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What topics does William Gurstelle cover in DIY magazines?
+What specific magazine does William Gurstelle write for regarding DIY projects?
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+How long did the Underdog TV show run with Julian Clary as the host?
+Was the Underdog TV show presented by Julian Clary for the entire run of the show?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian directed more films than Mark Krikorian?
+What films has Alek Keshishian written compared to Mark Krikorian?
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+- Second person sent by Plymouth Brethren to investigate supernatural gifts in Scotland
+- Name of the second investigator sent by Plymouth Brethren to Scotland
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+Rachel Noerdlinger's former chief of staff's birth year
+Year of birth for the woman associated with Rachel Noerdlinger's former chief of staff
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Original executive producer of Sesame Street
+Joan Ganz Cooney and Lloyd Morrisett's role in Sesame Workshop
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+What is the stage name of the actor starring in "The Underdog" alongside Park So-dam and Park Chul-min?
+What is the real name of the singer who is starring in "The Underdog" alongside Park So-dam and Park Chul-min?
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+Fuck and The Celluloid Closet as films
+Fuck and The Celluloid Closet as documentaries
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+Do MODE magazine cover women's health issues?
+How do Women's Health and MODE magazine compare in terms of women's issues coverage?
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None

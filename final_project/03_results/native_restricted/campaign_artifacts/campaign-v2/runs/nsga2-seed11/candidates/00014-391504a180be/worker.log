@@ -1,0 +1,36 @@
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=BAAI/bge-small-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+Generated queries:
+The 2013 Indiana Hoosiers football coach current Ohio State position
+QUESTION_FINISHED 1/10 generation_error=None judge_error=None
+Generated queries:
+What topics does William Gurstelle cover in his articles for It Yourself magazine?
+QUESTION_FINISHED 2/10 generation_error=None judge_error=None
+Generated queries:
+How long was the Underdog TV show hosted by Julian Clary?
+QUESTION_FINISHED 3/10 generation_error=None judge_error=None
+Generated queries:
+Has Alek Keshishian directed or written for more films than Mark Krikorian?
+QUESTION_FINISHED 4/10 generation_error=None judge_error=None
+Generated queries:
+What was the role of the second person sent by the Plymouth Brethren to investigate the supernatural gifts in Scotland during the early 1900s?
+QUESTION_FINISHED 5/10 generation_error=None judge_error=None
+Generated queries:
+What year was Heather Wilson born, considering her former chief of staff was Rachel Noerdlinger?
+QUESTION_FINISHED 6/10 generation_error=None judge_error=None
+Generated queries:
+Original executive producer of Sesame Street
+QUESTION_FINISHED 7/10 generation_error=None judge_error=None
+Generated queries:
+What is the stage name of the actor playing the lead role in "The Underdog" alongside Park So-dam and Park Chul-min?
+QUESTION_FINISHED 8/10 generation_error=None judge_error=None
+Generated queries:
+Queries:
+- What is "Fuck" and "The Celluloid Closet" by?
+- "Fuck" and "The Celluloid Closet" are both examples of what type of work?
+- Are "Fuck" and "The Celluloid Closet" both films?
+- What genre do "Fuck" and "The Celluloid Closet" fall under?
+QUESTION_FINISHED 9/10 generation_error=None judge_error=None
+Generated queries:
+Do MODE magazine cover topics related to women's health and issues?
+QUESTION_FINISHED 10/10 generation_error=None judge_error=None
