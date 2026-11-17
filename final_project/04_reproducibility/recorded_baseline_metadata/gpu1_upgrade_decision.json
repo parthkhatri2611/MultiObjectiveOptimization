@@ -1,0 +1,11 @@
+{
+  "version": "gpu1-v1",
+  "generator": "unchanged server on GPU 0",
+  "embeddings": "physical GPU 1 selected by UUID, logical cuda:0 inside each embedding process",
+  "embedding_batch_size": 16,
+  "embedding_dtype": "unchanged model default",
+  "cache": "backend-specific index namespace; existing downloaded model cache reused",
+  "previous_cpu_results": "retained, not pooled with GPU timing measurements",
+  "capabilities_rerun_required": true,
+  "reason": "CPU BGE-large indexing exceeded practical pilot throughput."
+}

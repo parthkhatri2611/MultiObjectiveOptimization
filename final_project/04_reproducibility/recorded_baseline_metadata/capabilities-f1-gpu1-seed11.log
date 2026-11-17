@@ -1,0 +1,46 @@
+EMBEDDING_READY model=BAAI/bge-small-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=BAAI/bge-large-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=thenlper/gte-large physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=mixedbread-ai/mxbai-embed-large-v1 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=WhereIsAI/UAE-Large-V1 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=avsolatorio/GIST-large-Embedding-v0 physical_gpu=1 logical=cuda:0 batch=16
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name w601sxs/b1ade-embed. Creating a new one with mean pooling.
+EMBEDDING_READY model=w601sxs/b1ade-embed physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=Labib11/MUG-B-1.6 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=sentence-transformers/all-MiniLM-L12-v2 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=sentence-transformers/paraphrase-multilingual-mpnet-base-v2 physical_gpu=1 logical=cuda:0 batch=16
+EMBEDDING_READY model=BAAI/bge-base-en-v1.5 physical_gpu=1 logical=cuda:0 batch=16
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-15 05:57:24,389] A new study created in RDB with name: baseline
+CANDIDATE_STARTED trial=0 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=0 status=evaluated wall_seconds=32.9
+CANDIDATE_STARTED trial=1 mode=sub_question_rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=1 status=evaluated wall_seconds=38.3
+CANDIDATE_STARTED trial=2 mode=critique_rag_agent embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=2 status=evaluated wall_seconds=48.5
+CANDIDATE_STARTED trial=3 mode=react_rag_agent embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=3 status=evaluated wall_seconds=59.8
+CANDIDATE_STARTED trial=4 mode=lats_rag_agent embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=4 status=evaluated wall_seconds=118.4
+CANDIDATE_STARTED trial=5 mode=rag embedding=None policy=cuda:1
+CANDIDATE_FINISHED trial=5 status=evaluated wall_seconds=23.9
+CANDIDATE_STARTED trial=6 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=6 status=evaluated wall_seconds=25.3
+CANDIDATE_STARTED trial=7 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=7 status=evaluated wall_seconds=40.6
+CANDIDATE_STARTED trial=8 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=8 status=evaluated wall_seconds=49.0
+CANDIDATE_STARTED trial=9 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=9 status=evaluated wall_seconds=32.9
+CANDIDATE_STARTED trial=10 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=10 status=evaluated wall_seconds=27.3
+[W 2026-11-15 06:05:49,227] The parameter 'rag_fusion_mode' in trial#11 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.
+CANDIDATE_STARTED trial=11 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=11 status=evaluated wall_seconds=30.4
+CANDIDATE_STARTED trial=12 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=12 status=evaluated wall_seconds=31.5
+CANDIDATE_STARTED trial=13 mode=rag embedding=BAAI/bge-small-en-v1.5 policy=cuda:1
+CANDIDATE_FINISHED trial=13 status=evaluated wall_seconds=32.5

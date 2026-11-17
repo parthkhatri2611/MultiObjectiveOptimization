@@ -1,0 +1,29 @@
+{
+  "original_bin_directory": "/kaggle/temp/rm-syftr/server/llama.cpp-32bdc3a89e6528d3e419024c833c5dabf32c7541/build/bin",
+  "metadata_sha256": "571944fc294f83ea2dbf3a386f15b0b8086178ed13cd96f6f25cc9a774f49d00",
+  "files_sha256": {
+    "libggml.so.1": "65da1cc83005ffd5b913b641258935d791e3733c902acb929319b74de56c0c85",
+    "libmtmd.so": "637a179fc948035d5f2777ef2b23232f044888f1047051f53fd43a1c58c27956",
+    "libggml-base.so": "62d7b3dcf87a72fd415ad6f6fc2d99652086fce569c4e9e2c920beb1acb7aa9c",
+    "libggml-cuda.so.1.0.0": "402b3a75730a1048d4fd2f6bf3902b17de1e37ef448703dea2a00eb3088c23ef",
+    "libmtmd.so.1.0.0": "637a179fc948035d5f2777ef2b23232f044888f1047051f53fd43a1c58c27956",
+    "libggml-cuda.so.1": "402b3a75730a1048d4fd2f6bf3902b17de1e37ef448703dea2a00eb3088c23ef",
+    "libggml-cpu.so": "8c2f5f17acc6968fe63077e077412095c090df8ac041f37f47801d0225bc2dc4",
+    "libllama-common.so": "837f8467f95e120693a4e69b94f947834ada89553cd6c9ad6d9d16515935bfba",
+    "libllama.so.1.0.0": "096115d4627843c4806c71146b04226c77c4cf695e29cd2f89baa3a4eb841622",
+    "libggml-base.so.1": "62d7b3dcf87a72fd415ad6f6fc2d99652086fce569c4e9e2c920beb1acb7aa9c",
+    "libggml.so.1.0.0": "65da1cc83005ffd5b913b641258935d791e3733c902acb929319b74de56c0c85",
+    "libllama-common.so.1": "837f8467f95e120693a4e69b94f947834ada89553cd6c9ad6d9d16515935bfba",
+    "libllama.so": "096115d4627843c4806c71146b04226c77c4cf695e29cd2f89baa3a4eb841622",
+    "libllama-server-impl.so": "4b4f6cc32a4173c40ab7b586b36c82bd0d893079be5fe2026362ea980714f9a6",
+    "llama-server": "e2b0d885b7711af2a424c6ce684eaa0b28cf92ea3264a19edb1fd522bdb4e864",
+    "libggml-cpu.so.1.0.0": "8c2f5f17acc6968fe63077e077412095c090df8ac041f37f47801d0225bc2dc4",
+    "libggml-cuda.so": "402b3a75730a1048d4fd2f6bf3902b17de1e37ef448703dea2a00eb3088c23ef",
+    "libllama.so.1": "096115d4627843c4806c71146b04226c77c4cf695e29cd2f89baa3a4eb841622",
+    "libggml.so": "65da1cc83005ffd5b913b641258935d791e3733c902acb929319b74de56c0c85",
+    "libllama-common.so.1.0.0": "837f8467f95e120693a4e69b94f947834ada89553cd6c9ad6d9d16515935bfba",
+    "libggml-base.so.1.0.0": "62d7b3dcf87a72fd415ad6f6fc2d99652086fce569c4e9e2c920beb1acb7aa9c",
+    "libggml-cpu.so.1": "8c2f5f17acc6968fe63077e077412095c090df8ac041f37f47801d0225bc2dc4",
+    "libmtmd.so.1": "637a179fc948035d5f2777ef2b23232f044888f1047051f53fd43a1c58c27956"
+  }
+}

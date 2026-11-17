@@ -1,0 +1,28 @@
+{
+  "files": {
+    "ourwork/campaign_v2/__init__.py": "5ca9eab8a5b551b2ff9ff2d871be06b8a02aeb1bd0a3f907d50a9bfd2aba181d",
+    "ourwork/campaign_v2/common.py": "576d26c8853673c0039ab10e36541908ece95a9b4e6c1429431b03ee2d6c4b14",
+    "ourwork/campaign_v2/confirm.py": "b90064283da6f481670636665d94718c644739200fe9642974b29dded20ecbf8",
+    "ourwork/campaign_v2/controller.py": "b06be2e999ede6a82cee0ef79459a933e7de569feefd98d3073e6e80ae64cbb8",
+    "ourwork/campaign_v2/notebook.py": "18384e7935223ef6c9c12f7cb1ab9777ccd4bad67dcddac8ea8a6040a83e11d6",
+    "ourwork/campaign_v2/protocol.json": "3397ebc59e893e923b258ddcebdd3d6da5abe0862d3b4fde8939b54e4bbeef75",
+    "ourwork/campaign_v2/recovery.py": "05439ff7fd752e119c988053c9021bf3a430e35fc0b71f66ea456ec6530ec0da",
+    "ourwork/campaign_v2/report.py": "a97f6a4a2bd5584ec4a00cee9d4695289e627477c2de882f82844156a2a8ddfc",
+    "ourwork/campaign_v2/restricted_capabilities.py": "d3e87096f21fe70ffc80ec1b347ff6889bf80ec2af15cbe90f741672596f010b",
+    "ourwork/campaign_v2/restricted_source_amendment.json": "0eefa3b06405dd7d3a66f812956791d0bf787c2f99b864376b1104633c4af10e",
+    "ourwork/campaign_v2/run.py": "3374b950aa7d2ae76f8156efffb77358527d428ee761325bca776158c5dbb05d",
+    "ourwork/campaign_v2/snapshots.py": "8784ae91b34189fac6907ea7995f9a40d0794c050266442bf082271bab55382d",
+    "ourwork/campaign_v2/test_campaign.py": "38ff5c89dfaa108b9bea6560d85f6f875058f8a9e725ea2dae85e987c81e38c1",
+    "ourwork/campaign_v2/test_restricted.py": "9781aba83c4482afe5c82375ee1b0c1ebf04ff3009ad69f91e0a8b6ce3aaf627",
+    "ourwork/optimizers/__init__.py": "0f9a11fcd5793241e3cee7b8830aa0d22c4e6c5b36ca37622e334c8e65e2ae4e",
+    "ourwork/optimizers/bridge.py": "c6d899ede9408a842ecd23743b5ef5241c89820dcf30038b6724e8c03670d2a8",
+    "ourwork/optimizers/kaggle.py": "8f09c4fcd8a214b3385ab0d194ab43d29339e19a7765a488d07328d875b45fd1",
+    "ourwork/optimizers/nsga2.py": "d272d8af86adecde6b2f8c7d2403dd5d805e13b8bd0f9ed1fc33435614425c8d",
+    "ourwork/optimizers/run.py": "bd5ab973eb330de19e4361c15777a984c61318e5b3a2fbb67289612a36c35e91",
+    "ourwork/optimizers/space.py": "39156ada8d7465c80255fea9ef14820d5893124a198c11c34ad9aabdc4a31179",
+    "ourwork/optimizers/test_bridge.py": "3536f243887ae5cce45e3825e171e87d08ddf5ad8d00f13f7636a803d84cb71f",
+    "ourwork/optimizers/test_integration.py": "dfe009f11d1bc00c2d8baa0021e3196442776b4162db586a54e78247c8f1fef9",
+    "ourwork/optimizers/test_optimizers.py": "8cf907cf50e750ec3abf9b356ca011370989657c3c2ae2da67a8ed7d3ac3d7cc"
+  },
+  "sha256": "c604d521be8550c0526a787a2e8a99940281a2b2ba5cbd075799abd8689a584f"
+}

@@ -1,0 +1,6 @@
+FINAL MATCHED AUDIT PASSED
+{"method": "syftr_motpe", "attempts": 25, "completed": 24, "failed": 1, "hypervolume": 0.3927537958543417, "best_f1": 0.3984313725490196}
+{"method": "nsga2", "attempts": 25, "completed": 25, "failed": 0, "hypervolume": 0.37165840935574224, "best_f1": 0.37523809523809526}
+{"method": "hybrid_motpe", "attempts": 25, "completed": 24, "failed": 1, "hypervolume": 0.44437624733893555, "best_f1": 0.44857142857142857}
+{"method": "adaptive_nsga2", "attempts": 25, "completed": 25, "failed": 0, "hypervolume": 0.4425132498039215, "best_f1": 0.44857142857142857}
+

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+    "source": "https://huggingface.co/api/models/Qwen/Qwen2.5-7B-Instruct-GGUF",
+    "files": [
+      "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+      "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf"
+    ]
+  },
+  "dataset": {
+    "revision": "9f0ca285022ab1d7741ec681bf8add538f87db33",
+    "source": "https://huggingface.co/api/datasets/DataRobot-Research/hotpotqa"
+  },
+  "llama": {
+    "revision": "32bdc3a89e6528d3e419024c833c5dabf32c7541",
+    "source": "https://api.github.com/repos/ggml-org/llama.cpp/commits/master"
+  },
+  "embedding_and_tokenizer_revisions": {
+    "Qwen/Qwen2.5-7B-Instruct": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
+  },
+  "dataset_revisions": {
+    "DataRobot-Research/hotpotqa": "9f0ca285022ab1d7741ec681bf8add538f87db33"
+  }
+}

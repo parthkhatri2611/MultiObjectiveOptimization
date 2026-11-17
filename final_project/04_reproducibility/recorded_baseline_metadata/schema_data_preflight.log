@@ -1,0 +1,5 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 7305 examples [00:00, 191285.78 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 500 examples [00:00, 133287.91 examples/s]
+Generating sample split: 0 examples [00:00, ? examples/s]Generating sample split: 20 examples [00:00, 9393.74 examples/s]
+Generating holdout split: 0 examples [00:00, ? examples/s]Generating holdout split: 7836 examples [00:00, 271214.33 examples/s]
+REAL_SCHEMA_AND_DATA_OK ['rag'] 3 {'dataset': 'hotpotqa', 'partition': 'sample', 'available_questions': 20, 'selected_ids': ['5a8efd3c55429918e830d179', '5ab381b155429969a97a816b', '5a7a02235542996c55b2dcd3'], 'questions_sha256': '15ecc1cd6f743a69d4b5b5fda2427675c741459aecb5a8a691613e3b440184ee'}

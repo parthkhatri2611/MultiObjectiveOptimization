@@ -1,0 +1,20 @@
+{
+  "questions_attempted": 10,
+  "questions_expected": 10,
+  "full_evaluation": true,
+  "generation_success_rate": 1.0,
+  "judge_success_rate": 1.0,
+  "accuracy": 0.4,
+  "f1": 0.298343685300207,
+  "exact_match": 0.1,
+  "total_tokens_mean": 1272.8,
+  "usage_verified": true,
+  "generator_calls": 30,
+  "judge_calls": 10,
+  "judge_tokens": 1822,
+  "p80_time": 7.1353393784000225,
+  "mean_time": 6.4809457784002005,
+  "truncated_questions": 0,
+  "generation_errors": 0,
+  "judge_errors": 0
+}

@@ -1,0 +1,18 @@
+{
+  "native_raw_objective_audit": "passed; all98 eligible candidates and980 QA rows; exact final score match",
+  "packaged_optimizer_and_bridge_tests": {
+    "runner": "python -m unittest ourwork.optimizers.test_optimizers ourwork.optimizers.test_bridge -q",
+    "tests": 19,
+    "status": "passed"
+  },
+  "standalone_figure_regeneration": "passed;15 PNG and15 PDF plot exports",
+  "native_holdout": "unavailable; user elected to proceed without it",
+  "no_new_gpu_inference": true,
+  "exact_executed_source_files_verified": 140,
+  "document": {
+    "pages": 51,
+    "rendered": "bundled LibreOffice through render_docx.py",
+    "review": "All page overview images reviewed; tables and graphs checked; title border removed",
+    "encoding_check": "passed"
+  }
+}

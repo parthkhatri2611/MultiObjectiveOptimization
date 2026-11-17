@@ -1,0 +1,39 @@
+{
+  "file": "restricted_final_complete_20261116_142224.zip",
+  "bytes": 14582370,
+  "sha256": "b131713b8dcb20df388eafe3f737160a6d3ab751014dd0ef4744a4839b4dc4ca",
+  "parts": [
+    {
+      "part": 1,
+      "file": "restricted_final_complete_20261116_142224.zip.part001.bin",
+      "bytes": 4194304,
+      "sha256": "d93307700d08c6881540f6f9a5d583b114e1c760bcf719a08f4d29cae0efde60"
+    },
+    {
+      "part": 2,
+      "file": "restricted_final_complete_20261116_142224.zip.part002.bin",
+      "bytes": 4194304,
+      "sha256": "797786255cc98bcd8f0f423bc4554405e52ee8a117ba2a283059fd784d3c0f8f"
+    },
+    {
+      "part": 3,
+      "file": "restricted_final_complete_20261116_142224.zip.part003.bin",
+      "bytes": 4194304,
+      "sha256": "97e5c459cda8ba36e3f92dfb3b81869ba635d545cf4f37a0e754b0abc280f3a9"
+    },
+    {
+      "part": 4,
+      "file": "restricted_final_complete_20261116_142224.zip.part004.bin",
+      "bytes": 1999458,
+      "sha256": "61fe9156c15e212288e90b85aa0e23a2ca6c45701cd837520c649c70c5192ec7"
+    }
+  ],
+  "verified_bundle_files": 177,
+  "verified_capsule_files": 1338,
+  "controller_declared_checkpoint": 25,
+  "audit_status": "passed",
+  "confirmation_status": {
+    "status": "not_run_or_not_recorded"
+  },
+  "note": "Download ALL parts and receipt before closing. Parts concatenate in numeric order to reconstruct the ZIP."
+}

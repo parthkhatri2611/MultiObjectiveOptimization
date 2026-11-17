@@ -1,0 +1,5 @@
+[E 2026-11-14 11:19:00,046] Error serializing result to JSON: 'list' object has no attribute 'dict'
+ERROR:syftr:Error serializing result to JSON: 'list' object has no attribute 'dict'
+[E 2026-11-14 11:19:00,047] Error serializing result to JSON: 'list' object has no attribute 'dict'
+ERROR:syftr:Error serializing result to JSON: 'list' object has no attribute 'dict'
+FULL_SPACE_AND_LOCAL_EMBEDDING_OK ['rag', 'sub_question_rag', 'critique_rag_agent', 'react_rag_agent', 'lats_rag_agent'] 11 384

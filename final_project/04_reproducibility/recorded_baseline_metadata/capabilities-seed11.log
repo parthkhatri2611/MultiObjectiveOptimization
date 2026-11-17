@@ -1,0 +1,7 @@
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name w601sxs/b1ade-embed. Creating a new one with mean pooling.
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-14 12:02:36,282] A new study created in RDB with name: baseline
+[W 2026-11-14 12:13:40,603] The parameter 'rag_fusion_mode' in trial#11 is sampled independently instead of being sampled by multivariate TPE sampler. (optimization performance may be degraded). You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `TPESampler`, if this independent sampling is intended behavior.

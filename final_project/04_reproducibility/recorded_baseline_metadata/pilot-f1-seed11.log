@@ -1,0 +1,32 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 7305 examples [00:00, 160001.83 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 500 examples [00:00, 169494.22 examples/s]
+Generating sample split: 0 examples [00:00, ? examples/s]Generating sample split: 20 examples [00:00, 13854.02 examples/s]
+Generating holdout split: 0 examples [00:00, ? examples/s]Generating holdout split: 7836 examples [00:00, 242064.62 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 72714 examples [00:00, 2302570.11 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4972 examples [00:00, 1805235.41 examples/s]
+Generating sample split: 0 examples [00:00, ? examples/s]Generating sample split: 200 examples [00:00, 238855.58 examples/s]
+Generating holdout split: 0 examples [00:00, ? examples/s]Generating holdout split: 78102 examples [00:00, 2339364.36 examples/s]
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-15 04:24:18,971] A new study created in RDB with name: baseline
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 263, in <module>
+    main()
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 259, in main
+    run(args)
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 219, in run
+    result = execute_job(job, timeout, root)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/syftr_project/ourwork/baseline/run.py", line 53, in execute_job
+    code = process.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+KeyboardInterrupt

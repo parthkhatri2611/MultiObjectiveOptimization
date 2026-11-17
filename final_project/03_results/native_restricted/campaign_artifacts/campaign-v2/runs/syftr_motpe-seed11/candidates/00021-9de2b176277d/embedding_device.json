@@ -1,0 +1,9 @@
+{
+  "embedding_policy": "cuda:1",
+  "cuda_visible_devices": "GPU-f70df063-c388-dc0e-3bcb-1cb569dafc5d",
+  "physical_gpu_index": 1,
+  "logical_device": "cuda:0",
+  "gpu_name": "Tesla T4",
+  "allocated_bytes": 0,
+  "peak_allocated_bytes": 0
+}

@@ -1,0 +1,9 @@
+{
+  "counts": {
+    "directories": 27395,
+    "files": 174741,
+    "symlinks": 456
+  },
+  "errors": [],
+  "scope": "All discoverable /kaggle paths, no symlink traversal; files may change during metadata inventory."
+}

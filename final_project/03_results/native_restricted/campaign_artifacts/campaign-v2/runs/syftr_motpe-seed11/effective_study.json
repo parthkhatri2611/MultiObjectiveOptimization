@@ -1,0 +1,417 @@
+{
+  "name": "rm-local-common-evaluator",
+  "dataset": {
+    "xname": "hotpotqa_hf",
+    "storage_partitions": [
+      "sample",
+      "train",
+      "test",
+      "holdout"
+    ],
+    "partition_map": {
+      "sample": "sample",
+      "train": "train",
+      "test": "test",
+      "holdout": "holdout"
+    },
+    "load_examples_timeout_s": 3600,
+    "load_grounding_data_timeout_s": 3600,
+    "eval_user_template": "\n## User Query\n{query}\n\n## Reference Answer\n{reference_answer}\n\n## Generated Answer\n{generated_answer}\n",
+    "subset": "train_hard",
+    "description": "This dataset is a vast collection of all kind of information that you can find on Wikipedia. It can be used, for instance, to retrieve straightforward facts from one or more documents, compare two entities based on shared attributes, identify relationships, roles, or attributes of entities, reason about dates, timelines, or chronological order, determine geographical relationships or locations, explain causes or sequences of events or processes, synthesize facts from multiple documents to infer answers, and validate or refute premises in the context of the question."
+  },
+  "evaluation": {
+    "mode": "single",
+    "llm_names": [
+      "rm-qwen25-7b-q4"
+    ],
+    "raise_on_exception": false,
+    "use_tracing_metrics": false,
+    "min_reporting_success_rate": 0.5,
+    "eval_type": "correctness",
+    "eval_system_template": "You evaluate factual correctness against the supplied reference answer.\nDo not use outside knowledge. Score 1 if irrelevant, 2 or 3 if relevant but incorrect,\nand 4 or 5 if correct and consistent with the reference. Return only a JSON object:\n{\"score\": 4, \"reasoning\": \"The answer agrees with the reference.\"}",
+    "score_threshold": 4.0
+  },
+  "reuse_study": true,
+  "recreate_study": false,
+  "search_space": {
+    "non_search_space_params": [
+      "enforce_full_evaluation",
+      "retrievers"
+    ],
+    "rag_modes": [
+      "rag",
+      "sub_question_rag"
+    ],
+    "template_names": [
+      "default",
+      "concise",
+      "CoT"
+    ],
+    "response_synthesizer_llm_config": {
+      "llm_names": [
+        "rm-qwen25-7b-q4"
+      ],
+      "llm_temperature_min": 0.0,
+      "llm_temperature_max": 0.0,
+      "llm_temperature_step": 0.05,
+      "llm_top_p_min": 1.0,
+      "llm_top_p_max": 1.0,
+      "llm_top_p_step": 0.05,
+      "llm_use_reasoning": [
+        null
+      ]
+    },
+    "few_shot_enabled": [
+      true,
+      false
+    ],
+    "few_shot_retriever": {
+      "top_k": {
+        "kmin": 2,
+        "kmax": 4,
+        "log": false,
+        "step": 1
+      },
+      "embedding_models": [
+        "BAAI/bge-small-en-v1.5",
+        "BAAI/bge-base-en-v1.5"
+      ]
+    },
+    "rag_retriever": {
+      "top_k": {
+        "kmin": 2,
+        "kmax": 6,
+        "log": false,
+        "step": 1
+      },
+      "methods": [
+        "dense",
+        "sparse",
+        "hybrid"
+      ],
+      "embedding_models": [
+        "BAAI/bge-small-en-v1.5",
+        "BAAI/bge-base-en-v1.5"
+      ],
+      "hybrid": {
+        "bm25_weight_min": 0.1,
+        "bm25_weight_max": 0.9,
+        "bm25_weight_step": 0.1
+      },
+      "query_decomposition_enabled": [
+        true,
+        false
+      ],
+      "query_decomposition": {
+        "llm_config": {
+          "llm_names": [
+            "rm-qwen25-7b-q4"
+          ],
+          "llm_temperature_min": 0.0,
+          "llm_temperature_max": 0.0,
+          "llm_temperature_step": 0.05,
+          "llm_top_p_min": 1.0,
+          "llm_top_p_max": 1.0,
+          "llm_top_p_step": 0.05,
+          "llm_use_reasoning": [
+            null
+          ]
+        },
+        "num_queries_min": 2,
+        "num_queries_max": 3,
+        "num_queries_step": 1
+      },
+      "fusion": {
+        "fusion_modes": [
+          "simple",
+          "reciprocal_rerank",
+          "relative_score",
+          "dist_based_score"
+        ]
+      }
+    },
+    "splitter": {
+      "chunk_min_exp": 8,
+      "chunk_max_exp": 10,
+      "chunk_overlap_frac_min": 0.0,
+      "chunk_overlap_frac_max": 0.2,
+      "chunk_overlap_frac_step": 0.1,
+      "methods": [
+        "recursive",
+        "sentence",
+        "token"
+      ]
+    },
+    "reranker_enabled": [
+      true,
+      false
+    ],
+    "reranker": {
+      "llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      },
+      "top_k": {
+        "kmin": 2,
+        "kmax": 4,
+        "log": false,
+        "step": 1
+      }
+    },
+    "hyde_enabled": [
+      true,
+      false
+    ],
+    "hyde": {
+      "llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      }
+    },
+    "additional_context_enabled": [
+      true,
+      false
+    ],
+    "additional_context": {
+      "num_nodes_min": 2,
+      "num_nodes_max": 4
+    },
+    "react_rag_agent": {
+      "subquestion_engine_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      },
+      "subquestion_response_synthesizer_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      }
+    },
+    "critique_rag_agent": {
+      "subquestion_engine_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      },
+      "subquestion_response_synthesizer_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      },
+      "critique_agent_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      },
+      "reflection_agent_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      }
+    },
+    "sub_question_rag": {
+      "subquestion_engine_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      },
+      "subquestion_response_synthesizer_llm_config": {
+        "llm_names": [
+          "rm-qwen25-7b-q4"
+        ],
+        "llm_temperature_min": 0.0,
+        "llm_temperature_max": 0.0,
+        "llm_temperature_step": 0.05,
+        "llm_top_p_min": 1.0,
+        "llm_top_p_max": 1.0,
+        "llm_top_p_step": 0.05,
+        "llm_use_reasoning": [
+          null
+        ]
+      }
+    },
+    "lats_rag_agent": {
+      "num_expansions_min": 2,
+      "num_expansions_max": 3,
+      "num_expansions_step": 1,
+      "max_rollouts_min": 2,
+      "max_rollouts_max": 5,
+      "max_rollouts_step": 1
+    },
+    "coa_rag_agent": {
+      "enable_calculator": [
+        false,
+        true
+      ]
+    }
+  },
+  "optimization": {
+    "method": "expanding",
+    "blocks": [
+      {
+        "name": "global",
+        "num_trials": 1000,
+        "components": [
+          "rag_retriever",
+          "splitter",
+          "additional_context",
+          "few_shot_retriever",
+          "hyde",
+          "reranker",
+          "rag_mode",
+          "sub_question_rag",
+          "critique_rag_agent",
+          "lats_rag_agent",
+          "react_rag_agent",
+          "response_synthesizer",
+          "template_name"
+        ]
+      }
+    ],
+    "shuffle_blocks": false,
+    "num_trials": 0,
+    "baselines": [],
+    "shuffle_baselines": true,
+    "cpus_per_trial": 2,
+    "gpus_per_trial": 0.0,
+    "embedding_device": "cuda",
+    "use_hf_embedding_models": false,
+    "raise_on_failed_trial": false,
+    "max_concurrent_trials": 1,
+    "num_eval_samples": 500,
+    "num_eval_batch": 5,
+    "max_eval_failure_rate": 0.5,
+    "max_trial_cost": 10.0,
+    "num_random_trials": 100,
+    "num_retries_unique_params": 100,
+    "num_prompt_optimization_batch": 50,
+    "rate_limiter_max_coros": 3,
+    "rate_limiter_period": 10,
+    "skip_existing": true,
+    "num_warmup_steps_timeout": 3,
+    "num_warmup_steps_costout": 2,
+    "num_warmup_steps_pareto": 30,
+    "use_pareto_pruner": false,
+    "use_cost_pruner": false,
+    "use_runtime_pruner": false,
+    "pareto_pruner_success_rate": 0.9,
+    "pareto_eval_success_rate": 0.9,
+    "raise_on_invalid_baseline": false,
+    "baselines_cycle_llms": false,
+    "use_toy_baselines": false,
+    "use_individual_baselines": false,
+    "use_agent_baselines": false,
+    "use_variations_of_baselines": false,
+    "use_pareto_baselines": false,
+    "objective_1_name": "accuracy",
+    "objective_2_name": "llm_cost_mean",
+    "obj1_zscore": 1.645,
+    "obj2_zscore": 1.645,
+    "sampler": "tpe",
+    "include_responses": true,
+    "seeder_timeout": 3600.0
+  },
+  "pareto": null,
+  "transfer_learning": {
+    "studies": [],
+    "max_fronts": 2,
+    "max_total": 100,
+    "success_rate": 0.9,
+    "embedding_model": "BAAI/bge-large-en-v1.5"
+  },
+  "timeouts": {
+    "embedding_timeout_active": false,
+    "embedding_max_time": 14400,
+    "embedding_min_chunks_to_process": 100,
+    "embedding_min_time_to_process": 120,
+    "eval_timeout": 36000,
+    "single_eval_timeout": 7200,
+    "onnx_timeout": 600
+  },
+  "toy_mode": false
+}

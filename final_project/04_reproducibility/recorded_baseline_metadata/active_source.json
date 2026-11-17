@@ -1,0 +1,5 @@
+{
+  "source_directory": "executed_source_restricted_v2",
+  "supplemental_source_directory": "campaign-v2/supplemental_source",
+  "restore_policy": "Restore exact common source plus matching v2 supplemental source."
+}

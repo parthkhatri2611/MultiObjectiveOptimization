@@ -1,0 +1,13 @@
+{
+  "primary_quality": "raw_answer_f1",
+  "primary_resource": "generator_input_plus_output_tokens_mean",
+  "secondary": [
+    "exact_match",
+    "local_judged_accuracy_diagnostic",
+    "latency",
+    "failures"
+  ],
+  "reason": "Capability audit found false negatives from the same-weight local judge; a stronger generic prompt also failed the observed boolean example.",
+  "limits": "Raw-answer F1 penalizes verbose answers and is not a complete semantic correctness measure.",
+  "scope": "Pilot and future matched optimization arms; completed diagnostic studies remain unchanged."
+}

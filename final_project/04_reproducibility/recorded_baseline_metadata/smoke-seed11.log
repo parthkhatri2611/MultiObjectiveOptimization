@@ -1,0 +1,13 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 7305 examples [00:00, 133764.92 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 500 examples [00:00, 175054.42 examples/s]
+Generating sample split: 0 examples [00:00, ? examples/s]Generating sample split: 20 examples [00:00, 13974.03 examples/s]
+Generating holdout split: 0 examples [00:00, ? examples/s]Generating holdout split: 7836 examples [00:00, 311212.85 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 72714 examples [00:00, 2445472.21 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4972 examples [00:00, 1828984.34 examples/s]
+Generating sample split: 0 examples [00:00, ? examples/s]Generating sample split: 200 examples [00:00, 242375.27 examples/s]
+Generating holdout split: 0 examples [00:00, ? examples/s]Generating holdout split: 78102 examples [00:00, 2314865.28 examples/s]
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+/kaggle/temp/rm-syftr/venv/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+[I 2026-11-14 11:56:06,556] A new study created in RDB with name: baseline
